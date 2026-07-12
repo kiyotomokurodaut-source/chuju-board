@@ -1,0 +1,123 @@
+{
+ "id": "kaichi",
+ "name": "開智",
+ "fetchedAt": "2026-07-12T17:56:23.717Z",
+ "exams": [
+  {
+   "date": "2027-01-09",
+   "slot": "AM",
+   "name": "第1回",
+   "note": "4科（国100・算120・社60・理60）。2027年度入試概要はPDFで公開済。前年は1/10(土)AM実施。確定日程は公式PDF要確認",
+   "source": "https://ikkanbu.kaichigakuen.ed.jp/blog/ar2027-1/"
+  },
+  {
+   "date": "2027-01-10",
+   "slot": "AM",
+   "name": "創発クラス（特待A）",
+   "note": "4科。合格者全員S特待。前年は1/11(日)AM実施",
+   "source": "https://ikkanbu.kaichigakuen.ed.jp/blog/ar2027-1/"
+  },
+  {
+   "date": "2027-01-10",
+   "slot": "PM",
+   "name": "算数特待",
+   "note": "算数1科120点満点。前年は1/11(日)PM実施",
+   "source": "https://ikkanbu.kaichigakuen.ed.jp/blog/ar2027-1/"
+  },
+  {
+   "date": "2027-01-11",
+   "slot": "AM",
+   "name": "第2回",
+   "note": "4科。第1回受験者に+30点加点（特待判定は加点含まず）。前年は1/12(月)AM実施",
+   "source": "https://ikkanbu.kaichigakuen.ed.jp/blog/ar2027-1/"
+  },
+  {
+   "date": "2027-01-14",
+   "slot": "AM",
+   "name": "特待B",
+   "note": "4科。合格者全員いずれかの特待。前年は1/15(木)AM実施",
+   "source": "https://ikkanbu.kaichigakuen.ed.jp/blog/ar2027-1/"
+  },
+  {
+   "date": "2027-02-04",
+   "slot": "AM",
+   "name": "日本橋併願",
+   "note": "日本橋学園との同時判定。前年も2/4(水)AM実施",
+   "source": "https://ikkanbu.kaichigakuen.ed.jp/blog/ar2027-1/"
+  }
+ ],
+ "sessions": [
+  {
+   "date": "2026-06-20",
+   "name": "第2回説明会＆体験入学",
+   "note": "4〜6年生対象。6/1(月)10:00予約開始。保護者のみ説明会参加も可",
+   "source": "https://ikkanbu.kaichigakuen.ed.jp/blog/open-school2026/"
+  },
+  {
+   "date": "2026-08-29",
+   "name": "帰国生・国際生・英語型入試説明会",
+   "note": "10:00〜、校内。受験生・保護者対象",
+   "source": "https://www.nichinoken.co.jp/np5/schoolinfo/sw/evt.php?shl_code=455"
+  },
+  {
+   "date": "2026-09-13",
+   "name": "開智発表会（学園祭）",
+   "note": "9:00〜、一般公開",
+   "source": "https://www.nichinoken.co.jp/np5/schoolinfo/sw/evt.php?shl_code=455"
+  },
+  {
+   "date": "2026-09-26",
+   "name": "学校説明会",
+   "note": "14:00〜、校内。受験生・保護者対象",
+   "source": "https://www.nichinoken.co.jp/np5/schoolinfo/sw/evt.php?shl_code=455"
+  },
+  {
+   "date": "2026-10-31",
+   "name": "学校説明会",
+   "note": "14:00〜、校内。受験生・保護者対象",
+   "source": "https://www.nichinoken.co.jp/np5/schoolinfo/sw/evt.php?shl_code=455"
+  },
+  {
+   "date": "2026-12-05",
+   "name": "学校説明会",
+   "note": "14:00〜、校内。受験生保護者対象",
+   "source": "https://www.nichinoken.co.jp/np5/schoolinfo/sw/evt.php?shl_code=455"
+  }
+ ],
+ "preferences": [
+  {
+   "desc": "S特待合格者は「創発クラス」を選択可能（2024年度創設）",
+   "source": "https://ikkanbu.kaichigakuen.ed.jp/blog/ec/"
+  },
+  {
+   "desc": "第2回入試：第1回受験者に最大30点加点（2段階判定。特待判定には加点含まず）",
+   "source": "https://sites.google.com/kaichigakuen.ed.jp/goukakuhappyou2026-ik/ホーム/第２回"
+  },
+  {
+   "desc": "特待B入試：合格者全員がいずれかの特待（S特待・A特待・準特待）。他回受験結果も参考にスライド合格判定あり",
+   "source": "https://ikkanbu.kaichigakuen.ed.jp/blog/2025-1/"
+  },
+  {
+   "desc": "創発クラス（特待A）合格者は全員S特待",
+   "source": "https://sites.google.com/kaichigakuen.ed.jp/goukakuhappyou2026-ik/ホーム/創発クラス特待Ａ"
+  },
+  {
+   "desc": "受験料2万円で開智学園グループ全校（開智未来・開智望・開智日本橋・開智所沢）の同時判定が可能（追加受験料不要）",
+   "source": "https://www.yotsuyaotsuka.com/juken/data/?code=109"
+  }
+ ],
+ "juku": [
+  {
+   "name": "日能研",
+   "count": 1040,
+   "year": "2026",
+   "source": "https://www.nichinoken.co.jp/exam/saitama_gs.html"
+  }
+ ],
+ "dev": {
+  "scale": "四谷大塚 Aライン80偏差値（第1回・第2回）",
+  "value": 53,
+  "source": "https://www.yotsuyaotsuka.com/juken/data/?code=109"
+ },
+ "notes": "【重要】2027年度入試日程は2026年6月9日に学校公式サイトでPDF公開済だが、検索結果上に具体的な日付が表示されていないため、examsの日付は2026年度実績（第1回1/10土・創発A1/11日・算数特待1/11日PM・第2回1/12月・特待B1/15木・日本橋併願2/4水）を参考に推定したもの。必ず公式PDF（https://ikkanbu.kaichigakuen.ed.jp/blog/ar2027-1/）を確認すること。塾別合格者数は日能研の公式掲載値（1040名）のみ確認。SAPIX・四谷大塚・早稲田アカデミーの開智中単独の数値は公式サイトで個別校別の数値が非公開または検索時点で未確認のため空配列とした。devのvalue53は第1回・第2回の四谷大塚Aライン80偏差値（創発A=59、特待B/算数特待=55〜56、第1回・第2回=52〜53）。"
+}

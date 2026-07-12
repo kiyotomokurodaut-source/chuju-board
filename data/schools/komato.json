@@ -1,0 +1,79 @@
+{
+ "id": "komato",
+ "name": "駒場東邦",
+ "fetchedAt": "2026-07-12T18:07:03.950Z",
+ "exams": [
+  {
+   "date": "2027-02-01",
+   "slot": "AM",
+   "name": "一般入試（1回のみ）",
+   "note": "4科目（算数・国語・理科・社会）。募集定員約240名。出願期間等は2027年度要項の公表待ち（2026年度実績：1月10日〜1月26日インターネット出願）",
+   "source": "https://www.komabajh.toho-u.ac.jp/examination/32826/shutugannnyuusi.html"
+  }
+ ],
+ "sessions": [
+  {
+   "date": "2026-06-13",
+   "name": "駒東体験会",
+   "note": "13:00〜16:00、要予約（WEB）、小5・小6対象、クラブ活動体験",
+   "source": "https://www.komabajh.toho-u.ac.jp/"
+  },
+  {
+   "date": "2026-10-11",
+   "name": "学校説明会（第1日）",
+   "note": "9:00〜16:30、自校講堂、要予約。全8回実施のうち3回分（10/11日・10/17土・10/18日）",
+   "source": "https://www.ikushin.co.jp/school/pdf/03413.pdf"
+  },
+  {
+   "date": "2026-10-17",
+   "name": "学校説明会（第2日・土曜）",
+   "note": "12:00〜17:00、自校講堂、要予約",
+   "source": "https://www.ikushin.co.jp/school/pdf/03413.pdf"
+  },
+  {
+   "date": "2026-10-18",
+   "name": "学校説明会（第3日）",
+   "note": "9:00〜16:30、自校講堂、要予約。日能研情報では9:30開始を確認",
+   "source": "https://www.nichinoken.co.jp/np5/schoolinfo/sw/evt.php?shl_code=184"
+  },
+  {
+   "date": "2026-09-19",
+   "name": "文化祭（エデュスタ）",
+   "note": "9/19・20の2日間、一般公開あり、予約不要",
+   "source": "https://www.ikushin.co.jp/school/pdf/03413.pdf"
+  }
+ ],
+ "preferences": [],
+ "juku": [
+  {
+   "name": "SAPIX小学部",
+   "count": 143,
+   "year": "2026",
+   "source": "https://note.com/kaawaaei/n/n115c8b15ef0d"
+  },
+  {
+   "name": "早稲田アカデミー",
+   "count": 68,
+   "year": "2026",
+   "source": "https://www.waseda-ac.co.jp/elementary/option/target/komaba/"
+  },
+  {
+   "name": "日能研",
+   "count": 46,
+   "year": "2026",
+   "source": "https://note.com/kaawaaei/n/n115c8b15ef0d"
+  },
+  {
+   "name": "グノーブル",
+   "count": 23,
+   "year": "2026",
+   "source": "https://note.com/kaawaaei/n/n115c8b15ef0d"
+  }
+ ],
+ "dev": {
+  "scale": "四谷大塚 合不合判定テスト Aライン80偏差値（2027年中学受験対応）",
+  "value": 66,
+  "source": "https://www.yotsuyaotsuka.com/juken/data/?code=242"
+ },
+ "notes": "【重要】2027年度入試の公式日程・募集要項は2026年7月時点で未公表（学校公式サイトに「2027年度 学校案内」は掲載済み）。入試日2/1・4科目・1回入試の形式は例年踏襲の可能性が高いが、確定情報は学校公式サイト要確認。四谷大塚の駒場東邦向け合格者数は公式ページから個別数値を直接確認できなかったため未掲載。早稲田アカデミーの68名はNN駒場東邦クラスページの公式記載値。塾別合格者数は各塾の集計基準が異なるため単純比較不可。優遇・特待・複数回優遇制度は確認できず（駒場東邦は入試1回のみのため複数回優遇制度なし）。説明会日程はikushin.co.jp（2026年6月30日現在版）および日能研公式より取得。2026年10月の学校説明会詳細（各回時刻）は例年パターンであり、2026年度の公式発表は公式サイト要確認。"
+}

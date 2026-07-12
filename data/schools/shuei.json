@@ -1,0 +1,79 @@
+{
+ "id": "shuei",
+ "name": "昭和学院秀英",
+ "fetchedAt": "2026-07-12T18:02:56.940Z",
+ "exams": [
+  {
+   "date": "2027-01-20",
+   "slot": "PM",
+   "name": "午後特別入学試験",
+   "note": "国・算2科目（国80点40分、算120点60分）、募集30名。2026年度実績日程より推定。2027年度は未公表",
+   "source": "https://www.showa-shuei.ed.jp/cms/wp-content/themes/showa-shuei/assets/pdf/2026yokojr.pdf"
+  },
+  {
+   "date": "2027-01-22",
+   "slot": "AM",
+   "name": "第1回入学試験",
+   "note": "国・算・理・社4科目（国算各100点50分、理社各50点40分）、募集110名（帰国生含む）。2026年度実績日程より推定。2027年度は未公表",
+   "source": "https://www.showa-shuei.ed.jp/cms/wp-content/themes/showa-shuei/assets/pdf/2026yokojr.pdf"
+  },
+  {
+   "date": "2027-02-03",
+   "slot": "AM",
+   "name": "第2回入学試験",
+   "note": "国・算・理・社4科目、募集約20名。2026年度実績日程より推定。2027年度は未公表",
+   "source": "https://www.yotsuyaotsuka.com/juken/data/?code=339"
+  }
+ ],
+ "sessions": [
+  {
+   "date": "2026-07-25",
+   "name": "第1回中学校説明会（①）",
+   "note": "8:45〜9:45。7月1日9:00より申込受付開始、前日23:30締切",
+   "source": "https://schma.jp/schools/313"
+  },
+  {
+   "date": "2026-07-25",
+   "name": "第1回中学校説明会（②）",
+   "note": "10:45〜11:45。7月1日9:00より申込受付開始、前日23:30締切",
+   "source": "https://schma.jp/schools/313"
+  },
+  {
+   "date": "2026-08-22",
+   "name": "第2回中学校説明会",
+   "note": "8:45〜。申込方法は学校公式HPで案内",
+   "source": "https://www.showa-shuei.ed.jp/"
+  },
+  {
+   "date": "2026-09-05",
+   "name": "第3回中学校説明会",
+   "note": "13:30〜。申込方法は学校公式HPで案内",
+   "source": "https://www.showa-shuei.ed.jp/"
+  },
+  {
+   "date": "2026-10-31",
+   "name": "入試説明会（中学校）",
+   "note": "10:30〜。申込等については改めて学校公式HPに掲載予定",
+   "source": "https://www.showa-shuei.ed.jp/"
+  },
+  {
+   "date": "2026-06-25",
+   "name": "学校参観・学校説明会（四谷大塚主催）",
+   "note": "10:00〜11:30。要予約（四谷大塚経由）",
+   "source": "https://www.yotsuyaotsuka.com/resources/pdf/sankan/gaiyou.pdf"
+  }
+ ],
+ "preferences": [
+  {
+   "desc": "特待生制度：入学試験において成績優秀者を特待生として合格発表。入学後に「入学時納入金」および1年間の「授業料」相当額を奨学金として給付。特待生資格は年度ごとに審査・更新",
+   "source": "https://www.showa-shuei.ed.jp/cms/wp-content/themes/showa-shuei/assets/pdf/2026yokojr.pdf"
+  }
+ ],
+ "juku": [],
+ "dev": {
+  "scale": "四谷大塚 合不合判定テスト Aライン80偏差値（午後特別・2026年入試対応）",
+  "value": 64,
+  "source": "https://www.yotsuyaotsuka.com/juken/data/?code=339"
+ },
+ "notes": "【exams】2027年度入試日程は2026年7月時点で未公表。日程・科目は2026年度要項（学校公式PDF）および四谷大塚掲載の2026年入試情報を参考に推定。確定情報は学校公式サイト要確認。【juku】SAPIX・日能研・四谷大塚・早稲田アカデミー各社の2026年入試における昭和学院秀英中の個別合格者数は、各塾公式サイト（https://www.sapientica.com/success/ 等）の検索結果から具体的数値を確認できなかったため空配列とした。ダイヤモンド教育ラボによれば合格者数1位は四谷大塚と報告されている（https://diamond.jp/educate/juku-ranking/chugaku-chibaken/showa-shuei/）が、2026年分の具体数値は確認できず。【dev】第1回（1/22）のAライン80偏差値は61、第2回（2/3）は未取得。SAPIX偏差値は午後特別・第1回ともに58（2025年入試予想値、リセマム掲載）。"
+}

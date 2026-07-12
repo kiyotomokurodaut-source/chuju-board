@@ -1,0 +1,91 @@
+{
+ "id": "akenohoshi",
+ "name": "浦和明の星女子",
+ "fetchedAt": "2026-07-12T17:57:09.346Z",
+ "exams": [
+  {
+   "date": "2027-01-14",
+   "slot": "AM",
+   "name": "第1回入学試験",
+   "note": "国語・算数・理科・社会の4科目。試験日は例年1/14固定。入試要項は2026年9月以降に学校HPで公開予定",
+   "source": "https://www.urawa-akenohoshi.ed.jp/admission/admission_summary/"
+  },
+  {
+   "date": "2027-02-04",
+   "slot": "AM",
+   "name": "第2回入学試験",
+   "note": "国語・算数・理科・社会の4科目。試験日は例年2/4固定。入試要項は2026年9月以降に学校HPで公開予定",
+   "source": "https://www.urawa-akenohoshi.ed.jp/admission/admission_summary/"
+  }
+ ],
+ "sessions": [
+  {
+   "date": "2026-06-06",
+   "name": "第1回学校見学会",
+   "note": "9:30〜。在校生による発表・学校説明・校内見学・ミニレッスン（予約制）。予約不要（ミニレッスンのみ要予約）",
+   "source": "https://www.urawa-akenohoshi.ed.jp/admission/admission_guidance/"
+  },
+  {
+   "date": "2026-07-21",
+   "name": "第2回学校見学会",
+   "note": "9:30〜。在校生による発表・学校説明・校内見学・ミニレッスン（予約制）。miraicompassより申込",
+   "source": "https://www.urawa-akenohoshi.ed.jp/admission/admission_guidance/"
+  },
+  {
+   "date": "2026-08-19",
+   "name": "第3回学校見学会",
+   "note": "9:30〜。在校生による発表・学校説明・校内見学・ミニレッスン（予約制）。申込開始は開催3週間前に告知、miraicompassより",
+   "source": "https://www.urawa-akenohoshi.ed.jp/admission/admission_guidance/"
+  },
+  {
+   "date": "2026-09-05",
+   "name": "明の星祭（文化祭）1日目",
+   "note": "参加には予約が必要。予約受付は2026年8月15日頃〜",
+   "source": "https://schma.jp/schools/268?moshi=yotsuya&deviGender=man"
+  },
+  {
+   "date": "2026-06-27",
+   "name": "受験なんでも相談会（合同）",
+   "note": "学校公式HPで参加告知あり",
+   "source": "https://www.urawa-akenohoshi.ed.jp/"
+  }
+ ],
+ "preferences": [
+  {
+   "desc": "特待・加点・複数回優遇制度は公式サイト・入試要項に記載なし。確認できた優遇制度なし",
+   "source": "https://www.urawa-akenohoshi.ed.jp/admission/admission_summary/"
+  }
+ ],
+ "juku": [
+  {
+   "name": "早稲田アカデミー",
+   "count": 401,
+   "year": "2026",
+   "source": "https://www.waseda-ac.co.jp/elementary/result/"
+  },
+  {
+   "name": "SAPIX",
+   "count": 409,
+   "year": "2026",
+   "source": "https://www.sapientica.com/success/"
+  },
+  {
+   "name": "四谷大塚",
+   "count": 380,
+   "year": "2026",
+   "source": "https://www.yotsuyaotsuka.com/goukaku_sokuhou/"
+  },
+  {
+   "name": "日能研",
+   "count": 201,
+   "year": "2026",
+   "source": "https://www.nichinoken.co.jp/exam/saitama_gs.html"
+  }
+ ],
+ "dev": {
+  "scale": "四谷大塚 合不合判定テスト Aライン80偏差値（第1回・1/14）",
+  "value": 65,
+  "source": "https://www.yotsuyaotsuka.com/juken/data/index.php?code=50&tab=info-general"
+ },
+ "notes": "【入試日程】2027年度（2027年1〜2月実施）の入試要項は2026年9月以降に学校HPで公開予定。第1回・第2回の試験日は例年固定（1/14・2/4）だが、公式要項未掲載のため確定情報ではない。【説明会】秋の学校説明会（10月・11月・12月）は前年実績（2025年10/4・11/8・12/6）に基づくパターンが想定されるが、2026年秋分は2026年7月時点で公式サイト未掲載のため除外。【塾別合格者数】各塾の集計定義が異なる（延べ人数・複数回合算等）ため単純比較不可。SAPIX・早稲田アカデミーの数値は特に大きく、定員160名に対し各塾合計が大幅超過している点に注意。四谷大塚の偏差値表は2026年より公開形式が変更され、入試報告会速報版ベース。第2回（2/4）のAライン80偏差値は63。"
+}

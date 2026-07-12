@@ -1,0 +1,68 @@
+{
+ "id": "tsukukoma",
+ "name": "筑波大学附属駒場",
+ "fetchedAt": "2026-07-12T18:07:55.269Z",
+ "exams": [
+  {
+   "date": "2027-02-03",
+   "slot": "AM",
+   "name": "第2次選考（学力検査）",
+   "note": "国・算・理・社の4教科各40分・各100点、報告書100点の計500点満点。面接・実技なし。試験は2月3日の1回のみ。2027年度入試要項は未公表（準備中）。2026年度実績：出願625名、第2次受検539名、合格132名、実質倍率4.08倍",
+   "source": "https://www.komaba-s.tsukuba.ac.jp/admission/selection-status-jh/"
+  },
+  {
+   "date": "2027-01-01",
+   "slot": "AM",
+   "name": "第1次選考（抽選）",
+   "note": "募集人員の約8倍を抽選で選考。抽選不実施の場合は出願者全員が通過。2026年度は抽選なし（出願者全員625名が通過）。具体的日時は2027年度要項で確認要。",
+   "source": "https://www.zkai.co.jp/exam-navi/el/el-kihon/k-tsukukoma/"
+  }
+ ],
+ "sessions": [
+  {
+   "date": "2026-10-01",
+   "name": "中学校 学校説明会（2026年度開催予定）",
+   "note": "例年10月の土・日曜日に年1回開催。2025年度は10月12・13日に実施。2026年度の具体的日程は例年6〜7月に公式サイトで告知予定。ミライコンパス経由で予約の可能性あり。",
+   "source": "https://www.komaba-s.tsukuba.ac.jp/admission/faq/"
+  },
+  {
+   "date": "2026-10-13",
+   "name": "学校案内（TSUKUKOMA GUIDE 2025-2026）窓口配布開始",
+   "note": "2026年10月13日（火）より平日窓口で配布開始（年末年始除く）。web版はダウンロード可。",
+   "source": "https://www.komaba-s.tsukuba.ac.jp/admission/"
+  }
+ ],
+ "preferences": [],
+ "juku": [
+  {
+   "name": "SAPIX小学部",
+   "count": 85,
+   "year": "2026",
+   "source": "https://www.sapientica.com/success/"
+  },
+  {
+   "name": "早稲田アカデミー",
+   "count": 57,
+   "year": "2026",
+   "source": "https://www.waseda-ac.co.jp/elementary/result/index_2016.html"
+  },
+  {
+   "name": "四谷大塚（直営＋NET塾合計）",
+   "count": 33,
+   "year": "2026",
+   "source": "https://www.yotsuyaotsuka.com/goukaku_sokuhou/"
+  },
+  {
+   "name": "グノーブル",
+   "count": 6,
+   "year": "2026",
+   "source": "https://gno-jr.com/2026_goukaku/"
+  }
+ ],
+ "dev": {
+  "scale": "四谷大塚 合不合判定テスト 合格可能性80%偏差値（第4回・2025年10月実施）",
+  "value": 74,
+  "source": "https://resemom.jp/article/2025/10/14/83646.html"
+ },
+ "notes": "【重要】2027年度入試（2027年1〜2月実施）の募集要項は2026年7月時点で未公表。試験日は例年2月3日固定（1回のみ）のため2027-02-03と記載したが、要公式確認。第1次選考（抽選）日程も未定。学校説明会の2026年度日程は公式サイトで6〜7月頃に告知予定（例年10月の土日1回のみ）。優遇・特待・複数回優遇等の制度は存在しない（国立・1回入試のため）。四谷大塚の33名は直営のみの数値の可能性あり（NET塾含む場合は別途確認要）。日能研の2026年筑駒合格者数は公式サイトで個別校数値未公開のため除外。"
+}

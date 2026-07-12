@@ -1,0 +1,87 @@
+{
+ "id": "hongo",
+ "name": "本郷",
+ "fetchedAt": "2026-07-12T18:11:45.048Z",
+ "exams": [
+  {
+   "date": "2027-02-01",
+   "slot": "AM",
+   "name": "第1回",
+   "note": "4科(国語100点・算数100点・社会75点・理科75点)、募集100名、集合8:00、合格発表当日19:00頃",
+   "source": "https://www.hongo.ed.jp/admission/exam/"
+  },
+  {
+   "date": "2027-02-02",
+   "slot": "AM",
+   "name": "第2回",
+   "note": "4科同上、募集140名、集合8:00、合格発表当日19:00頃",
+   "source": "https://www.hongo.ed.jp/admission/exam/"
+  },
+  {
+   "date": "2027-02-05",
+   "slot": "AM",
+   "name": "第3回",
+   "note": "4科同上、募集40名、集合8:00、合格発表当日19:00頃。繰り上げ合格は複数回受験者から優先",
+   "source": "https://www.hongo.ed.jp/admission/exam/"
+  }
+ ],
+ "sessions": [
+  {
+   "date": "2026-09-05",
+   "name": "学校説明会",
+   "note": "校内・受験生保護者対象、要予約(学校HP)",
+   "source": "https://www.nichinoken.co.jp/np5/schoolinfo/sw/evt.php?shl_code=231"
+  },
+  {
+   "date": "2026-09-12",
+   "name": "学校説明会",
+   "note": "校内・受験生保護者対象、要予約(学校HP)",
+   "source": "https://www.nichinoken.co.jp/np5/schoolinfo/sw/evt.php?shl_code=231"
+  },
+  {
+   "date": "2026-10-10",
+   "name": "学校説明会",
+   "note": "校内・受験生保護者対象、要予約(学校HP)",
+   "source": "https://www.nichinoken.co.jp/np5/schoolinfo/sw/evt.php?shl_code=231"
+  },
+  {
+   "date": "2026-10-11",
+   "name": "学校説明会",
+   "note": "校内・受験生保護者対象、要予約(学校HP)",
+   "source": "https://www.nichinoken.co.jp/np5/schoolinfo/sw/evt.php?shl_code=231"
+  },
+  {
+   "date": "2026-11-03",
+   "name": "入試説明会（6年生対象）",
+   "note": "校内・受験生保護者対象、要予約(学校HP)",
+   "source": "https://www.nichinoken.co.jp/np5/schoolinfo/sw/evt.php?shl_code=231"
+  },
+  {
+   "date": "2026-09-27",
+   "name": "本郷祭（文化祭）",
+   "note": "一般公開",
+   "source": "https://www.nichinoken.co.jp/np5/schoolinfo/sw/evt.php?shl_code=231"
+  }
+ ],
+ "preferences": [
+  {
+   "desc": "帰国子女優遇：1年超の海外在留かつ帰国後3年以内の日本国籍者に4科合計点へ10点加点",
+   "source": "https://www.hongo.ed.jp/admission/exam/"
+  },
+  {
+   "desc": "複数回出願し本校に入学した場合、以降の未受験分の検定料を返金",
+   "source": "https://www.hongo.ed.jp/admission/exam/"
+  },
+  {
+   "desc": "繰り上げ合格は複数回実受験者から優先して選出",
+   "source": "https://www.hongo.ed.jp/admission/exam/"
+  }
+ ],
+ "juku": [],
+ "dev": {
+  "scale": "四谷大塚 合不合判定テスト 結果Aライン80偏差値（2026年入試結果・速報版）",
+  "value": 63,
+  "source": "https://resemom.jp/special/767/recent/%E6%9C%AC%E9%83%B7%E4%B8%AD%E5%AD%A6%E6%A0%A1%E3%83%BB%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A1"
+ },
+ "notes": "2027年度入試の公式日程はまだ未発表（2026年7月12日時点）。examsの日付は2026年度（令和8年度）入試と同パターンを曜日考慮で推定。学校公式サイトでは2026年度募集要項のみ公開中。塾別合格者数（2026年入試）は各塾公式サイト・塾シル等の検索結果からも本郷中単独の具体的数値を確認できなかったため空配列とした。四谷大塚80偏差値は第1回59・第2回63・第3回64（2024年結果値、リセマム掲載）が参考値。2026年結果偏差値の公式数値は四谷大塚が偏差値表公開を取りやめたため速報版のみ存在し公式確認不可。説明会の第2回入試説明会（11月）は日能研サイトに掲載あるが具体日未確認。"
+}

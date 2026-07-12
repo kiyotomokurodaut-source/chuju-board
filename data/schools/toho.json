@@ -1,0 +1,56 @@
+{
+ "id": "toho",
+ "name": "東邦大学付属東邦",
+ "fetchedAt": "2026-07-12T18:00:14.297Z",
+ "exams": [
+  {
+   "date": "2026-12-01",
+   "slot": "AM",
+   "name": "推薦入学試験（2026年度参考）",
+   "note": "国・算各100点・各45分、理・社各50点・各30分、計300点満点。自己推薦書（郵送）要。専願制。2027年度日程は学校公式サイト要確認",
+   "source": "https://mirai-compass.net/usr/ttohoj/common/login.jsf"
+  },
+  {
+   "date": "2027-01-21",
+   "slot": "AM",
+   "name": "前期入学試験（過年度参照・2027年度日程未確定）",
+   "note": "国・算・理・社 各100点・各45分、計400点満点。前期合格者は手続時納入金の半額延納可",
+   "source": "https://www.yotsuyaotsuka.com/juken/data/?code=509"
+  },
+  {
+   "date": "2027-02-03",
+   "slot": "AM",
+   "name": "後期入学試験（過年度参照・2027年度日程未確定）",
+   "note": "国・算各100点・各45分、理・社各50点・各30分、計300点満点",
+   "source": "https://mirai-compass.net/usr/ttohoj/common/login.jsf"
+  }
+ ],
+ "sessions": [
+  {
+   "date": "2026-04-11",
+   "name": "学校見学会・説明会（日程更新）",
+   "note": "2026年度の見学会・説明会日程をPDFで公開。ミライコンパス（mirai-compass.net）経由で要予約",
+   "source": "https://www.tohojh.toho-u.ac.jp/exam/briefing/nk0v9d00000002x8.html"
+  },
+  {
+   "date": "2026-05-09",
+   "name": "オンライン学校説明会",
+   "note": "スクマ！サイトに記載あり（詳細は学校公式サイト要確認）",
+   "source": "https://schma.jp/schools/319"
+  },
+  {
+   "date": "2026-01-01",
+   "name": "学校説明会（通年・複数回開催）",
+   "note": "本校ホールで教員が実施。カリキュラム・募集要項説明。終了後施設見学・個別相談あり。上履き不要。ライブ配信回もあり（要予約）",
+   "source": "https://juken-tohojh.info/%E5%B9%B4%E9%96%93%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E4%B8%80%E8%A6%A7/"
+  }
+ ],
+ "preferences": [],
+ "juku": [],
+ "dev": {
+  "scale": "四谷大塚 合不合判定テスト Aライン80偏差値（前期・共通）",
+  "value": 63,
+  "source": "https://www.yotsuyaotsuka.com/juken/data/?code=509"
+ },
+ "notes": "【重要】2027年度入試の具体的な試験日は2026/05/18付で学校公式サイトに「2027年度入試について」と掲載されているが、本文の日程詳細はWeb検索では取得不能。上記examsの日付は2026年度（ミライコンパス出願サイト）の実績値を参考として記載しており、2027年度は変更の可能性あり。必ず https://www.tohojh.toho-u.ac.jp/exam/index.html を確認すること。塾別合格者数（SAPIX・日能研・四谷大塚・早稲田アカデミー）については、塾シル千葉版（https://jukushiru.com/article/post-28636/）に2026年度東邦大付属東邦の掲載があるが、本文中から東邦の個別数値を確認できなかったため空配列とした。学校説明会のsessionsは2026年秋以降の具体的日程（日付）が公式サイトのPDF内にあるが検索では取得不能。偏差値は推薦63→前期63→後期60（四谷大塚Aライン80）、Cライン50は推薦58・前期58・後期56。"
+}

@@ -1,0 +1,79 @@
+{
+ "id": "kaisei",
+ "name": "開成",
+ "fetchedAt": "2026-07-12T18:03:34.500Z",
+ "exams": [
+  {
+   "date": "2027-02-01",
+   "slot": "AM",
+   "name": "中学入試（一般）",
+   "note": "国語50分85点・算数60分85点・理科40分70点・社会40分70点の4科目。募集300名。試験開始8:00〜8:40着席。2027年度募集要項は2026年12月中旬頃公開予定（学校公式サイトに準拠）",
+   "source": "https://kaiseigakuen.jp/cmswp/wp-content/uploads/2026/04/2026M_on_entrance_exam.pdf"
+  }
+ ],
+ "sessions": [
+  {
+   "date": "2026-10-18",
+   "name": "中学説明会 第1〜3回（土曜）",
+   "note": "9:30〜／11:10〜／14:50〜の3回。対象：小5・6年生とその保護者各1名。2026年度の日程は追って公式サイトで案内予定（掲載内容は2025年度実績）。要HP確認",
+   "source": "https://kaiseigakuen.jp/admission/briefing/"
+  },
+  {
+   "date": "2026-10-19",
+   "name": "中学説明会 第4〜6回（日曜）",
+   "note": "9:30〜／11:10〜／14:50〜の3回。対象：小5・6年生とその保護者各1名。各回60分程度",
+   "source": "https://kaiseigakuen.jp/admission/briefing/"
+  },
+  {
+   "date": "2026-10-18",
+   "name": "高校説明会 第1回",
+   "note": "13:10〜。対象：中学生とその保護者各1名。同一プログラム",
+   "source": "https://kaiseigakuen.jp/admission/briefing/"
+  },
+  {
+   "date": "2026-10-19",
+   "name": "高校説明会 第2回",
+   "note": "13:10〜。対象：中学生とその保護者各1名",
+   "source": "https://kaiseigakuen.jp/admission/briefing/"
+  },
+  {
+   "date": "2026-01-01",
+   "name": "海外在住小中学生向け説明会（2026年度）",
+   "note": "要予約。予約方法は追って公式サイトで案内",
+   "source": "https://kaiseigakuen.jp/admission/briefing/"
+  }
+ ],
+ "preferences": [],
+ "juku": [
+  {
+   "name": "SAPIX小学部",
+   "count": 229,
+   "year": "2026",
+   "source": "https://www.sapientica.com/success/"
+  },
+  {
+   "name": "早稲田アカデミー",
+   "count": 179,
+   "year": "2026",
+   "source": "https://www.waseda-ac.co.jp/elementary/result/"
+  },
+  {
+   "name": "日能研",
+   "count": 49,
+   "year": "2026",
+   "source": "https://www.nichinoken.co.jp/exam/tokyo_gs.html"
+  },
+  {
+   "name": "グノーブル",
+   "count": 23,
+   "year": "2026",
+   "source": "https://eleschool-compass.com/juku/jukudata/gnoble.html"
+  }
+ ],
+ "dev": {
+  "scale": "四谷大塚 Aライン80偏差値（2026年中学受験対応）",
+  "value": 72,
+  "source": "https://www.yotsuyaotsuka.com/juken/data/?code=105"
+ },
+ "notes": "【exams】2027年度募集要項は2026年7月現在未公開。日程・科目は2026年度実績（公式PDF）に基づく慣例値。試験は例年2月1日1回のみ、推薦・2次募集・帰国生特別試験なし。【sessions】2026年開催の説明会日程は公式サイト上「追ってご案内」のみ記載。掲載日付は2025年度の実績から参照。本年度日程は公式サイト（https://kaiseigakuen.jp/admission/briefing/）で要確認。【preferences】優遇・特待・複数回加点制度は確認できず（公式サイト上に記載なし）。【juku】四谷大塚の公式合格者数は現時点で単独公表が確認できず除外。SAPIX229名は公式サイト確認値。早稲アカ179名は公式サイト確認値。日能研49名は公式速報値（3月9日時点）。グノーブル23名は第三者サイト経由のため参考値。"
+}

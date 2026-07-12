@@ -1,0 +1,83 @@
+{
+ "id": "waseda",
+ "name": "早稲田",
+ "fetchedAt": "2026-07-12T18:08:48.821Z",
+ "exams": [
+  {
+   "date": "2027-02-01",
+   "slot": "AM",
+   "name": "第1回",
+   "note": "国語・算数・理科・社会（4科目）、募集200名、受験料27,000円、第1回合格者は第2回受験不可",
+   "source": "https://www.waseda-h.ed.jp/exam/overview/"
+  },
+  {
+   "date": "2027-02-03",
+   "slot": "AM",
+   "name": "第2回",
+   "note": "国語・算数・理科・社会（4科目）、募集100名、受験料27,000円（1・2回同時出願54,000円、1回合格入学手続完了で2回分返金）",
+   "source": "https://www.waseda-h.ed.jp/exam/overview/"
+  }
+ ],
+ "sessions": [
+  {
+   "date": "2026-08-22",
+   "name": "学校説明会・施設見学（1日目）",
+   "note": "保護者限定説明会（要事前予約・インターネット予約、2026/7/6より予約サイト公開）＋施設見学（予約不要）9:00〜16:00",
+   "source": "https://www.waseda-h.ed.jp/exam/description_party/"
+  },
+  {
+   "date": "2026-08-23",
+   "name": "学校説明会・施設見学（2日目）",
+   "note": "保護者限定説明会（要事前予約）＋施設見学（予約不要）9:00〜16:00",
+   "source": "https://www.waseda-h.ed.jp/exam/description_party/"
+  },
+  {
+   "date": "2026-08-29",
+   "name": "東京都私立学校展",
+   "note": "東京国際フォーラム（8/29〜8/30）、早稲田中学校も参加予定",
+   "source": "https://www.waseda-h.ed.jp/"
+  },
+  {
+   "date": "2026-10-04",
+   "name": "興風祭（文化祭）",
+   "note": "一般公開、予約不要（日能研掲載情報）、2日間開催（10/3〜10/4予定）",
+   "source": "https://www.nichinoken.co.jp/np5/schoolinfo/sw/evt.php?shl_code=207"
+  }
+ ],
+ "preferences": [
+  {
+   "desc": "第1回・第2回同時出願かつ第1回合格後に入学手続を完了した場合、第2回の検定料（27,000円）を口座振込で返金",
+   "source": "https://www.waseda-h.ed.jp/exam/overview/"
+  },
+  {
+   "desc": "入学辞退者は所定の手続きで申し出た場合、学費のみ返金（四谷大塚掲載情報）",
+   "source": "https://www.yotsuyaotsuka.com/juken/data/?code=765"
+  }
+ ],
+ "juku": [
+  {
+   "name": "早稲田アカデミー",
+   "count": 238,
+   "year": "2026",
+   "source": "https://jukushiru.com/article/post-28459/"
+  },
+  {
+   "name": "SAPIX",
+   "count": 182,
+   "year": "2026",
+   "source": "https://jukushiru.com/article/post-28459/"
+  },
+  {
+   "name": "日能研",
+   "count": 42,
+   "year": "2026",
+   "source": "https://jukushiru.com/article/post-28459/"
+  }
+ ],
+ "dev": {
+  "scale": "四谷大塚 合不合判定テスト Aライン80偏差値（第2回・2026年入試結果）",
+  "value": 68,
+  "source": "https://www.yotsuyaotsuka.com/juken/data/?code=765"
+ },
+ "notes": "2027年度入試の出願開始日は学校公式サイトの資料に2026/12/19(土)と記載があったが、2026/6/12付の訂正で正しくは2026/12/20(日)と修正済み（締切は2027/1/23(土)）。興風祭の2026年度具体日程（10/3・4か10/4のみ等）は日能研掲載では10/4のみ確認できたが、公式サイトでは「9月下旬〜10月上旬の土日2日間」とのみ記載で確定日程未公表。四谷大塚の早稲田中2026年合格者数は公式サイトでは早稲田「中学」単独の数値未確認（早稲田実業は65名と記載あり）。日能研R4偏差値2026年入試結果：第1回66、第2回67（resemom掲載）。SAPIX80%偏差値2026年入試結果は第1回57相当（他塾比較換算）。塾別合格者数は2026/2/9時点の速報値（塾シル集計）であり、各塾の最終確定値とは異なる可能性がある。"
+}

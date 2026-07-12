@@ -1,0 +1,97 @@
+{
+ "id": "sakae",
+ "name": "栄東",
+ "fetchedAt": "2026-07-12T17:55:22.717Z",
+ "exams": [
+  {
+   "date": "2027-01-10",
+   "slot": "AM",
+   "name": "I入試（東大・難関大）",
+   "note": "4科目、東大クラス特待生(1年)・東大クラス・難関大クラス判定、4会場分散実施",
+   "source": "https://resemom.jp/article/2026/07/07/86692.html"
+  },
+  {
+   "date": "2027-01-11",
+   "slot": "AM",
+   "name": "II入試（難関大）",
+   "note": "4科目、難関大クラス判定、3会場分散実施",
+   "source": "https://resemom.jp/article/2026/07/07/86692.html"
+  },
+  {
+   "date": "2027-01-12",
+   "slot": "AM",
+   "name": "東大特待",
+   "note": "4科型（国150・算150・社75・理75）または算数重視型（算300・国150）、東大クラス特待生(3年・1年)判定。2027年度より算数1科→算数重視型(算＋国)に変更",
+   "source": "https://resemom.jp/article/2026/07/07/86692.html"
+  },
+  {
+   "date": "2027-01-16",
+   "slot": "AM",
+   "name": "III入試（東大・難関大）",
+   "note": "4科目、東大クラス・難関大クラス判定",
+   "source": "https://resemom.jp/article/2026/07/07/86692.html"
+  }
+ ],
+ "sessions": [
+  {
+   "date": "2026-05-30",
+   "name": "第1回 学校説明会",
+   "note": "10:00〜、保護者対象（動画視聴は小5以下も可）、要予約（5月11日10:00〜受付開始）",
+   "source": "https://www.sakaehigashi.ed.jp/exam/j_event.html"
+  },
+  {
+   "date": "2026-06-27",
+   "name": "受験なんでも相談会（外部イベント参加）",
+   "note": "6/27・28、新宿住友ビル1階三角広場",
+   "source": "https://www.sakaehigashi.ed.jp/admission/"
+  },
+  {
+   "date": "2026-10-01",
+   "name": "第2回・第3回 学校説明会（予定）",
+   "note": "2026年度イベント情報として更新済み。具体日程は公式サイトのmirai-compassから要予約確認",
+   "source": "https://www.sakaehigashi.ed.jp/exam/j_event.html"
+  },
+  {
+   "date": "2026-11-01",
+   "name": "入試説明会（予定）",
+   "note": "例年11月頃実施、6年生の受験生・保護者対象、スリッパ持参。2025年は10/31受付開始",
+   "source": "https://www.sakaehigashi.ed.jp/exam/j_event.html"
+  }
+ ],
+ "preferences": [
+  {
+   "desc": "III入試（難関大クラス）において、I入試・II入試・東大特待のいずれかを既に受験している受験生に対し、国算+10点・社理+5点（計30点）を加点する複数回受験優遇制度あり",
+   "source": "https://smartrador.com/blog/%E5%AD%A6%E6%A0%A1%E6%83%85%E5%A0%B1/%E4%B8%AD%E5%AD%A6%E6%83%85%E5%A0%B1/%E6%A0%84%E6%9D%B1%E4%B8%AD%E5%AD%A6%E6%A0%A1/"
+  },
+  {
+   "desc": "東大特待合格者は東大クラス（選抜クラス）に確定。合格種別は東大クラス特待生（3年間）と東大クラス特待生（1年間）の2種",
+   "source": "https://resemom.jp/article/2026/07/07/86692.html"
+  },
+  {
+   "desc": "入学後1年間の総合成績により次年度特待生（授業料1年間免除）の選考を実施",
+   "source": "https://www.sakaehigashi.ed.jp/exam/files/d2c04fd93022e2b89b6cd7a1ac51c32d8796bdb7.pdf"
+  },
+  {
+   "desc": "全日程出願可能。I入試・II入試合格後も東大特待に出願可能",
+   "source": "https://resemom.jp/article/2026/07/07/86692.html"
+  },
+  {
+   "desc": "帰国生入試を除く全日程で、合格発表時に得点を開示",
+   "source": "https://resemom.jp/article/2026/07/07/86692.html"
+  }
+ ],
+ "juku": [
+  {
+   "name": "SAPIX小学部",
+   "count": 2199,
+   "year": "2026",
+   "source": "https://jukushiru.com/article/post-28587/"
+  }
+ ],
+ "dev": {
+  "scale": "四谷大塚 合不合判定テスト80%ライン（I入試・東大クラス）",
+  "value": 67,
+  "source": "https://www.kobekyo.com/study-info/3086/"
+ },
+ "notes": "2027年度募集要項（令和9年度版）は2026年9月下旬頃に学校公式サイトへPDF掲載予定。説明会の第2回以降・入試説明会の具体日程は2026年4月1日更新のイベント情報に含まれるが、公式サイト（mirai-compass）がメンテナンス中のため日付詳細を直接確認できず記載は暫定。塾別合格者数はSAPIX2,199人（塾シル集計・2026年3月5日時点速報値）のみ出典確認可能。四谷大塚公式合格実績ページに栄東の掲載なし。早稲田アカデミー・日能研の栄東向け個別数値は今回の検索では公式数値を確認できず未掲載。偏差値は入試回・男女・模試種別により異なり、四谷大塚80%ライン（I入試東大クラス・共通）は約67が複数サイトで言及されているが、公式四谷大塚サイトでの直接確認は今回できていない点に注意。"
+}

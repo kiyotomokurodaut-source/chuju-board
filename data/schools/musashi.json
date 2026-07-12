@@ -1,0 +1,73 @@
+{
+ "id": "musashi",
+ "name": "武蔵",
+ "fetchedAt": "2026-07-12T18:06:21.111Z",
+ "exams": [
+  {
+   "date": "2027-02-01",
+   "slot": "AM",
+   "name": "2027年度入試",
+   "note": "国語・算数・社会・理科の4科筆記試験、面接なし、募集160名（例年通り想定）。2027年度募集要項は2026年9月26日公開予定",
+   "source": "https://www.musashi.ed.jp/admission/general.html"
+  }
+ ],
+ "sessions": [
+  {
+   "date": "2026-06-13",
+   "name": "学校説明会【対象：全学年】",
+   "note": "要予約（学校公式サイトから1回目・2回目を選択して申込）、校内見学あり",
+   "source": "https://www.musashi.ed.jp/event/bip8m40000000hpc.html"
+  },
+  {
+   "date": "2026-10-17",
+   "name": "入試説明会【対象：5・6年生】",
+   "note": "2026年度入学試験のしおり（募集要項）は9月26日公開予定。入構開始13:00",
+   "source": "https://www.musashi.ed.jp/event/j6vg850000000h4d.html"
+  },
+  {
+   "date": "2026-11-15",
+   "name": "校内見学会【対象：全学年】",
+   "note": "学校公式サイト記載。詳細・予約方法は追って公開",
+   "source": "https://www.musashi.ed.jp/prospective/index.html"
+  }
+ ],
+ "preferences": [],
+ "juku": [
+  {
+   "name": "早稲田アカデミー",
+   "count": 70,
+   "year": "2026",
+   "source": "https://eleschool-compass.com/juku/jukudata/waseda_academy.html"
+  },
+  {
+   "name": "SAPIX小学部",
+   "count": 51,
+   "year": "2026",
+   "source": "https://www.sapientica.com/success/"
+  },
+  {
+   "name": "日能研",
+   "count": 28,
+   "year": "2026",
+   "source": "https://note.com/musashi_next/n/n1d4d13ffdbf4"
+  },
+  {
+   "name": "四谷大塚（直営）",
+   "count": 9,
+   "year": "2026",
+   "source": "https://bestjuku.com/juku/113/result/"
+  },
+  {
+   "name": "四谷大塚（ネットワーク含む）",
+   "count": 34,
+   "year": "2026",
+   "source": "https://www.yotsuyaotsuka.com/goukaku_sokuhou/"
+  }
+ ],
+ "dev": {
+  "scale": "四谷大塚 合不合判定テスト Aライン80偏差値（2026年中学受験対応）",
+  "value": 66,
+  "source": "https://www.yotsuyaotsuka.com/juken/data/?code=691"
+ },
+ "notes": "【exams】2027年度入試の正式募集要項は2026年9月26日公開予定（入試説明会ページより）。日程・方式は例年通り2月1日AM・4科1回勝負と想定されるが、学校公式サイトでの確定発表はまだない。【sessions】6/13説明会は既に開催済み（本日2026/7/12時点）。10/17入試説明会・11/15校内見学会は公式サイト掲載の今後の予定。【preferences】特待・加点・複数回優遇等の制度は学校公式サイトに記載なく、確認できないため空配列。【juku】日能研28名はnote記事（武蔵NEXT）による二次集計値（公式発表ページでの直接確認は困難）。四谷大塚ネットワーク34名は公式合格実績ページより（直営9名を含む）。早稲田アカデミー70名は第三者サイト集計値だが早稲田AC公式実績ページの数値と整合。【dev】日能研2026年結果R4偏差値は68（リセマム記事より）、SAPIX2026年結果80%偏差値は公式未取得（2025年入試結果では60、2026年予想では約60）。四谷大塚Aライン80偏差値66を採用。"
+}

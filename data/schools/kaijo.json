@@ -1,0 +1,104 @@
+{
+ "id": "kaijo",
+ "name": "海城",
+ "fetchedAt": "2026-07-12T18:09:28.961Z",
+ "exams": [
+  {
+   "date": "2027-01-07",
+   "slot": "AM",
+   "name": "帰国生入試",
+   "note": "A方式：国・算、B方式：国・算・英＋面接（日本語）。募集30名。2027年度版要項は2026年6月中旬以降公開予定",
+   "source": "https://www.kaijo.ed.jp/admission/from-abroad"
+  },
+  {
+   "date": "2027-02-01",
+   "slot": "AM",
+   "name": "一般入試①",
+   "note": "4科目（国120点・算120点・社80点・理80点、計400点満点）。募集男子145名。集合8:00",
+   "source": "https://note.com/susumujuku/n/n338c0e2100dd"
+  },
+  {
+   "date": "2027-02-03",
+   "slot": "AM",
+   "name": "一般入試②",
+   "note": "4科目（国120点・算120点・社80点・理80点、計400点満点）。募集男子145名。1,000名超受験の大規模試験",
+   "source": "https://note.com/susumujuku/n/n338c0e2100dd"
+  }
+ ],
+ "sessions": [
+  {
+   "date": "2026-07-25",
+   "name": "帰国生対象学校説明会",
+   "note": "13:00〜、校内、小4〜6年生対象受験生・保護者。Web予約（ミライコンパス）",
+   "source": "https://www.nichinoken.co.jp/np5/schoolinfo/sw/evt.php?shl_code=224"
+  },
+  {
+   "date": "2026-08-22",
+   "name": "夏のオープンキャンパス2026（1日目）",
+   "note": "各教科展示・プレゼン・クラブ公開練習。事前予約制・3回3時間入替制（各回500組）、小4〜6対象。予約開始日未公表",
+   "source": "https://www.kaijo.ed.jp/admission/orientation"
+  },
+  {
+   "date": "2026-08-23",
+   "name": "夏のオープンキャンパス2026（2日目）",
+   "note": "内容同上。事前予約制",
+   "source": "https://www.kaijo.ed.jp/admission/orientation"
+  },
+  {
+   "date": "2026-09-20",
+   "name": "海城祭（文化祭）",
+   "note": "9:30〜、一般公開",
+   "source": "https://www.nichinoken.co.jp/np5/schoolinfo/sw/evt.php?shl_code=224"
+  },
+  {
+   "date": "2026-10-10",
+   "name": "ミニ・オープンキャンパス（秋①）",
+   "note": "13:30〜16:00、2部制・各回500組、小3〜6対象。Web予約開始9月10日(木)12時",
+   "source": "https://www.kaijo.ed.jp/admission/orientation"
+  },
+  {
+   "date": "2026-11-07",
+   "name": "ミニ・オープンキャンパス（秋②）",
+   "note": "13:30〜16:00、2部制・各回500組、小1〜6対象。Web予約開始10月13日(火)12時",
+   "source": "https://www.kaijo.ed.jp/admission/orientation"
+  }
+ ],
+ "preferences": [
+  {
+   "desc": "特待・加点・複数回優遇制度は公式サイト・要項上で確認できず。帰国生入試合格者は一般入試にも出願可能（別日程のため重複受験可）",
+   "source": "https://www.kaijo.ed.jp/admission/general"
+  }
+ ],
+ "juku": [
+  {
+   "name": "SAPIX小学部",
+   "count": 242,
+   "year": "2026",
+   "source": "https://jukushiru.com/article/post-28459/"
+  },
+  {
+   "name": "早稲田アカデミー",
+   "count": 143,
+   "year": "2026",
+   "source": "https://jukushiru.com/article/post-28459/"
+  },
+  {
+   "name": "四谷大塚",
+   "count": 147,
+   "year": "2026",
+   "source": "https://www.yotsuyaotsuka.com/goukaku_sokuhou/"
+  },
+  {
+   "name": "日能研",
+   "count": 57,
+   "year": "2026",
+   "source": "https://jukushiru.com/article/post-28459/"
+  }
+ ],
+ "dev": {
+  "scale": "四谷大塚 合不合判定テスト Aライン80偏差値（2回・2026年中学受験対応）",
+  "value": 67,
+  "source": "https://www.yotsuyaotsuka.com/juken/data/?code=104"
+ },
+ "notes": "2027年度入試要項は2026年6月中旬以降公開予定（公式サイト明記）。入試日程（1/7帰国・2/1一般①・2/3一般②）は過去年度からの慣例に基づく予測を含む。学校は一斉講堂形式の説明会を実施せず、オープンキャンパス形式のみ。四谷大塚合格者数147名は2026年3月31日確定値。SAPIX・早稲田アカデミー・日能研は2026年2月9日時点速報値。グノーブルの海城向け合格者数は公表値が検索で確認できなかったため除外。"
+}

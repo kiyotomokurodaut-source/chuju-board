@@ -1,0 +1,98 @@
+{
+ "id": "shibumaku",
+ "name": "渋谷教育学園幕張",
+ "fetchedAt": "2026-07-12T18:02:08.412Z",
+ "exams": [
+  {
+   "date": "2027-01-21",
+   "slot": "AM",
+   "name": "一次入学試験",
+   "note": "4科（国語・算数・理科・社会）。2026年は1/22(木)実施。2027年度日程は未公表のため前年同時期(1月第4木曜前後)を参考値として記載。要公式確認。",
+   "source": "https://www.tomas.co.jp/schola/list/junior_exam_info/6386/"
+  },
+  {
+   "date": "2027-02-02",
+   "slot": "AM",
+   "name": "二次入学試験",
+   "note": "4科。定員少なく倍率高い。2026年は2/2(月)実施。2027年度日程は未公表。要公式確認。",
+   "source": "https://www.tomas.co.jp/schola/list/junior_exam_info/6386/"
+  },
+  {
+   "date": "2027-01-20",
+   "slot": "AM",
+   "name": "帰国生入学試験",
+   "note": "英語筆記・リスニング・エッセイ＋面接（英語・日本語）。2026年は1/20(火)実施。2027年度日程未公表。要公式確認。",
+   "source": "https://www.tomas.co.jp/schola/list/junior_exam_info/6386/"
+  }
+ ],
+ "sessions": [
+  {
+   "date": "2026-11-07",
+   "name": "入試説明会（6年生対象）",
+   "note": "14:00開始、校内。事前予約制。日能研イベント情報より。2027年度入試向け説明会と推定。",
+   "source": "https://www.nichinoken.co.jp/np5/schoolinfo/sw/evt.php?shl_code=402"
+  },
+  {
+   "date": "2025-11-08",
+   "name": "入試説明会（2026年度入試・参考）",
+   "note": "2026年度入試向けは2025年11月8日(土)開催。事前申し込み制。Web配信期間：2025/11/21〜11/26も設定。",
+   "source": "https://www.tomas.co.jp/schola/list/junior_exam_info/6386/"
+  },
+  {
+   "date": "2025-10-22",
+   "name": "Web予約開始日（2026年度入試説明会）",
+   "note": "中学・高校入試説明会ともに2025年10月22日(水)10:00〜Web予約開始。",
+   "source": "https://www.shibumaku.jp/admissions/meeting-2-3-2/"
+  }
+ ],
+ "preferences": [
+  {
+   "desc": "特別特待生制度：各入試（一次・二次・帰国生）において成績優秀者を特別特待生として合格発表。入学納入金（入学金・施設拡充費）＋授業料相当額の奨学金を1年間給付。入学後も年度末審査で継続判定あり。",
+   "source": "https://www.shibumaku.jp/admissions/scholarship/"
+  },
+  {
+   "desc": "特待生制度：各入試で成績優秀者を特待生として合格発表。入学納入金（入学金・施設拡充費）相当額の奨学金を給付。",
+   "source": "https://www.shibumaku.jp/admissions/scholarship/"
+  },
+  {
+   "desc": "田村・松井・高梨顕彰記念奨学生奨学金：人物・学業成績が優秀で家計の事情で就学が困難な入学志願者に、入学金・施設拡充費＋在学中3年間の授業料相当額を給付。出願前に申請が必要。",
+   "source": "https://www.shibumaku.jp/admissions/scholarship-2/"
+  },
+  {
+   "desc": "授業料減免制度：在学中に家計急変等で就学困難になった場合、中学は全額または2/3を減免する制度あり。",
+   "source": "https://www.shibumaku.jp/admissions/scholarship-2/"
+  }
+ ],
+ "juku": [
+  {
+   "name": "SAPIX小学部",
+   "count": 370,
+   "year": "2026",
+   "source": "https://www.sapientica.com/success/"
+  },
+  {
+   "name": "早稲田アカデミー",
+   "count": 263,
+   "year": "2026",
+   "source": "https://www.waseda-ac.co.jp/elementary/result/"
+  },
+  {
+   "name": "四谷大塚（直営）",
+   "count": 95,
+   "year": "2026",
+   "source": "https://www.yotsuyaotsuka.com/goukaku_sokuhou/"
+  },
+  {
+   "name": "日能研（速報値参考）",
+   "count": 80,
+   "year": "2026",
+   "source": "https://jukushiru.com/article/post-28459/"
+  }
+ ],
+ "dev": {
+  "scale": "四谷大塚 合不合判定テスト Aライン80偏差値（2026年入試向け）",
+  "value": 70,
+  "source": "https://spacemaxum.com/2025/12/02/%E6%B8%8B%E8%B0%B7%E6%95%99%E8%82%B2%E5%AD%A6%E5%9C%92%E5%B9%95%E5%BC%B5%E4%B8%AD%E5%AD%A6%E6%A0%A1%EF%BC%882026%E5%B9%B4%E4%B8%AD%E5%AD%A6%E5%85%A5%E8%A9%A6%E3%80%91%E5%81%8F%E5%B7%AE%E5%80%A4/"
+ },
+ "notes": "【exams】2027年度入試要項は2026年7月9日付で入試情報の更新がshibumaku.jp公式に示されているが（School Guide 2027もメニューに存在）、具体的な日程PDFは未公表（2026年7月12日現在）。日程は2026年度実績（一次1/22・二次2/2・帰国生1/20）を参考に記載した推定値であり、必ず公式サイトで確認のこと。【sessions】2027年度入試向け説明会は日能研イベント情報で2026/11/7(土)14:00が確認できた。2026年度実績では11月上旬土曜開催・Web予約制。【juku】SAPIX公式は370名（最終確定値）、早稲田アカデミー公式263名、四谷大塚直営95名（ネットワーク計215名）。日能研の80名は塾シル2026/2/9速報値であり公式ページからの直接確認ができていない点に注意。【dev】四谷大塚A80偏差値は一次70・二次69（男女とも）。SAPIX80偏差値は64（男女とも）。"
+}

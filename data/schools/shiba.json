@@ -1,0 +1,97 @@
+{
+ "id": "shiba",
+ "name": "芝",
+ "fetchedAt": "2026-07-12T18:10:55.933Z",
+ "exams": [
+  {
+   "date": "2027-02-01",
+   "slot": "AM",
+   "name": "第1回",
+   "note": "4科目（国語100点・算数100点・社会75点・理科75点）、募集150名。2027年度要項は未発表のため2026年度実績に基づく推定。",
+   "source": "https://www.shiba.ac.jp/admissions/recruitment.html"
+  },
+  {
+   "date": "2027-02-04",
+   "slot": "AM",
+   "name": "第2回",
+   "note": "4科目（同上）、募集130名。2027年度要項は未発表のため2026年度実績に基づく推定。",
+   "source": "https://www.shiba.ac.jp/admissions/recruitment.html"
+  }
+ ],
+ "sessions": [
+  {
+   "date": "2026-05-16",
+   "name": "学校説明会 第1回",
+   "note": "11:00〜12:00（開場10:15）、芝学園講堂、定員1500名、予約申込制（5/2 9:00〜受付開始）",
+   "source": "https://www.shiba.ac.jp/news/detail.html?id=312"
+  },
+  {
+   "date": "2026-05-30",
+   "name": "学校説明会 第2回",
+   "note": "11:00〜12:00（開場10:15）、芝学園講堂、定員1500名、予約申込制",
+   "source": "https://www.shiba.ac.jp/news/detail.html?id=312"
+  },
+  {
+   "date": "2026-06-20",
+   "name": "学校説明会 第3回",
+   "note": "11:00〜12:00（開場10:15）、芝学園講堂、定員1500名、予約申込制",
+   "source": "https://www.shiba.ac.jp/news/detail.html?id=312"
+  },
+  {
+   "date": "2026-10-24",
+   "name": "学校説明会 第4回",
+   "note": "11:00〜12:00（開場10:15）、芝学園講堂、定員1500名、予約申込制（10/4 9:00〜受付開始）",
+   "source": "https://www.shiba.ac.jp/news/detail.html?id=312"
+  },
+  {
+   "date": "2026-11-07",
+   "name": "学校説明会 第5回",
+   "note": "11:00〜12:00（開場10:15）、芝学園講堂、定員1500名、予約申込制",
+   "source": "https://www.shiba.ac.jp/news/detail.html?id=312"
+  },
+  {
+   "date": "2026-12-05",
+   "name": "学校説明会 第6回",
+   "note": "11:00〜12:00（開場10:15）、芝学園講堂、定員1500名、予約申込制",
+   "source": "https://www.shiba.ac.jp/news/detail.html?id=312"
+  }
+ ],
+ "preferences": [
+  {
+   "desc": "複数回優遇あり（加点方式）：第1回・第2回を両方受験した場合、第2回入試で加点措置あり。加点幅は非公表（5点以上10点未満との情報あり）。また繰り上げ合格枠でも複数回受験者を優遇。特待制度は非設定。",
+   "source": "https://note.com/chujyu_sansuu/n/n207341a683db"
+  }
+ ],
+ "juku": [
+  {
+   "name": "SAPIX小学部",
+   "count": null,
+   "year": "2026",
+   "source": "https://www.sapientica.com/success/"
+  },
+  {
+   "name": "早稲田アカデミー",
+   "count": null,
+   "year": "2026",
+   "source": "https://www.waseda-ac.co.jp/elementary/result/"
+  },
+  {
+   "name": "日能研",
+   "count": null,
+   "year": "2026",
+   "source": "https://www.nichinoken.co.jp/np5/schoolinfo/sw/exam.php?shl_code=116"
+  },
+  {
+   "name": "四谷大塚",
+   "count": null,
+   "year": "2026",
+   "source": "https://www.yotsuyaotsuka.com/goukaku_sokuhou/"
+  }
+ ],
+ "dev": {
+  "scale": "四谷大塚 合不合判定テスト Aライン80偏差値",
+  "value": 64,
+  "source": "https://www.yotsuyaotsuka.com/juken/data/?code=289"
+ },
+ "notes": "【exams】2027年度（2027年1〜2月実施）の入試要項は2026年7月時点で未発表。日程・募集人員・科目は直近2026年度実績からの推定。公式確認は https://www.shiba.ac.jp/admissions/recruitment.html で随時。【juku】2026年入試の塾別合格者数について、SAPIX・早稲アカ・日能研・四谷大塚の各公式サイトおよび集計記事を調査したが、芝中学校の具体的な合格者数は各塾公式サイトの一覧ページ（検索要）でのみ確認可能で、本調査ではスクレイプ不可のため数値をnullとした。各塾公式サイトにて直接検索を推奨。SAPIXが最多合格者数を占めるとの複数情報あり。【dev】四谷大塚Aライン80偏差値は第1回59・第2回64。代表値として第2回の64を記載。"
+}

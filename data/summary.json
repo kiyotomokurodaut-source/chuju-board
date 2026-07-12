@@ -1,0 +1,1571 @@
+{
+ "generatedAt": "2026-07-12T18:58:25.111Z",
+ "schools": {
+  "sakae": {
+   "id": "sakae",
+   "name": "栄東",
+   "fetchedAt": "2026-07-12T17:55:22.717Z",
+   "exams": [
+    {
+     "date": "2027-01-10",
+     "slot": "AM",
+     "name": "I入試（東大・難関大）",
+     "note": "4科目、東大クラス特待生(1年)・東大クラス・難関大クラス判定、4会場分散実施",
+     "source": "https://resemom.jp/article/2026/07/07/86692.html"
+    },
+    {
+     "date": "2027-01-11",
+     "slot": "AM",
+     "name": "II入試（難関大）",
+     "note": "4科目、難関大クラス判定、3会場分散実施",
+     "source": "https://resemom.jp/article/2026/07/07/86692.html"
+    },
+    {
+     "date": "2027-01-12",
+     "slot": "AM",
+     "name": "東大特待",
+     "note": "4科型（国150・算150・社75・理75）または算数重視型（算300・国150）、東大クラス特待生(3年・1年)判定。2027年度より算数1科→算数重視型(算＋国)に変更",
+     "source": "https://resemom.jp/article/2026/07/07/86692.html"
+    },
+    {
+     "date": "2027-01-16",
+     "slot": "AM",
+     "name": "III入試（東大・難関大）",
+     "note": "4科目、東大クラス・難関大クラス判定",
+     "source": "https://resemom.jp/article/2026/07/07/86692.html"
+    }
+   ],
+   "sessions": [
+    {
+     "date": "2026-05-30",
+     "name": "第1回 学校説明会",
+     "note": "10:00〜、保護者対象（動画視聴は小5以下も可）、要予約（5月11日10:00〜受付開始）",
+     "source": "https://www.sakaehigashi.ed.jp/exam/j_event.html"
+    },
+    {
+     "date": "2026-06-27",
+     "name": "受験なんでも相談会（外部イベント参加）",
+     "note": "6/27・28、新宿住友ビル1階三角広場",
+     "source": "https://www.sakaehigashi.ed.jp/admission/"
+    },
+    {
+     "date": "2026-10-01",
+     "name": "第2回・第3回 学校説明会（予定）",
+     "note": "2026年度イベント情報として更新済み。具体日程は公式サイトのmirai-compassから要予約確認",
+     "source": "https://www.sakaehigashi.ed.jp/exam/j_event.html"
+    },
+    {
+     "date": "2026-11-01",
+     "name": "入試説明会（予定）",
+     "note": "例年11月頃実施、6年生の受験生・保護者対象、スリッパ持参。2025年は10/31受付開始",
+     "source": "https://www.sakaehigashi.ed.jp/exam/j_event.html"
+    }
+   ],
+   "preferences": [
+    {
+     "desc": "III入試（難関大クラス）において、I入試・II入試・東大特待のいずれかを既に受験している受験生に対し、国算+10点・社理+5点（計30点）を加点する複数回受験優遇制度あり",
+     "source": "https://smartrador.com/blog/%E5%AD%A6%E6%A0%A1%E6%83%85%E5%A0%B1/%E4%B8%AD%E5%AD%A6%E6%83%85%E5%A0%B1/%E6%A0%84%E6%9D%B1%E4%B8%AD%E5%AD%A6%E6%A0%A1/"
+    },
+    {
+     "desc": "東大特待合格者は東大クラス（選抜クラス）に確定。合格種別は東大クラス特待生（3年間）と東大クラス特待生（1年間）の2種",
+     "source": "https://resemom.jp/article/2026/07/07/86692.html"
+    },
+    {
+     "desc": "入学後1年間の総合成績により次年度特待生（授業料1年間免除）の選考を実施",
+     "source": "https://www.sakaehigashi.ed.jp/exam/files/d2c04fd93022e2b89b6cd7a1ac51c32d8796bdb7.pdf"
+    },
+    {
+     "desc": "全日程出願可能。I入試・II入試合格後も東大特待に出願可能",
+     "source": "https://resemom.jp/article/2026/07/07/86692.html"
+    },
+    {
+     "desc": "帰国生入試を除く全日程で、合格発表時に得点を開示",
+     "source": "https://resemom.jp/article/2026/07/07/86692.html"
+    }
+   ],
+   "juku": [
+    {
+     "name": "SAPIX小学部",
+     "count": 2199,
+     "year": "2026",
+     "source": "https://jukushiru.com/article/post-28587/"
+    }
+   ],
+   "dev": {
+    "scale": "四谷大塚 合不合判定テスト80%ライン（I入試・東大クラス）",
+    "value": 67,
+    "source": "https://www.kobekyo.com/study-info/3086/"
+   },
+   "notes": "2027年度募集要項（令和9年度版）は2026年9月下旬頃に学校公式サイトへPDF掲載予定。説明会の第2回以降・入試説明会の具体日程は2026年4月1日更新のイベント情報に含まれるが、公式サイト（mirai-compass）がメンテナンス中のため日付詳細を直接確認できず記載は暫定。塾別合格者数はSAPIX2,199人（塾シル集計・2026年3月5日時点速報値）のみ出典確認可能。四谷大塚公式合格実績ページに栄東の掲載なし。早稲田アカデミー・日能研の栄東向け個別数値は今回の検索では公式数値を確認できず未掲載。偏差値は入試回・男女・模試種別により異なり、四谷大塚80%ライン（I入試東大クラス・共通）は約67が複数サイトで言及されているが、公式四谷大塚サイトでの直接確認は今回できていない点に注意。"
+  },
+  "kaichi": {
+   "id": "kaichi",
+   "name": "開智",
+   "fetchedAt": "2026-07-12T17:56:23.717Z",
+   "exams": [
+    {
+     "date": "2027-01-09",
+     "slot": "AM",
+     "name": "第1回",
+     "note": "4科（国100・算120・社60・理60）。2027年度入試概要はPDFで公開済。前年は1/10(土)AM実施。確定日程は公式PDF要確認",
+     "source": "https://ikkanbu.kaichigakuen.ed.jp/blog/ar2027-1/"
+    },
+    {
+     "date": "2027-01-10",
+     "slot": "AM",
+     "name": "創発クラス（特待A）",
+     "note": "4科。合格者全員S特待。前年は1/11(日)AM実施",
+     "source": "https://ikkanbu.kaichigakuen.ed.jp/blog/ar2027-1/"
+    },
+    {
+     "date": "2027-01-10",
+     "slot": "PM",
+     "name": "算数特待",
+     "note": "算数1科120点満点。前年は1/11(日)PM実施",
+     "source": "https://ikkanbu.kaichigakuen.ed.jp/blog/ar2027-1/"
+    },
+    {
+     "date": "2027-01-11",
+     "slot": "AM",
+     "name": "第2回",
+     "note": "4科。第1回受験者に+30点加点（特待判定は加点含まず）。前年は1/12(月)AM実施",
+     "source": "https://ikkanbu.kaichigakuen.ed.jp/blog/ar2027-1/"
+    },
+    {
+     "date": "2027-01-14",
+     "slot": "AM",
+     "name": "特待B",
+     "note": "4科。合格者全員いずれかの特待。前年は1/15(木)AM実施",
+     "source": "https://ikkanbu.kaichigakuen.ed.jp/blog/ar2027-1/"
+    },
+    {
+     "date": "2027-02-04",
+     "slot": "AM",
+     "name": "日本橋併願",
+     "note": "日本橋学園との同時判定。前年も2/4(水)AM実施",
+     "source": "https://ikkanbu.kaichigakuen.ed.jp/blog/ar2027-1/"
+    }
+   ],
+   "sessions": [
+    {
+     "date": "2026-06-20",
+     "name": "第2回説明会＆体験入学",
+     "note": "4〜6年生対象。6/1(月)10:00予約開始。保護者のみ説明会参加も可",
+     "source": "https://ikkanbu.kaichigakuen.ed.jp/blog/open-school2026/"
+    },
+    {
+     "date": "2026-08-29",
+     "name": "帰国生・国際生・英語型入試説明会",
+     "note": "10:00〜、校内。受験生・保護者対象",
+     "source": "https://www.nichinoken.co.jp/np5/schoolinfo/sw/evt.php?shl_code=455"
+    },
+    {
+     "date": "2026-09-13",
+     "name": "開智発表会（学園祭）",
+     "note": "9:00〜、一般公開",
+     "source": "https://www.nichinoken.co.jp/np5/schoolinfo/sw/evt.php?shl_code=455"
+    },
+    {
+     "date": "2026-09-26",
+     "name": "学校説明会",
+     "note": "14:00〜、校内。受験生・保護者対象",
+     "source": "https://www.nichinoken.co.jp/np5/schoolinfo/sw/evt.php?shl_code=455"
+    },
+    {
+     "date": "2026-10-31",
+     "name": "学校説明会",
+     "note": "14:00〜、校内。受験生・保護者対象",
+     "source": "https://www.nichinoken.co.jp/np5/schoolinfo/sw/evt.php?shl_code=455"
+    },
+    {
+     "date": "2026-12-05",
+     "name": "学校説明会",
+     "note": "14:00〜、校内。受験生保護者対象",
+     "source": "https://www.nichinoken.co.jp/np5/schoolinfo/sw/evt.php?shl_code=455"
+    }
+   ],
+   "preferences": [
+    {
+     "desc": "S特待合格者は「創発クラス」を選択可能（2024年度創設）",
+     "source": "https://ikkanbu.kaichigakuen.ed.jp/blog/ec/"
+    },
+    {
+     "desc": "第2回入試：第1回受験者に最大30点加点（2段階判定。特待判定には加点含まず）",
+     "source": "https://sites.google.com/kaichigakuen.ed.jp/goukakuhappyou2026-ik/ホーム/第２回"
+    },
+    {
+     "desc": "特待B入試：合格者全員がいずれかの特待（S特待・A特待・準特待）。他回受験結果も参考にスライド合格判定あり",
+     "source": "https://ikkanbu.kaichigakuen.ed.jp/blog/2025-1/"
+    },
+    {
+     "desc": "創発クラス（特待A）合格者は全員S特待",
+     "source": "https://sites.google.com/kaichigakuen.ed.jp/goukakuhappyou2026-ik/ホーム/創発クラス特待Ａ"
+    },
+    {
+     "desc": "受験料2万円で開智学園グループ全校（開智未来・開智望・開智日本橋・開智所沢）の同時判定が可能（追加受験料不要）",
+     "source": "https://www.yotsuyaotsuka.com/juken/data/?code=109"
+    }
+   ],
+   "juku": [
+    {
+     "name": "日能研",
+     "count": 1040,
+     "year": "2026",
+     "source": "https://www.nichinoken.co.jp/exam/saitama_gs.html"
+    }
+   ],
+   "dev": {
+    "scale": "四谷大塚 Aライン80偏差値（第1回・第2回）",
+    "value": 53,
+    "source": "https://www.yotsuyaotsuka.com/juken/data/?code=109"
+   },
+   "notes": "【重要】2027年度入試日程は2026年6月9日に学校公式サイトでPDF公開済だが、検索結果上に具体的な日付が表示されていないため、examsの日付は2026年度実績（第1回1/10土・創発A1/11日・算数特待1/11日PM・第2回1/12月・特待B1/15木・日本橋併願2/4水）を参考に推定したもの。必ず公式PDF（https://ikkanbu.kaichigakuen.ed.jp/blog/ar2027-1/）を確認すること。塾別合格者数は日能研の公式掲載値（1040名）のみ確認。SAPIX・四谷大塚・早稲田アカデミーの開智中単独の数値は公式サイトで個別校別の数値が非公開または検索時点で未確認のため空配列とした。devのvalue53は第1回・第2回の四谷大塚Aライン80偏差値（創発A=59、特待B/算数特待=55〜56、第1回・第2回=52〜53）。"
+  },
+  "akenohoshi": {
+   "id": "akenohoshi",
+   "name": "浦和明の星女子",
+   "fetchedAt": "2026-07-12T17:57:09.346Z",
+   "exams": [
+    {
+     "date": "2027-01-14",
+     "slot": "AM",
+     "name": "第1回入学試験",
+     "note": "国語・算数・理科・社会の4科目。試験日は例年1/14固定。入試要項は2026年9月以降に学校HPで公開予定",
+     "source": "https://www.urawa-akenohoshi.ed.jp/admission/admission_summary/"
+    },
+    {
+     "date": "2027-02-04",
+     "slot": "AM",
+     "name": "第2回入学試験",
+     "note": "国語・算数・理科・社会の4科目。試験日は例年2/4固定。入試要項は2026年9月以降に学校HPで公開予定",
+     "source": "https://www.urawa-akenohoshi.ed.jp/admission/admission_summary/"
+    }
+   ],
+   "sessions": [
+    {
+     "date": "2026-06-06",
+     "name": "第1回学校見学会",
+     "note": "9:30〜。在校生による発表・学校説明・校内見学・ミニレッスン（予約制）。予約不要（ミニレッスンのみ要予約）",
+     "source": "https://www.urawa-akenohoshi.ed.jp/admission/admission_guidance/"
+    },
+    {
+     "date": "2026-07-21",
+     "name": "第2回学校見学会",
+     "note": "9:30〜。在校生による発表・学校説明・校内見学・ミニレッスン（予約制）。miraicompassより申込",
+     "source": "https://www.urawa-akenohoshi.ed.jp/admission/admission_guidance/"
+    },
+    {
+     "date": "2026-08-19",
+     "name": "第3回学校見学会",
+     "note": "9:30〜。在校生による発表・学校説明・校内見学・ミニレッスン（予約制）。申込開始は開催3週間前に告知、miraicompassより",
+     "source": "https://www.urawa-akenohoshi.ed.jp/admission/admission_guidance/"
+    },
+    {
+     "date": "2026-09-05",
+     "name": "明の星祭（文化祭）1日目",
+     "note": "参加には予約が必要。予約受付は2026年8月15日頃〜",
+     "source": "https://schma.jp/schools/268?moshi=yotsuya&deviGender=man"
+    },
+    {
+     "date": "2026-06-27",
+     "name": "受験なんでも相談会（合同）",
+     "note": "学校公式HPで参加告知あり",
+     "source": "https://www.urawa-akenohoshi.ed.jp/"
+    }
+   ],
+   "preferences": [
+    {
+     "desc": "特待・加点・複数回優遇制度は公式サイト・入試要項に記載なし。確認できた優遇制度なし",
+     "source": "https://www.urawa-akenohoshi.ed.jp/admission/admission_summary/"
+    }
+   ],
+   "juku": [
+    {
+     "name": "早稲田アカデミー",
+     "count": 401,
+     "year": "2026",
+     "source": "https://www.waseda-ac.co.jp/elementary/result/"
+    },
+    {
+     "name": "SAPIX",
+     "count": 409,
+     "year": "2026",
+     "source": "https://www.sapientica.com/success/"
+    },
+    {
+     "name": "四谷大塚",
+     "count": 380,
+     "year": "2026",
+     "source": "https://www.yotsuyaotsuka.com/goukaku_sokuhou/"
+    },
+    {
+     "name": "日能研",
+     "count": 201,
+     "year": "2026",
+     "source": "https://www.nichinoken.co.jp/exam/saitama_gs.html"
+    }
+   ],
+   "dev": {
+    "scale": "四谷大塚 合不合判定テスト Aライン80偏差値（第1回・1/14）",
+    "value": 65,
+    "source": "https://www.yotsuyaotsuka.com/juken/data/index.php?code=50&tab=info-general"
+   },
+   "notes": "【入試日程】2027年度（2027年1〜2月実施）の入試要項は2026年9月以降に学校HPで公開予定。第1回・第2回の試験日は例年固定（1/14・2/4）だが、公式要項未掲載のため確定情報ではない。【説明会】秋の学校説明会（10月・11月・12月）は前年実績（2025年10/4・11/8・12/6）に基づくパターンが想定されるが、2026年秋分は2026年7月時点で公式サイト未掲載のため除外。【塾別合格者数】各塾の集計定義が異なる（延べ人数・複数回合算等）ため単純比較不可。SAPIX・早稲田アカデミーの数値は特に大きく、定員160名に対し各塾合計が大幅超過している点に注意。四谷大塚の偏差値表は2026年より公開形式が変更され、入試報告会速報版ベース。第2回（2/4）のAライン80偏差値は63。"
+  },
+  "ichikawa": {
+   "id": "ichikawa",
+   "name": "市川",
+   "fetchedAt": "2026-07-12T17:59:20.430Z",
+   "exams": [
+    {
+     "date": "2027-01-19",
+     "slot": "AM",
+     "name": "第1回入学試験",
+     "note": "4科（国・算・社・理）各100点計400点。会場は幕張メッセ予定（例年通り）。2027年度要項は未公開のため2026年度実績より推定。",
+     "source": "https://www.ichigaku.ac.jp/junior-exam/guideline/"
+    },
+    {
+     "date": "2027-02-03",
+     "slot": "AM",
+     "name": "第2回入学試験",
+     "note": "4科（国・算・社・理）各100点計400点。本校会場予定。募集40名。2027年度要項は未公開のため2026年度実績より推定。",
+     "source": "https://www.ichigaku.ac.jp/junior-exam/guideline/"
+    },
+    {
+     "date": "2026-12-06",
+     "slot": "AM",
+     "name": "12月帰国生入試",
+     "note": "英語を含む科目構成（帰国生対象）。2027年度要項未公開のため2026年度実績より推定。",
+     "source": "https://www.tomas.co.jp/schola/list/10337/"
+    }
+   ],
+   "sessions": [
+    {
+     "date": "2026-05-21",
+     "name": "中学校説明会（5月）",
+     "note": "5月21日(木)・23日(土)・25日(月)の3回実施。内容：学校生活・入試全般説明。保護者1名または保護者1名+本人。要事前申込（Web）。",
+     "source": "https://www.ichigaku.ac.jp/news/"
+    },
+    {
+     "date": "2026-05-23",
+     "name": "中学校説明会（5月土曜回）",
+     "note": "5月21日(木)・23日(土)・25日(月)の3回実施（同一内容）。いずれか1回参加。",
+     "source": "https://www.ichigaku.ac.jp/exam-information/junior-information/"
+    },
+    {
+     "date": "2026-10-01",
+     "name": "中学校説明会（秋・6年生対象）",
+     "note": "内容：教育方針・各教科の説明・入試全般説明。校内施設見学・個別相談なし。保護者1名または保護者1名+本人。日程詳細は公式サイトで随時更新予定。",
+     "source": "https://www.ichigaku.ac.jp/exam-information/junior-information/"
+    },
+    {
+     "date": "2026-02-28",
+     "name": "小学5年生以下対象説明会（2026年度）",
+     "note": "2026年2月28日(土)実施済。内容：2027年度入試の振り返り・学校概要説明。校内施設見学・個別相談なし。事前申込制。",
+     "source": "https://www.tomas.co.jp/schola/list/10337/"
+    },
+    {
+     "date": "2026-07-08",
+     "name": "2026年度学校説明会等日程 更新",
+     "note": "2026年7月8日付で公式HPにて説明会日程が更新された旨告知あり。具体日程は公式サイト要確認。",
+     "source": "https://www.ichigaku.ac.jp/"
+    }
+   ],
+   "preferences": [
+    {
+     "desc": "第1回入学試験で成績優秀と判断された受験生は「特待生」として合格発表され、入学の際に入学金相当額の奨学金が給付される。",
+     "source": "https://ichigaku.ac.jp/wp-content/uploads/2024/09/2025%E4%B8%AD%E5%AD%A6%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85.pdf"
+    },
+    {
+     "desc": "第1回入学試験で極めて成績優秀と判断された受験生は「特別奨学生」として合格発表され、入学金相当額を超える奨学金が給付される（特待生より上位の制度）。",
+     "source": "https://ichigaku.ac.jp/wp-content/uploads/2024/09/2025%E4%B8%AD%E5%AD%A6%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85.pdf"
+    }
+   ],
+   "juku": [
+    {
+     "name": "SAPIX小学部",
+     "count": null,
+     "year": "2026",
+     "source": "https://www.sapientica.com/success/"
+    },
+    {
+     "name": "早稲田アカデミー",
+     "count": null,
+     "year": "2026",
+     "source": "https://www.waseda-ac.co.jp/elementary/result/"
+    },
+    {
+     "name": "日能研",
+     "count": null,
+     "year": "2026",
+     "source": "https://www.nichinoken.co.jp/np5/schoolinfo/sw/exam.php?shl_code=407"
+    },
+    {
+     "name": "四谷大塚",
+     "count": null,
+     "year": "2026",
+     "source": "https://www.yotsuyaotsuka.com/goukaku_sokuhou/"
+    }
+   ],
+   "dev": {
+    "scale": "四谷大塚 合不合判定テスト Aライン80偏差値（第1回）",
+    "value": 65,
+    "source": "https://www.kobekyo.com/study-info/3070/"
+   },
+   "notes": "【exams】2027年度入試要項は2026年7月12日時点で未公開。日程・科目は2026年度実績（第1回1/20幕張メッセ・第2回2/4本校、4科400点）を基に推定。確定次第ichigaku.ac.jp/junior-exam/guideline/で要確認。【sessions】5月21・23・25日の説明会は公式ニュース（2026.05.11）で確認済み。秋の6年生対象説明会・帰国生説明会等は「日程詳細が決まり次第ご案内」と公式に記載されており具体日未定。【juku】SAPIX・早稲田アカデミー・日能研・四谷大塚の各公式合格実績ページに市川中の具体的合格者数が検索結果から取得できなかったため count=null とした。塾シル千葉版（jukushiru.com/article/post-28636/）が2026.02.09速報値を集計しているが学校別数値の引用確認ができなかったため除外。【dev】四谷大塚Aライン80偏差値65は複数サイト（kobekyo.com・studyup.jp）で一致。男子62・女子65とする情報（studyup.jp）もあり男女差に注意。【preferences】特待生・特別奨学生制度は第1回のみ対象（第2回・帰国生入試への優遇は確認できず）。"
+  },
+  "toho": {
+   "id": "toho",
+   "name": "東邦大学付属東邦",
+   "fetchedAt": "2026-07-12T18:00:14.297Z",
+   "exams": [
+    {
+     "date": "2026-12-01",
+     "slot": "AM",
+     "name": "推薦入学試験（2026年度参考）",
+     "note": "国・算各100点・各45分、理・社各50点・各30分、計300点満点。自己推薦書（郵送）要。専願制。2027年度日程は学校公式サイト要確認",
+     "source": "https://mirai-compass.net/usr/ttohoj/common/login.jsf"
+    },
+    {
+     "date": "2027-01-21",
+     "slot": "AM",
+     "name": "前期入学試験（過年度参照・2027年度日程未確定）",
+     "note": "国・算・理・社 各100点・各45分、計400点満点。前期合格者は手続時納入金の半額延納可",
+     "source": "https://www.yotsuyaotsuka.com/juken/data/?code=509"
+    },
+    {
+     "date": "2027-02-03",
+     "slot": "AM",
+     "name": "後期入学試験（過年度参照・2027年度日程未確定）",
+     "note": "国・算各100点・各45分、理・社各50点・各30分、計300点満点",
+     "source": "https://mirai-compass.net/usr/ttohoj/common/login.jsf"
+    }
+   ],
+   "sessions": [
+    {
+     "date": "2026-04-11",
+     "name": "学校見学会・説明会（日程更新）",
+     "note": "2026年度の見学会・説明会日程をPDFで公開。ミライコンパス（mirai-compass.net）経由で要予約",
+     "source": "https://www.tohojh.toho-u.ac.jp/exam/briefing/nk0v9d00000002x8.html"
+    },
+    {
+     "date": "2026-05-09",
+     "name": "オンライン学校説明会",
+     "note": "スクマ！サイトに記載あり（詳細は学校公式サイト要確認）",
+     "source": "https://schma.jp/schools/319"
+    },
+    {
+     "date": "2026-01-01",
+     "name": "学校説明会（通年・複数回開催）",
+     "note": "本校ホールで教員が実施。カリキュラム・募集要項説明。終了後施設見学・個別相談あり。上履き不要。ライブ配信回もあり（要予約）",
+     "source": "https://juken-tohojh.info/%E5%B9%B4%E9%96%93%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E4%B8%80%E8%A6%A7/"
+    }
+   ],
+   "preferences": [],
+   "juku": [],
+   "dev": {
+    "scale": "四谷大塚 合不合判定テスト Aライン80偏差値（前期・共通）",
+    "value": 63,
+    "source": "https://www.yotsuyaotsuka.com/juken/data/?code=509"
+   },
+   "notes": "【重要】2027年度入試の具体的な試験日は2026/05/18付で学校公式サイトに「2027年度入試について」と掲載されているが、本文の日程詳細はWeb検索では取得不能。上記examsの日付は2026年度（ミライコンパス出願サイト）の実績値を参考として記載しており、2027年度は変更の可能性あり。必ず https://www.tohojh.toho-u.ac.jp/exam/index.html を確認すること。塾別合格者数（SAPIX・日能研・四谷大塚・早稲田アカデミー）については、塾シル千葉版（https://jukushiru.com/article/post-28636/）に2026年度東邦大付属東邦の掲載があるが、本文中から東邦の個別数値を確認できなかったため空配列とした。学校説明会のsessionsは2026年秋以降の具体的日程（日付）が公式サイトのPDF内にあるが検索では取得不能。偏差値は推薦63→前期63→後期60（四谷大塚Aライン80）、Cライン50は推薦58・前期58・後期56。"
+  },
+  "shibumaku": {
+   "id": "shibumaku",
+   "name": "渋谷教育学園幕張",
+   "fetchedAt": "2026-07-12T18:02:08.412Z",
+   "exams": [
+    {
+     "date": "2027-01-21",
+     "slot": "AM",
+     "name": "一次入学試験",
+     "note": "4科（国語・算数・理科・社会）。2026年は1/22(木)実施。2027年度日程は未公表のため前年同時期(1月第4木曜前後)を参考値として記載。要公式確認。",
+     "source": "https://www.tomas.co.jp/schola/list/junior_exam_info/6386/"
+    },
+    {
+     "date": "2027-02-02",
+     "slot": "AM",
+     "name": "二次入学試験",
+     "note": "4科。定員少なく倍率高い。2026年は2/2(月)実施。2027年度日程は未公表。要公式確認。",
+     "source": "https://www.tomas.co.jp/schola/list/junior_exam_info/6386/"
+    },
+    {
+     "date": "2027-01-20",
+     "slot": "AM",
+     "name": "帰国生入学試験",
+     "note": "英語筆記・リスニング・エッセイ＋面接（英語・日本語）。2026年は1/20(火)実施。2027年度日程未公表。要公式確認。",
+     "source": "https://www.tomas.co.jp/schola/list/junior_exam_info/6386/"
+    }
+   ],
+   "sessions": [
+    {
+     "date": "2026-11-07",
+     "name": "入試説明会（6年生対象）",
+     "note": "14:00開始、校内。事前予約制。日能研イベント情報より。2027年度入試向け説明会と推定。",
+     "source": "https://www.nichinoken.co.jp/np5/schoolinfo/sw/evt.php?shl_code=402"
+    },
+    {
+     "date": "2025-11-08",
+     "name": "入試説明会（2026年度入試・参考）",
+     "note": "2026年度入試向けは2025年11月8日(土)開催。事前申し込み制。Web配信期間：2025/11/21〜11/26も設定。",
+     "source": "https://www.tomas.co.jp/schola/list/junior_exam_info/6386/"
+    },
+    {
+     "date": "2025-10-22",
+     "name": "Web予約開始日（2026年度入試説明会）",
+     "note": "中学・高校入試説明会ともに2025年10月22日(水)10:00〜Web予約開始。",
+     "source": "https://www.shibumaku.jp/admissions/meeting-2-3-2/"
+    }
+   ],
+   "preferences": [
+    {
+     "desc": "特別特待生制度：各入試（一次・二次・帰国生）において成績優秀者を特別特待生として合格発表。入学納入金（入学金・施設拡充費）＋授業料相当額の奨学金を1年間給付。入学後も年度末審査で継続判定あり。",
+     "source": "https://www.shibumaku.jp/admissions/scholarship/"
+    },
+    {
+     "desc": "特待生制度：各入試で成績優秀者を特待生として合格発表。入学納入金（入学金・施設拡充費）相当額の奨学金を給付。",
+     "source": "https://www.shibumaku.jp/admissions/scholarship/"
+    },
+    {
+     "desc": "田村・松井・高梨顕彰記念奨学生奨学金：人物・学業成績が優秀で家計の事情で就学が困難な入学志願者に、入学金・施設拡充費＋在学中3年間の授業料相当額を給付。出願前に申請が必要。",
+     "source": "https://www.shibumaku.jp/admissions/scholarship-2/"
+    },
+    {
+     "desc": "授業料減免制度：在学中に家計急変等で就学困難になった場合、中学は全額または2/3を減免する制度あり。",
+     "source": "https://www.shibumaku.jp/admissions/scholarship-2/"
+    }
+   ],
+   "juku": [
+    {
+     "name": "SAPIX小学部",
+     "count": 370,
+     "year": "2026",
+     "source": "https://www.sapientica.com/success/"
+    },
+    {
+     "name": "早稲田アカデミー",
+     "count": 263,
+     "year": "2026",
+     "source": "https://www.waseda-ac.co.jp/elementary/result/"
+    },
+    {
+     "name": "四谷大塚（直営）",
+     "count": 95,
+     "year": "2026",
+     "source": "https://www.yotsuyaotsuka.com/goukaku_sokuhou/"
+    },
+    {
+     "name": "日能研（速報値参考）",
+     "count": 80,
+     "year": "2026",
+     "source": "https://jukushiru.com/article/post-28459/"
+    }
+   ],
+   "dev": {
+    "scale": "四谷大塚 合不合判定テスト Aライン80偏差値（2026年入試向け）",
+    "value": 70,
+    "source": "https://spacemaxum.com/2025/12/02/%E6%B8%8B%E8%B0%B7%E6%95%99%E8%82%B2%E5%AD%A6%E5%9C%92%E5%B9%95%E5%BC%B5%E4%B8%AD%E5%AD%A6%E6%A0%A1%EF%BC%882026%E5%B9%B4%E4%B8%AD%E5%AD%A6%E5%85%A5%E8%A9%A6%E3%80%91%E5%81%8F%E5%B7%AE%E5%80%A4/"
+   },
+   "notes": "【exams】2027年度入試要項は2026年7月9日付で入試情報の更新がshibumaku.jp公式に示されているが（School Guide 2027もメニューに存在）、具体的な日程PDFは未公表（2026年7月12日現在）。日程は2026年度実績（一次1/22・二次2/2・帰国生1/20）を参考に記載した推定値であり、必ず公式サイトで確認のこと。【sessions】2027年度入試向け説明会は日能研イベント情報で2026/11/7(土)14:00が確認できた。2026年度実績では11月上旬土曜開催・Web予約制。【juku】SAPIX公式は370名（最終確定値）、早稲田アカデミー公式263名、四谷大塚直営95名（ネットワーク計215名）。日能研の80名は塾シル2026/2/9速報値であり公式ページからの直接確認ができていない点に注意。【dev】四谷大塚A80偏差値は一次70・二次69（男女とも）。SAPIX80偏差値は64（男女とも）。"
+  },
+  "shuei": {
+   "id": "shuei",
+   "name": "昭和学院秀英",
+   "fetchedAt": "2026-07-12T18:02:56.940Z",
+   "exams": [
+    {
+     "date": "2027-01-20",
+     "slot": "PM",
+     "name": "午後特別入学試験",
+     "note": "国・算2科目（国80点40分、算120点60分）、募集30名。2026年度実績日程より推定。2027年度は未公表",
+     "source": "https://www.showa-shuei.ed.jp/cms/wp-content/themes/showa-shuei/assets/pdf/2026yokojr.pdf"
+    },
+    {
+     "date": "2027-01-22",
+     "slot": "AM",
+     "name": "第1回入学試験",
+     "note": "国・算・理・社4科目（国算各100点50分、理社各50点40分）、募集110名（帰国生含む）。2026年度実績日程より推定。2027年度は未公表",
+     "source": "https://www.showa-shuei.ed.jp/cms/wp-content/themes/showa-shuei/assets/pdf/2026yokojr.pdf"
+    },
+    {
+     "date": "2027-02-03",
+     "slot": "AM",
+     "name": "第2回入学試験",
+     "note": "国・算・理・社4科目、募集約20名。2026年度実績日程より推定。2027年度は未公表",
+     "source": "https://www.yotsuyaotsuka.com/juken/data/?code=339"
+    }
+   ],
+   "sessions": [
+    {
+     "date": "2026-07-25",
+     "name": "第1回中学校説明会（①）",
+     "note": "8:45〜9:45。7月1日9:00より申込受付開始、前日23:30締切",
+     "source": "https://schma.jp/schools/313"
+    },
+    {
+     "date": "2026-07-25",
+     "name": "第1回中学校説明会（②）",
+     "note": "10:45〜11:45。7月1日9:00より申込受付開始、前日23:30締切",
+     "source": "https://schma.jp/schools/313"
+    },
+    {
+     "date": "2026-08-22",
+     "name": "第2回中学校説明会",
+     "note": "8:45〜。申込方法は学校公式HPで案内",
+     "source": "https://www.showa-shuei.ed.jp/"
+    },
+    {
+     "date": "2026-09-05",
+     "name": "第3回中学校説明会",
+     "note": "13:30〜。申込方法は学校公式HPで案内",
+     "source": "https://www.showa-shuei.ed.jp/"
+    },
+    {
+     "date": "2026-10-31",
+     "name": "入試説明会（中学校）",
+     "note": "10:30〜。申込等については改めて学校公式HPに掲載予定",
+     "source": "https://www.showa-shuei.ed.jp/"
+    },
+    {
+     "date": "2026-06-25",
+     "name": "学校参観・学校説明会（四谷大塚主催）",
+     "note": "10:00〜11:30。要予約（四谷大塚経由）",
+     "source": "https://www.yotsuyaotsuka.com/resources/pdf/sankan/gaiyou.pdf"
+    }
+   ],
+   "preferences": [
+    {
+     "desc": "特待生制度：入学試験において成績優秀者を特待生として合格発表。入学後に「入学時納入金」および1年間の「授業料」相当額を奨学金として給付。特待生資格は年度ごとに審査・更新",
+     "source": "https://www.showa-shuei.ed.jp/cms/wp-content/themes/showa-shuei/assets/pdf/2026yokojr.pdf"
+    }
+   ],
+   "juku": [],
+   "dev": {
+    "scale": "四谷大塚 合不合判定テスト Aライン80偏差値（午後特別・2026年入試対応）",
+    "value": 64,
+    "source": "https://www.yotsuyaotsuka.com/juken/data/?code=339"
+   },
+   "notes": "【exams】2027年度入試日程は2026年7月時点で未公表。日程・科目は2026年度要項（学校公式PDF）および四谷大塚掲載の2026年入試情報を参考に推定。確定情報は学校公式サイト要確認。【juku】SAPIX・日能研・四谷大塚・早稲田アカデミー各社の2026年入試における昭和学院秀英中の個別合格者数は、各塾公式サイト（https://www.sapientica.com/success/ 等）の検索結果から具体的数値を確認できなかったため空配列とした。ダイヤモンド教育ラボによれば合格者数1位は四谷大塚と報告されている（https://diamond.jp/educate/juku-ranking/chugaku-chibaken/showa-shuei/）が、2026年分の具体数値は確認できず。【dev】第1回（1/22）のAライン80偏差値は61、第2回（2/3）は未取得。SAPIX偏差値は午後特別・第1回ともに58（2025年入試予想値、リセマム掲載）。"
+  },
+  "kaisei": {
+   "id": "kaisei",
+   "name": "開成",
+   "fetchedAt": "2026-07-12T18:03:34.500Z",
+   "exams": [
+    {
+     "date": "2027-02-01",
+     "slot": "AM",
+     "name": "中学入試（一般）",
+     "note": "国語50分85点・算数60分85点・理科40分70点・社会40分70点の4科目。募集300名。試験開始8:00〜8:40着席。2027年度募集要項は2026年12月中旬頃公開予定（学校公式サイトに準拠）",
+     "source": "https://kaiseigakuen.jp/cmswp/wp-content/uploads/2026/04/2026M_on_entrance_exam.pdf"
+    }
+   ],
+   "sessions": [
+    {
+     "date": "2026-10-18",
+     "name": "中学説明会 第1〜3回（土曜）",
+     "note": "9:30〜／11:10〜／14:50〜の3回。対象：小5・6年生とその保護者各1名。2026年度の日程は追って公式サイトで案内予定（掲載内容は2025年度実績）。要HP確認",
+     "source": "https://kaiseigakuen.jp/admission/briefing/"
+    },
+    {
+     "date": "2026-10-19",
+     "name": "中学説明会 第4〜6回（日曜）",
+     "note": "9:30〜／11:10〜／14:50〜の3回。対象：小5・6年生とその保護者各1名。各回60分程度",
+     "source": "https://kaiseigakuen.jp/admission/briefing/"
+    },
+    {
+     "date": "2026-10-18",
+     "name": "高校説明会 第1回",
+     "note": "13:10〜。対象：中学生とその保護者各1名。同一プログラム",
+     "source": "https://kaiseigakuen.jp/admission/briefing/"
+    },
+    {
+     "date": "2026-10-19",
+     "name": "高校説明会 第2回",
+     "note": "13:10〜。対象：中学生とその保護者各1名",
+     "source": "https://kaiseigakuen.jp/admission/briefing/"
+    },
+    {
+     "date": "2026-01-01",
+     "name": "海外在住小中学生向け説明会（2026年度）",
+     "note": "要予約。予約方法は追って公式サイトで案内",
+     "source": "https://kaiseigakuen.jp/admission/briefing/"
+    }
+   ],
+   "preferences": [],
+   "juku": [
+    {
+     "name": "SAPIX小学部",
+     "count": 229,
+     "year": "2026",
+     "source": "https://www.sapientica.com/success/"
+    },
+    {
+     "name": "早稲田アカデミー",
+     "count": 179,
+     "year": "2026",
+     "source": "https://www.waseda-ac.co.jp/elementary/result/"
+    },
+    {
+     "name": "日能研",
+     "count": 49,
+     "year": "2026",
+     "source": "https://www.nichinoken.co.jp/exam/tokyo_gs.html"
+    },
+    {
+     "name": "グノーブル",
+     "count": 23,
+     "year": "2026",
+     "source": "https://eleschool-compass.com/juku/jukudata/gnoble.html"
+    }
+   ],
+   "dev": {
+    "scale": "四谷大塚 Aライン80偏差値（2026年中学受験対応）",
+    "value": 72,
+    "source": "https://www.yotsuyaotsuka.com/juken/data/?code=105"
+   },
+   "notes": "【exams】2027年度募集要項は2026年7月現在未公開。日程・科目は2026年度実績（公式PDF）に基づく慣例値。試験は例年2月1日1回のみ、推薦・2次募集・帰国生特別試験なし。【sessions】2026年開催の説明会日程は公式サイト上「追ってご案内」のみ記載。掲載日付は2025年度の実績から参照。本年度日程は公式サイト（https://kaiseigakuen.jp/admission/briefing/）で要確認。【preferences】優遇・特待・複数回加点制度は確認できず（公式サイト上に記載なし）。【juku】四谷大塚の公式合格者数は現時点で単独公表が確認できず除外。SAPIX229名は公式サイト確認値。早稲アカ179名は公式サイト確認値。日能研49名は公式速報値（3月9日時点）。グノーブル23名は第三者サイト経由のため参考値。"
+  },
+  "azabu": {
+   "id": "azabu",
+   "name": "麻布",
+   "fetchedAt": "2026-07-12T18:04:27.155Z",
+   "exams": [
+    {
+     "date": "2027-02-01",
+     "slot": "AM",
+     "name": "2027年度入試（第1回）",
+     "note": "4教科（国語60分60点・算数60分60点・理科50分40点・社会50分40点）計200点満点。1回のみ実施。例年8:30集合・14:30終了。合格発表は2月3日午後3時予定",
+     "source": "https://www.azabu-jh.ed.jp/admission/"
+    }
+   ],
+   "sessions": [
+    {
+     "date": "2026-05-30",
+     "name": "学校見学会",
+     "note": "事前申込制（WEB）。mirai compassより予約",
+     "source": "https://www.azabu-jh.ed.jp/"
+    },
+    {
+     "date": "2026-07-04",
+     "name": "学校見学会",
+     "note": "事前申込制（WEB）。公式サイトより要申込",
+     "source": "https://www.azabu-jh.ed.jp/"
+    },
+    {
+     "date": "2026-10-10",
+     "name": "学校見学会",
+     "note": "事前申込制（WEB）。公式サイトより要申込",
+     "source": "https://www.azabu-jh.ed.jp/"
+    },
+    {
+     "date": "2026-01-01",
+     "name": "麻布学園web説明会（動画）",
+     "note": "申込不要。学校公式HPにて動画を常時配信中（2025年10月21日更新版）",
+     "source": "https://www.azabu-jh.ed.jp/admission/orientation/"
+    },
+    {
+     "date": "2026-03-06",
+     "name": "2026年度学園説明会・学校見学会のお知らせ（公式告知）",
+     "note": "公式サイトに年間スケジュール掲載。詳細はイベントページ参照",
+     "source": "https://www.azabu-jh.ed.jp/admission/event/"
+    }
+   ],
+   "preferences": [],
+   "juku": [
+    {
+     "name": "SAPIX小学部",
+     "count": 176,
+     "year": "2026",
+     "source": "https://www.sapientica.com/success/"
+    },
+    {
+     "name": "早稲田アカデミー",
+     "count": 115,
+     "year": "2026",
+     "source": "https://www.waseda-ac.co.jp/elementary/result/"
+    },
+    {
+     "name": "日能研",
+     "count": 60,
+     "year": "2026",
+     "source": "https://www.nichinoken.co.jp/exam/tokyo_gs.html"
+    },
+    {
+     "name": "四谷大塚（ネットワーク含む）",
+     "count": 77,
+     "year": "2026",
+     "source": "https://www.yotsuyaotsuka.com/goukaku_sokuhou/"
+    },
+    {
+     "name": "グノーブル",
+     "count": 20,
+     "year": "2026",
+     "source": "https://gno-jr.com/2026_goukaku/"
+    }
+   ],
+   "dev": {
+    "scale": "四谷大塚 合不合判定テスト Aライン80偏差値",
+    "value": 65,
+    "year": "2026",
+    "source": "https://www.kobekyo.com/study-info/3166/"
+   },
+   "notes": "【入試】2027年度入試の公式要項は2026年7月時点で未公開。日程・形式は例年踏襲（毎年2月1日午前・午後使用・4教科1回のみ）として記載。出願は例年12月中旬に事前登録・翌年1月10日頃に本出願開始。合格発表は2月3日午後、手続締切は2月4日正午。【説明会】学校公式のイベント詳細ページ(https://www.azabu-jh.ed.jp/admission/event/)はアクセス集中のため内容確認困難。5/30・7/4・10/10の学校見学会は公式トップページのお知らせより確認。学園説明会（秋開催）の具体日は2026年7月時点で公式未告知。【優遇制度】特待・複数回優遇制度は確認できず（入試1回のみのため該当なし）。【偏差値】四谷大塚Aライン80が65（一部サイトでは68と記載のケースあり）。日能研結果R4は66（2026年入試結果）。SAPIX偏差値は公式非公表のため除外。【juku注意】各塾の合格者数カウント基準が異なるため、合計が学校発表合格者数(360名)を超える場合あり。四谷大塚の77名はネットワーク校含む数値、直営のみは7名。"
+  },
+  "musashi": {
+   "id": "musashi",
+   "name": "武蔵",
+   "fetchedAt": "2026-07-12T18:06:21.111Z",
+   "exams": [
+    {
+     "date": "2027-02-01",
+     "slot": "AM",
+     "name": "2027年度入試",
+     "note": "国語・算数・社会・理科の4科筆記試験、面接なし、募集160名（例年通り想定）。2027年度募集要項は2026年9月26日公開予定",
+     "source": "https://www.musashi.ed.jp/admission/general.html"
+    }
+   ],
+   "sessions": [
+    {
+     "date": "2026-06-13",
+     "name": "学校説明会【対象：全学年】",
+     "note": "要予約（学校公式サイトから1回目・2回目を選択して申込）、校内見学あり",
+     "source": "https://www.musashi.ed.jp/event/bip8m40000000hpc.html"
+    },
+    {
+     "date": "2026-10-17",
+     "name": "入試説明会【対象：5・6年生】",
+     "note": "2026年度入学試験のしおり（募集要項）は9月26日公開予定。入構開始13:00",
+     "source": "https://www.musashi.ed.jp/event/j6vg850000000h4d.html"
+    },
+    {
+     "date": "2026-11-15",
+     "name": "校内見学会【対象：全学年】",
+     "note": "学校公式サイト記載。詳細・予約方法は追って公開",
+     "source": "https://www.musashi.ed.jp/prospective/index.html"
+    }
+   ],
+   "preferences": [],
+   "juku": [
+    {
+     "name": "早稲田アカデミー",
+     "count": 70,
+     "year": "2026",
+     "source": "https://eleschool-compass.com/juku/jukudata/waseda_academy.html"
+    },
+    {
+     "name": "SAPIX小学部",
+     "count": 51,
+     "year": "2026",
+     "source": "https://www.sapientica.com/success/"
+    },
+    {
+     "name": "日能研",
+     "count": 28,
+     "year": "2026",
+     "source": "https://note.com/musashi_next/n/n1d4d13ffdbf4"
+    },
+    {
+     "name": "四谷大塚（直営）",
+     "count": 9,
+     "year": "2026",
+     "source": "https://bestjuku.com/juku/113/result/"
+    },
+    {
+     "name": "四谷大塚（ネットワーク含む）",
+     "count": 34,
+     "year": "2026",
+     "source": "https://www.yotsuyaotsuka.com/goukaku_sokuhou/"
+    }
+   ],
+   "dev": {
+    "scale": "四谷大塚 合不合判定テスト Aライン80偏差値（2026年中学受験対応）",
+    "value": 66,
+    "source": "https://www.yotsuyaotsuka.com/juken/data/?code=691"
+   },
+   "notes": "【exams】2027年度入試の正式募集要項は2026年9月26日公開予定（入試説明会ページより）。日程・方式は例年通り2月1日AM・4科1回勝負と想定されるが、学校公式サイトでの確定発表はまだない。【sessions】6/13説明会は既に開催済み（本日2026/7/12時点）。10/17入試説明会・11/15校内見学会は公式サイト掲載の今後の予定。【preferences】特待・加点・複数回優遇等の制度は学校公式サイトに記載なく、確認できないため空配列。【juku】日能研28名はnote記事（武蔵NEXT）による二次集計値（公式発表ページでの直接確認は困難）。四谷大塚ネットワーク34名は公式合格実績ページより（直営9名を含む）。早稲田アカデミー70名は第三者サイト集計値だが早稲田AC公式実績ページの数値と整合。【dev】日能研2026年結果R4偏差値は68（リセマム記事より）、SAPIX2026年結果80%偏差値は公式未取得（2025年入試結果では60、2026年予想では約60）。四谷大塚Aライン80偏差値66を採用。"
+  },
+  "komato": {
+   "id": "komato",
+   "name": "駒場東邦",
+   "fetchedAt": "2026-07-12T18:07:03.950Z",
+   "exams": [
+    {
+     "date": "2027-02-01",
+     "slot": "AM",
+     "name": "一般入試（1回のみ）",
+     "note": "4科目（算数・国語・理科・社会）。募集定員約240名。出願期間等は2027年度要項の公表待ち（2026年度実績：1月10日〜1月26日インターネット出願）",
+     "source": "https://www.komabajh.toho-u.ac.jp/examination/32826/shutugannnyuusi.html"
+    }
+   ],
+   "sessions": [
+    {
+     "date": "2026-06-13",
+     "name": "駒東体験会",
+     "note": "13:00〜16:00、要予約（WEB）、小5・小6対象、クラブ活動体験",
+     "source": "https://www.komabajh.toho-u.ac.jp/"
+    },
+    {
+     "date": "2026-10-11",
+     "name": "学校説明会（第1日）",
+     "note": "9:00〜16:30、自校講堂、要予約。全8回実施のうち3回分（10/11日・10/17土・10/18日）",
+     "source": "https://www.ikushin.co.jp/school/pdf/03413.pdf"
+    },
+    {
+     "date": "2026-10-17",
+     "name": "学校説明会（第2日・土曜）",
+     "note": "12:00〜17:00、自校講堂、要予約",
+     "source": "https://www.ikushin.co.jp/school/pdf/03413.pdf"
+    },
+    {
+     "date": "2026-10-18",
+     "name": "学校説明会（第3日）",
+     "note": "9:00〜16:30、自校講堂、要予約。日能研情報では9:30開始を確認",
+     "source": "https://www.nichinoken.co.jp/np5/schoolinfo/sw/evt.php?shl_code=184"
+    },
+    {
+     "date": "2026-09-19",
+     "name": "文化祭（エデュスタ）",
+     "note": "9/19・20の2日間、一般公開あり、予約不要",
+     "source": "https://www.ikushin.co.jp/school/pdf/03413.pdf"
+    }
+   ],
+   "preferences": [],
+   "juku": [
+    {
+     "name": "SAPIX小学部",
+     "count": 143,
+     "year": "2026",
+     "source": "https://note.com/kaawaaei/n/n115c8b15ef0d"
+    },
+    {
+     "name": "早稲田アカデミー",
+     "count": 68,
+     "year": "2026",
+     "source": "https://www.waseda-ac.co.jp/elementary/option/target/komaba/"
+    },
+    {
+     "name": "日能研",
+     "count": 46,
+     "year": "2026",
+     "source": "https://note.com/kaawaaei/n/n115c8b15ef0d"
+    },
+    {
+     "name": "グノーブル",
+     "count": 23,
+     "year": "2026",
+     "source": "https://note.com/kaawaaei/n/n115c8b15ef0d"
+    }
+   ],
+   "dev": {
+    "scale": "四谷大塚 合不合判定テスト Aライン80偏差値（2027年中学受験対応）",
+    "value": 66,
+    "source": "https://www.yotsuyaotsuka.com/juken/data/?code=242"
+   },
+   "notes": "【重要】2027年度入試の公式日程・募集要項は2026年7月時点で未公表（学校公式サイトに「2027年度 学校案内」は掲載済み）。入試日2/1・4科目・1回入試の形式は例年踏襲の可能性が高いが、確定情報は学校公式サイト要確認。四谷大塚の駒場東邦向け合格者数は公式ページから個別数値を直接確認できなかったため未掲載。早稲田アカデミーの68名はNN駒場東邦クラスページの公式記載値。塾別合格者数は各塾の集計基準が異なるため単純比較不可。優遇・特待・複数回優遇制度は確認できず（駒場東邦は入試1回のみのため複数回優遇制度なし）。説明会日程はikushin.co.jp（2026年6月30日現在版）および日能研公式より取得。2026年10月の学校説明会詳細（各回時刻）は例年パターンであり、2026年度の公式発表は公式サイト要確認。"
+  },
+  "tsukukoma": {
+   "id": "tsukukoma",
+   "name": "筑波大学附属駒場",
+   "fetchedAt": "2026-07-12T18:07:55.269Z",
+   "exams": [
+    {
+     "date": "2027-02-03",
+     "slot": "AM",
+     "name": "第2次選考（学力検査）",
+     "note": "国・算・理・社の4教科各40分・各100点、報告書100点の計500点満点。面接・実技なし。試験は2月3日の1回のみ。2027年度入試要項は未公表（準備中）。2026年度実績：出願625名、第2次受検539名、合格132名、実質倍率4.08倍",
+     "source": "https://www.komaba-s.tsukuba.ac.jp/admission/selection-status-jh/"
+    },
+    {
+     "date": "2027-01-01",
+     "slot": "AM",
+     "name": "第1次選考（抽選）",
+     "note": "募集人員の約8倍を抽選で選考。抽選不実施の場合は出願者全員が通過。2026年度は抽選なし（出願者全員625名が通過）。具体的日時は2027年度要項で確認要。",
+     "source": "https://www.zkai.co.jp/exam-navi/el/el-kihon/k-tsukukoma/"
+    }
+   ],
+   "sessions": [
+    {
+     "date": "2026-10-01",
+     "name": "中学校 学校説明会（2026年度開催予定）",
+     "note": "例年10月の土・日曜日に年1回開催。2025年度は10月12・13日に実施。2026年度の具体的日程は例年6〜7月に公式サイトで告知予定。ミライコンパス経由で予約の可能性あり。",
+     "source": "https://www.komaba-s.tsukuba.ac.jp/admission/faq/"
+    },
+    {
+     "date": "2026-10-13",
+     "name": "学校案内（TSUKUKOMA GUIDE 2025-2026）窓口配布開始",
+     "note": "2026年10月13日（火）より平日窓口で配布開始（年末年始除く）。web版はダウンロード可。",
+     "source": "https://www.komaba-s.tsukuba.ac.jp/admission/"
+    }
+   ],
+   "preferences": [],
+   "juku": [
+    {
+     "name": "SAPIX小学部",
+     "count": 85,
+     "year": "2026",
+     "source": "https://www.sapientica.com/success/"
+    },
+    {
+     "name": "早稲田アカデミー",
+     "count": 57,
+     "year": "2026",
+     "source": "https://www.waseda-ac.co.jp/elementary/result/index_2016.html"
+    },
+    {
+     "name": "四谷大塚（直営＋NET塾合計）",
+     "count": 33,
+     "year": "2026",
+     "source": "https://www.yotsuyaotsuka.com/goukaku_sokuhou/"
+    },
+    {
+     "name": "グノーブル",
+     "count": 6,
+     "year": "2026",
+     "source": "https://gno-jr.com/2026_goukaku/"
+    }
+   ],
+   "dev": {
+    "scale": "四谷大塚 合不合判定テスト 合格可能性80%偏差値（第4回・2025年10月実施）",
+    "value": 74,
+    "source": "https://resemom.jp/article/2025/10/14/83646.html"
+   },
+   "notes": "【重要】2027年度入試（2027年1〜2月実施）の募集要項は2026年7月時点で未公表。試験日は例年2月3日固定（1回のみ）のため2027-02-03と記載したが、要公式確認。第1次選考（抽選）日程も未定。学校説明会の2026年度日程は公式サイトで6〜7月頃に告知予定（例年10月の土日1回のみ）。優遇・特待・複数回優遇等の制度は存在しない（国立・1回入試のため）。四谷大塚の33名は直営のみの数値の可能性あり（NET塾含む場合は別途確認要）。日能研の2026年筑駒合格者数は公式サイトで個別校数値未公開のため除外。"
+  },
+  "waseda": {
+   "id": "waseda",
+   "name": "早稲田",
+   "fetchedAt": "2026-07-12T18:08:48.821Z",
+   "exams": [
+    {
+     "date": "2027-02-01",
+     "slot": "AM",
+     "name": "第1回",
+     "note": "国語・算数・理科・社会（4科目）、募集200名、受験料27,000円、第1回合格者は第2回受験不可",
+     "source": "https://www.waseda-h.ed.jp/exam/overview/"
+    },
+    {
+     "date": "2027-02-03",
+     "slot": "AM",
+     "name": "第2回",
+     "note": "国語・算数・理科・社会（4科目）、募集100名、受験料27,000円（1・2回同時出願54,000円、1回合格入学手続完了で2回分返金）",
+     "source": "https://www.waseda-h.ed.jp/exam/overview/"
+    }
+   ],
+   "sessions": [
+    {
+     "date": "2026-08-22",
+     "name": "学校説明会・施設見学（1日目）",
+     "note": "保護者限定説明会（要事前予約・インターネット予約、2026/7/6より予約サイト公開）＋施設見学（予約不要）9:00〜16:00",
+     "source": "https://www.waseda-h.ed.jp/exam/description_party/"
+    },
+    {
+     "date": "2026-08-23",
+     "name": "学校説明会・施設見学（2日目）",
+     "note": "保護者限定説明会（要事前予約）＋施設見学（予約不要）9:00〜16:00",
+     "source": "https://www.waseda-h.ed.jp/exam/description_party/"
+    },
+    {
+     "date": "2026-08-29",
+     "name": "東京都私立学校展",
+     "note": "東京国際フォーラム（8/29〜8/30）、早稲田中学校も参加予定",
+     "source": "https://www.waseda-h.ed.jp/"
+    },
+    {
+     "date": "2026-10-04",
+     "name": "興風祭（文化祭）",
+     "note": "一般公開、予約不要（日能研掲載情報）、2日間開催（10/3〜10/4予定）",
+     "source": "https://www.nichinoken.co.jp/np5/schoolinfo/sw/evt.php?shl_code=207"
+    }
+   ],
+   "preferences": [
+    {
+     "desc": "第1回・第2回同時出願かつ第1回合格後に入学手続を完了した場合、第2回の検定料（27,000円）を口座振込で返金",
+     "source": "https://www.waseda-h.ed.jp/exam/overview/"
+    },
+    {
+     "desc": "入学辞退者は所定の手続きで申し出た場合、学費のみ返金（四谷大塚掲載情報）",
+     "source": "https://www.yotsuyaotsuka.com/juken/data/?code=765"
+    }
+   ],
+   "juku": [
+    {
+     "name": "早稲田アカデミー",
+     "count": 238,
+     "year": "2026",
+     "source": "https://jukushiru.com/article/post-28459/"
+    },
+    {
+     "name": "SAPIX",
+     "count": 182,
+     "year": "2026",
+     "source": "https://jukushiru.com/article/post-28459/"
+    },
+    {
+     "name": "日能研",
+     "count": 42,
+     "year": "2026",
+     "source": "https://jukushiru.com/article/post-28459/"
+    }
+   ],
+   "dev": {
+    "scale": "四谷大塚 合不合判定テスト Aライン80偏差値（第2回・2026年入試結果）",
+    "value": 68,
+    "source": "https://www.yotsuyaotsuka.com/juken/data/?code=765"
+   },
+   "notes": "2027年度入試の出願開始日は学校公式サイトの資料に2026/12/19(土)と記載があったが、2026/6/12付の訂正で正しくは2026/12/20(日)と修正済み（締切は2027/1/23(土)）。興風祭の2026年度具体日程（10/3・4か10/4のみ等）は日能研掲載では10/4のみ確認できたが、公式サイトでは「9月下旬〜10月上旬の土日2日間」とのみ記載で確定日程未公表。四谷大塚の早稲田中2026年合格者数は公式サイトでは早稲田「中学」単独の数値未確認（早稲田実業は65名と記載あり）。日能研R4偏差値2026年入試結果：第1回66、第2回67（resemom掲載）。SAPIX80%偏差値2026年入試結果は第1回57相当（他塾比較換算）。塾別合格者数は2026/2/9時点の速報値（塾シル集計）であり、各塾の最終確定値とは異なる可能性がある。"
+  },
+  "kaijo": {
+   "id": "kaijo",
+   "name": "海城",
+   "fetchedAt": "2026-07-12T18:09:28.961Z",
+   "exams": [
+    {
+     "date": "2027-01-07",
+     "slot": "AM",
+     "name": "帰国生入試",
+     "note": "A方式：国・算、B方式：国・算・英＋面接（日本語）。募集30名。2027年度版要項は2026年6月中旬以降公開予定",
+     "source": "https://www.kaijo.ed.jp/admission/from-abroad"
+    },
+    {
+     "date": "2027-02-01",
+     "slot": "AM",
+     "name": "一般入試①",
+     "note": "4科目（国120点・算120点・社80点・理80点、計400点満点）。募集男子145名。集合8:00",
+     "source": "https://note.com/susumujuku/n/n338c0e2100dd"
+    },
+    {
+     "date": "2027-02-03",
+     "slot": "AM",
+     "name": "一般入試②",
+     "note": "4科目（国120点・算120点・社80点・理80点、計400点満点）。募集男子145名。1,000名超受験の大規模試験",
+     "source": "https://note.com/susumujuku/n/n338c0e2100dd"
+    }
+   ],
+   "sessions": [
+    {
+     "date": "2026-07-25",
+     "name": "帰国生対象学校説明会",
+     "note": "13:00〜、校内、小4〜6年生対象受験生・保護者。Web予約（ミライコンパス）",
+     "source": "https://www.nichinoken.co.jp/np5/schoolinfo/sw/evt.php?shl_code=224"
+    },
+    {
+     "date": "2026-08-22",
+     "name": "夏のオープンキャンパス2026（1日目）",
+     "note": "各教科展示・プレゼン・クラブ公開練習。事前予約制・3回3時間入替制（各回500組）、小4〜6対象。予約開始日未公表",
+     "source": "https://www.kaijo.ed.jp/admission/orientation"
+    },
+    {
+     "date": "2026-08-23",
+     "name": "夏のオープンキャンパス2026（2日目）",
+     "note": "内容同上。事前予約制",
+     "source": "https://www.kaijo.ed.jp/admission/orientation"
+    },
+    {
+     "date": "2026-09-20",
+     "name": "海城祭（文化祭）",
+     "note": "9:30〜、一般公開",
+     "source": "https://www.nichinoken.co.jp/np5/schoolinfo/sw/evt.php?shl_code=224"
+    },
+    {
+     "date": "2026-10-10",
+     "name": "ミニ・オープンキャンパス（秋①）",
+     "note": "13:30〜16:00、2部制・各回500組、小3〜6対象。Web予約開始9月10日(木)12時",
+     "source": "https://www.kaijo.ed.jp/admission/orientation"
+    },
+    {
+     "date": "2026-11-07",
+     "name": "ミニ・オープンキャンパス（秋②）",
+     "note": "13:30〜16:00、2部制・各回500組、小1〜6対象。Web予約開始10月13日(火)12時",
+     "source": "https://www.kaijo.ed.jp/admission/orientation"
+    }
+   ],
+   "preferences": [
+    {
+     "desc": "特待・加点・複数回優遇制度は公式サイト・要項上で確認できず。帰国生入試合格者は一般入試にも出願可能（別日程のため重複受験可）",
+     "source": "https://www.kaijo.ed.jp/admission/general"
+    }
+   ],
+   "juku": [
+    {
+     "name": "SAPIX小学部",
+     "count": 242,
+     "year": "2026",
+     "source": "https://jukushiru.com/article/post-28459/"
+    },
+    {
+     "name": "早稲田アカデミー",
+     "count": 143,
+     "year": "2026",
+     "source": "https://jukushiru.com/article/post-28459/"
+    },
+    {
+     "name": "四谷大塚",
+     "count": 147,
+     "year": "2026",
+     "source": "https://www.yotsuyaotsuka.com/goukaku_sokuhou/"
+    },
+    {
+     "name": "日能研",
+     "count": 57,
+     "year": "2026",
+     "source": "https://jukushiru.com/article/post-28459/"
+    }
+   ],
+   "dev": {
+    "scale": "四谷大塚 合不合判定テスト Aライン80偏差値（2回・2026年中学受験対応）",
+    "value": 67,
+    "source": "https://www.yotsuyaotsuka.com/juken/data/?code=104"
+   },
+   "notes": "2027年度入試要項は2026年6月中旬以降公開予定（公式サイト明記）。入試日程（1/7帰国・2/1一般①・2/3一般②）は過去年度からの慣例に基づく予測を含む。学校は一斉講堂形式の説明会を実施せず、オープンキャンパス形式のみ。四谷大塚合格者数147名は2026年3月31日確定値。SAPIX・早稲田アカデミー・日能研は2026年2月9日時点速報値。グノーブルの海城向け合格者数は公表値が検索で確認できなかったため除外。"
+  },
+  "keiofutsubu": {
+   "id": "keiofutsubu",
+   "name": "慶應義塾普通部",
+   "fetchedAt": "2026-07-12T18:10:14.271Z",
+   "exams": [
+    {
+     "date": "2027-02-07",
+     "slot": "AM",
+     "name": "一般入試（筆記・面接・体育実技）",
+     "note": "国語・算数・社会・理科の4科目筆記＋面接試問（本人のみ）＋体育実技。募集約180名（内部進学者数により変動）。2027年度正式日程未公表のため例年パターン（2月第1日曜）を記載。",
+     "source": "https://www.kf.keio.ac.jp/admission/examination/"
+    }
+   ],
+   "sessions": [
+    {
+     "date": "2026-04-29",
+     "name": "学外説明会・相談会（4月29日）",
+     "note": "学外会場にて普通部教員が対応。詳細会場・予約方法は公式サイト参照。",
+     "source": "https://www.kf.keio.ac.jp/admission/gakugai/"
+    },
+    {
+     "date": "2025-09-13",
+     "name": "学校説明会（2025年度・終了済）",
+     "note": "9月13日(土)・14日(日)実施。事前予約制。小4〜6年生と保護者2名、各家庭3名以内。2026年開催分の日程は2026年7月現在未公表。",
+     "source": "https://www.kf.keio.ac.jp/admission/setsumeikai/"
+    }
+   ],
+   "preferences": [],
+   "juku": [
+    {
+     "name": "SAPIX小学部",
+     "count": 116,
+     "year": "2026",
+     "source": "https://www.sapientica.com/success/"
+    },
+    {
+     "name": "早稲田アカデミー",
+     "count": 90,
+     "year": "2026",
+     "source": "https://www.waseda-ac.co.jp/elementary/result/"
+    },
+    {
+     "name": "日能研（東海エリア速報値・参考）",
+     "count": 17,
+     "year": "2026",
+     "source": "https://www.nichinoken.co.jp/exam/tokai_gs.html"
+    }
+   ],
+   "dev": {
+    "scale": "四谷大塚 合不合判定テスト 合格可能性80%Aライン（2025年10月第4回実施）",
+    "value": 65,
+    "source": "https://resemom.jp/article/2025/10/14/83646.html"
+   },
+   "notes": "【入試日程】2027年度（2027年2月実施）の正式日程は学校公式サイトに未公表（2026年7月現在）。例年2月第1日曜日実施のパターンに基づき2027-02-07と記載したが、確定次第公式サイトで要確認。【説明会】2026年秋の学校説明会日程は学校公式サイトに未掲載。例年9月に開催、事前予約制。【塾別合格者数】日能研は神奈川エリア全合格者数ページで普通部の数値が非表示のため、東海エリア速報ページに掲載されていた17名を参考値として記載（全国集計との関係は不明）。四谷大塚は慶應義塾普通部の合格者数を公式に非公表。【偏差値】SAPIX結果偏差値80%=58（2026年入試結果、複数情報サイトで確認されるが公式偏差値表PDFの一次出典は非公開扱い）。四谷大塚80%=65は2025年10月時点の予想偏差値。"
+  },
+  "shiba": {
+   "id": "shiba",
+   "name": "芝",
+   "fetchedAt": "2026-07-12T18:10:55.933Z",
+   "exams": [
+    {
+     "date": "2027-02-01",
+     "slot": "AM",
+     "name": "第1回",
+     "note": "4科目（国語100点・算数100点・社会75点・理科75点）、募集150名。2027年度要項は未発表のため2026年度実績に基づく推定。",
+     "source": "https://www.shiba.ac.jp/admissions/recruitment.html"
+    },
+    {
+     "date": "2027-02-04",
+     "slot": "AM",
+     "name": "第2回",
+     "note": "4科目（同上）、募集130名。2027年度要項は未発表のため2026年度実績に基づく推定。",
+     "source": "https://www.shiba.ac.jp/admissions/recruitment.html"
+    }
+   ],
+   "sessions": [
+    {
+     "date": "2026-05-16",
+     "name": "学校説明会 第1回",
+     "note": "11:00〜12:00（開場10:15）、芝学園講堂、定員1500名、予約申込制（5/2 9:00〜受付開始）",
+     "source": "https://www.shiba.ac.jp/news/detail.html?id=312"
+    },
+    {
+     "date": "2026-05-30",
+     "name": "学校説明会 第2回",
+     "note": "11:00〜12:00（開場10:15）、芝学園講堂、定員1500名、予約申込制",
+     "source": "https://www.shiba.ac.jp/news/detail.html?id=312"
+    },
+    {
+     "date": "2026-06-20",
+     "name": "学校説明会 第3回",
+     "note": "11:00〜12:00（開場10:15）、芝学園講堂、定員1500名、予約申込制",
+     "source": "https://www.shiba.ac.jp/news/detail.html?id=312"
+    },
+    {
+     "date": "2026-10-24",
+     "name": "学校説明会 第4回",
+     "note": "11:00〜12:00（開場10:15）、芝学園講堂、定員1500名、予約申込制（10/4 9:00〜受付開始）",
+     "source": "https://www.shiba.ac.jp/news/detail.html?id=312"
+    },
+    {
+     "date": "2026-11-07",
+     "name": "学校説明会 第5回",
+     "note": "11:00〜12:00（開場10:15）、芝学園講堂、定員1500名、予約申込制",
+     "source": "https://www.shiba.ac.jp/news/detail.html?id=312"
+    },
+    {
+     "date": "2026-12-05",
+     "name": "学校説明会 第6回",
+     "note": "11:00〜12:00（開場10:15）、芝学園講堂、定員1500名、予約申込制",
+     "source": "https://www.shiba.ac.jp/news/detail.html?id=312"
+    }
+   ],
+   "preferences": [
+    {
+     "desc": "複数回優遇あり（加点方式）：第1回・第2回を両方受験した場合、第2回入試で加点措置あり。加点幅は非公表（5点以上10点未満との情報あり）。また繰り上げ合格枠でも複数回受験者を優遇。特待制度は非設定。",
+     "source": "https://note.com/chujyu_sansuu/n/n207341a683db"
+    }
+   ],
+   "juku": [
+    {
+     "name": "SAPIX小学部",
+     "count": null,
+     "year": "2026",
+     "source": "https://www.sapientica.com/success/"
+    },
+    {
+     "name": "早稲田アカデミー",
+     "count": null,
+     "year": "2026",
+     "source": "https://www.waseda-ac.co.jp/elementary/result/"
+    },
+    {
+     "name": "日能研",
+     "count": null,
+     "year": "2026",
+     "source": "https://www.nichinoken.co.jp/np5/schoolinfo/sw/exam.php?shl_code=116"
+    },
+    {
+     "name": "四谷大塚",
+     "count": null,
+     "year": "2026",
+     "source": "https://www.yotsuyaotsuka.com/goukaku_sokuhou/"
+    }
+   ],
+   "dev": {
+    "scale": "四谷大塚 合不合判定テスト Aライン80偏差値",
+    "value": 64,
+    "source": "https://www.yotsuyaotsuka.com/juken/data/?code=289"
+   },
+   "notes": "【exams】2027年度（2027年1〜2月実施）の入試要項は2026年7月時点で未発表。日程・募集人員・科目は直近2026年度実績からの推定。公式確認は https://www.shiba.ac.jp/admissions/recruitment.html で随時。【juku】2026年入試の塾別合格者数について、SAPIX・早稲アカ・日能研・四谷大塚の各公式サイトおよび集計記事を調査したが、芝中学校の具体的な合格者数は各塾公式サイトの一覧ページ（検索要）でのみ確認可能で、本調査ではスクレイプ不可のため数値をnullとした。各塾公式サイトにて直接検索を推奨。SAPIXが最多合格者数を占めるとの複数情報あり。【dev】四谷大塚Aライン80偏差値は第1回59・第2回64。代表値として第2回の64を記載。"
+  },
+  "hongo": {
+   "id": "hongo",
+   "name": "本郷",
+   "fetchedAt": "2026-07-12T18:11:45.048Z",
+   "exams": [
+    {
+     "date": "2027-02-01",
+     "slot": "AM",
+     "name": "第1回",
+     "note": "4科(国語100点・算数100点・社会75点・理科75点)、募集100名、集合8:00、合格発表当日19:00頃",
+     "source": "https://www.hongo.ed.jp/admission/exam/"
+    },
+    {
+     "date": "2027-02-02",
+     "slot": "AM",
+     "name": "第2回",
+     "note": "4科同上、募集140名、集合8:00、合格発表当日19:00頃",
+     "source": "https://www.hongo.ed.jp/admission/exam/"
+    },
+    {
+     "date": "2027-02-05",
+     "slot": "AM",
+     "name": "第3回",
+     "note": "4科同上、募集40名、集合8:00、合格発表当日19:00頃。繰り上げ合格は複数回受験者から優先",
+     "source": "https://www.hongo.ed.jp/admission/exam/"
+    }
+   ],
+   "sessions": [
+    {
+     "date": "2026-09-05",
+     "name": "学校説明会",
+     "note": "校内・受験生保護者対象、要予約(学校HP)",
+     "source": "https://www.nichinoken.co.jp/np5/schoolinfo/sw/evt.php?shl_code=231"
+    },
+    {
+     "date": "2026-09-12",
+     "name": "学校説明会",
+     "note": "校内・受験生保護者対象、要予約(学校HP)",
+     "source": "https://www.nichinoken.co.jp/np5/schoolinfo/sw/evt.php?shl_code=231"
+    },
+    {
+     "date": "2026-10-10",
+     "name": "学校説明会",
+     "note": "校内・受験生保護者対象、要予約(学校HP)",
+     "source": "https://www.nichinoken.co.jp/np5/schoolinfo/sw/evt.php?shl_code=231"
+    },
+    {
+     "date": "2026-10-11",
+     "name": "学校説明会",
+     "note": "校内・受験生保護者対象、要予約(学校HP)",
+     "source": "https://www.nichinoken.co.jp/np5/schoolinfo/sw/evt.php?shl_code=231"
+    },
+    {
+     "date": "2026-11-03",
+     "name": "入試説明会（6年生対象）",
+     "note": "校内・受験生保護者対象、要予約(学校HP)",
+     "source": "https://www.nichinoken.co.jp/np5/schoolinfo/sw/evt.php?shl_code=231"
+    },
+    {
+     "date": "2026-09-27",
+     "name": "本郷祭（文化祭）",
+     "note": "一般公開",
+     "source": "https://www.nichinoken.co.jp/np5/schoolinfo/sw/evt.php?shl_code=231"
+    }
+   ],
+   "preferences": [
+    {
+     "desc": "帰国子女優遇：1年超の海外在留かつ帰国後3年以内の日本国籍者に4科合計点へ10点加点",
+     "source": "https://www.hongo.ed.jp/admission/exam/"
+    },
+    {
+     "desc": "複数回出願し本校に入学した場合、以降の未受験分の検定料を返金",
+     "source": "https://www.hongo.ed.jp/admission/exam/"
+    },
+    {
+     "desc": "繰り上げ合格は複数回実受験者から優先して選出",
+     "source": "https://www.hongo.ed.jp/admission/exam/"
+    }
+   ],
+   "juku": [],
+   "dev": {
+    "scale": "四谷大塚 合不合判定テスト 結果Aライン80偏差値（2026年入試結果・速報版）",
+    "value": 63,
+    "source": "https://resemom.jp/special/767/recent/%E6%9C%AC%E9%83%B7%E4%B8%AD%E5%AD%A6%E6%A0%A1%E3%83%BB%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A1"
+   },
+   "notes": "2027年度入試の公式日程はまだ未発表（2026年7月12日時点）。examsの日付は2026年度（令和8年度）入試と同パターンを曜日考慮で推定。学校公式サイトでは2026年度募集要項のみ公開中。塾別合格者数（2026年入試）は各塾公式サイト・塾シル等の検索結果からも本郷中単独の具体的数値を確認できなかったため空配列とした。四谷大塚80偏差値は第1回59・第2回63・第3回64（2024年結果値、リセマム掲載）が参考値。2026年結果偏差値の公式数値は四谷大塚が偏差値表公開を取りやめたため速報版のみ存在し公式確認不可。説明会の第2回入試説明会（11月）は日能研サイトに掲載あるが具体日未確認。"
+  },
+  "sugamo": {
+   "id": "sugamo",
+   "name": "巣鴨",
+   "fetchedAt": "2026-07-12T18:12:43.172Z",
+   "exams": [
+    {
+     "date": "2027-02-01",
+     "slot": "AM",
+     "name": "第Ⅰ期",
+     "note": "4科目（国・算・理・社）。2026年度実績：募集80名、志願者253名。2027年度要項は未公開（準備中）",
+     "source": "https://www.sugamo.ed.jp/content/wp-content/uploads/2026/02/2026%E5%B7%A3%E9%B4%A8%E4%B8%AD%E5%AD%A6%E6%A0%A1_%E4%B8%AD%E5%AD%A6%E2%85%A0%E6%9C%9F.pdf"
+    },
+    {
+     "date": "2027-02-01",
+     "slot": "PM",
+     "name": "算数選抜",
+     "note": "算数1科目。2026年度実績：募集20名、志願者598名。2027年度要項は未公開",
+     "source": "https://www.sugamo.ed.jp/content/archives/11784?category=entrance"
+    },
+    {
+     "date": "2027-02-02",
+     "slot": "AM",
+     "name": "第Ⅱ期",
+     "note": "4科目（国・算・理・社）。2026年度実績：募集100名、志願者462名。2027年度要項は未公開",
+     "source": "https://www.sugamo.ed.jp/content/wp-content/uploads/2026/02/2026%E5%B7%A3%E9%B4%A8%E4%B8%AD%E5%AD%A6%E6%A0%A1_%E4%B8%AD%E5%AD%A6%E2%85%A0%E6%9C%9F.pdf"
+    },
+    {
+     "date": "2027-02-04",
+     "slot": "AM",
+     "name": "第Ⅲ期",
+     "note": "4科目（国・算・理・社）。2026年度実績：募集40名、志願者318名。2027年度要項は未公開",
+     "source": "https://www.sugamo.ed.jp/content/archives/11784?category=entrance"
+    }
+   ],
+   "sessions": [
+    {
+     "date": "2026-05-09",
+     "name": "2026年度 第1回 中学校説明会",
+     "note": "10:00〜。予約受付開始4月20日(月)10:00〜。要事前予約（ミライコンパス）。ギムナシオン（体育館）で開催",
+     "source": "https://www.sugamo.ed.jp/content/archives/12975?category=entrance"
+    },
+    {
+     "date": "2026-06-20",
+     "name": "2026年度 第2回 中学校説明会",
+     "note": "10:00〜11:30。要事前予約",
+     "source": "https://schma.jp/schools/63?moshi=yotsuya&deviGender=man"
+    },
+    {
+     "date": "2026-10-03",
+     "name": "2026年度 第3回 中学校説明会",
+     "note": "10:00〜。要事前予約",
+     "source": "https://www.sugamo.ed.jp/content/archives/12975?category=entrance"
+    },
+    {
+     "date": "2026-10-31",
+     "name": "2026年度 第4回 中学校説明会",
+     "note": "10:00〜。要事前予約",
+     "source": "https://www.sugamo.ed.jp/content/archives/12975?category=entrance"
+    },
+    {
+     "date": "2026-12-05",
+     "name": "2026年度 第5回 中学校説明会",
+     "note": "10:00〜。要事前予約。日能研イベント情報でも確認",
+     "source": "https://www.nichinoken.co.jp/np5/schoolinfo/sw/evt.php?shl_code=228"
+    }
+   ],
+   "preferences": [
+    {
+     "desc": "複数回出願で優遇措置あり（四谷大塚受験者口コミで複数年確認）。複数回同時出願すると合否判定上の優遇が得られる",
+     "source": "https://www.yotsuyaotsuka.com/juken/data/?code=353"
+    },
+    {
+     "desc": "手続き延期制度：出願時に申請することで入学手続き期限を2月6日15時まで延期可能",
+     "source": "https://www.yotsuyaotsuka.com/juken/data/?code=353"
+    }
+   ],
+   "juku": [
+    {
+     "name": "SAPIX小学部",
+     "count": null,
+     "year": "2026",
+     "source": "https://www.sapientica.com/success/"
+    },
+    {
+     "name": "早稲田アカデミー",
+     "count": null,
+     "year": "2026",
+     "source": "https://www.waseda-ac.co.jp/elementary/result/"
+    },
+    {
+     "name": "日能研",
+     "count": null,
+     "year": "2026",
+     "source": "https://www.nichinoken.co.jp/np5/schoolinfo/sw/exam.php?shl_code=228"
+    },
+    {
+     "name": "四谷大塚",
+     "count": null,
+     "year": "2026",
+     "source": "https://www.yotsuyaotsuka.com/juken/data/?code=353"
+    }
+   ],
+   "dev": {
+    "scale": "四谷大塚 合不合判定テスト Aライン80偏差値（第Ⅰ期 2月1日）",
+    "value": 55,
+    "source": "https://www.yotsuyaotsuka.com/juken/data/?code=353"
+   },
+   "notes": "【入試日程】2027年度募集要項は2026年7月12日時点で学校公式・スタディとも「準備中」。日程・募集人数は2026年度実績からの推定。算数選抜はAライン80偏差値65（四谷大塚）。【塾別合格者数】SAPIX・早稲田アカデミー・日能研・四谷大塚いずれも2026年入試の巣鴨中単独の合格者数は各塾公式サイト上で個別数値を確認できず（SAPIXは全校舎合計のみ公開、他塾も巣鴨単独数は非掲載）。ダイヤモンド教育ラボは「巣鴨で最多はSAPIX」と記載するが具体数値は有料ページ。【偏差値】算数選抜は四谷大塚Aライン80偏差値65、第Ⅱ期59、第Ⅲ期は非掲載。【優遇】複数回優遇の詳細条件は公式募集要項PDFに記載（2027年度版未公開のため2026年度実績に基づく）。"
+  }
+ }
+}

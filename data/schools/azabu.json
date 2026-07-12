@@ -1,0 +1,86 @@
+{
+ "id": "azabu",
+ "name": "麻布",
+ "fetchedAt": "2026-07-12T18:04:27.155Z",
+ "exams": [
+  {
+   "date": "2027-02-01",
+   "slot": "AM",
+   "name": "2027年度入試（第1回）",
+   "note": "4教科（国語60分60点・算数60分60点・理科50分40点・社会50分40点）計200点満点。1回のみ実施。例年8:30集合・14:30終了。合格発表は2月3日午後3時予定",
+   "source": "https://www.azabu-jh.ed.jp/admission/"
+  }
+ ],
+ "sessions": [
+  {
+   "date": "2026-05-30",
+   "name": "学校見学会",
+   "note": "事前申込制（WEB）。mirai compassより予約",
+   "source": "https://www.azabu-jh.ed.jp/"
+  },
+  {
+   "date": "2026-07-04",
+   "name": "学校見学会",
+   "note": "事前申込制（WEB）。公式サイトより要申込",
+   "source": "https://www.azabu-jh.ed.jp/"
+  },
+  {
+   "date": "2026-10-10",
+   "name": "学校見学会",
+   "note": "事前申込制（WEB）。公式サイトより要申込",
+   "source": "https://www.azabu-jh.ed.jp/"
+  },
+  {
+   "date": "2026-01-01",
+   "name": "麻布学園web説明会（動画）",
+   "note": "申込不要。学校公式HPにて動画を常時配信中（2025年10月21日更新版）",
+   "source": "https://www.azabu-jh.ed.jp/admission/orientation/"
+  },
+  {
+   "date": "2026-03-06",
+   "name": "2026年度学園説明会・学校見学会のお知らせ（公式告知）",
+   "note": "公式サイトに年間スケジュール掲載。詳細はイベントページ参照",
+   "source": "https://www.azabu-jh.ed.jp/admission/event/"
+  }
+ ],
+ "preferences": [],
+ "juku": [
+  {
+   "name": "SAPIX小学部",
+   "count": 176,
+   "year": "2026",
+   "source": "https://www.sapientica.com/success/"
+  },
+  {
+   "name": "早稲田アカデミー",
+   "count": 115,
+   "year": "2026",
+   "source": "https://www.waseda-ac.co.jp/elementary/result/"
+  },
+  {
+   "name": "日能研",
+   "count": 60,
+   "year": "2026",
+   "source": "https://www.nichinoken.co.jp/exam/tokyo_gs.html"
+  },
+  {
+   "name": "四谷大塚（ネットワーク含む）",
+   "count": 77,
+   "year": "2026",
+   "source": "https://www.yotsuyaotsuka.com/goukaku_sokuhou/"
+  },
+  {
+   "name": "グノーブル",
+   "count": 20,
+   "year": "2026",
+   "source": "https://gno-jr.com/2026_goukaku/"
+  }
+ ],
+ "dev": {
+  "scale": "四谷大塚 合不合判定テスト Aライン80偏差値",
+  "value": 65,
+  "year": "2026",
+  "source": "https://www.kobekyo.com/study-info/3166/"
+ },
+ "notes": "【入試】2027年度入試の公式要項は2026年7月時点で未公開。日程・形式は例年踏襲（毎年2月1日午前・午後使用・4教科1回のみ）として記載。出願は例年12月中旬に事前登録・翌年1月10日頃に本出願開始。合格発表は2月3日午後、手続締切は2月4日正午。【説明会】学校公式のイベント詳細ページ(https://www.azabu-jh.ed.jp/admission/event/)はアクセス集中のため内容確認困難。5/30・7/4・10/10の学校見学会は公式トップページのお知らせより確認。学園説明会（秋開催）の具体日は2026年7月時点で公式未告知。【優遇制度】特待・複数回優遇制度は確認できず（入試1回のみのため該当なし）。【偏差値】四谷大塚Aライン80が65（一部サイトでは68と記載のケースあり）。日能研結果R4は66（2026年入試結果）。SAPIX偏差値は公式非公表のため除外。【juku注意】各塾の合格者数カウント基準が異なるため、合計が学校発表合格者数(360名)を超える場合あり。四谷大塚の77名はネットワーク校含む数値、直営のみは7名。"
+}

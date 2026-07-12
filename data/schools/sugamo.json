@@ -1,0 +1,109 @@
+{
+ "id": "sugamo",
+ "name": "巣鴨",
+ "fetchedAt": "2026-07-12T18:12:43.172Z",
+ "exams": [
+  {
+   "date": "2027-02-01",
+   "slot": "AM",
+   "name": "第Ⅰ期",
+   "note": "4科目（国・算・理・社）。2026年度実績：募集80名、志願者253名。2027年度要項は未公開（準備中）",
+   "source": "https://www.sugamo.ed.jp/content/wp-content/uploads/2026/02/2026%E5%B7%A3%E9%B4%A8%E4%B8%AD%E5%AD%A6%E6%A0%A1_%E4%B8%AD%E5%AD%A6%E2%85%A0%E6%9C%9F.pdf"
+  },
+  {
+   "date": "2027-02-01",
+   "slot": "PM",
+   "name": "算数選抜",
+   "note": "算数1科目。2026年度実績：募集20名、志願者598名。2027年度要項は未公開",
+   "source": "https://www.sugamo.ed.jp/content/archives/11784?category=entrance"
+  },
+  {
+   "date": "2027-02-02",
+   "slot": "AM",
+   "name": "第Ⅱ期",
+   "note": "4科目（国・算・理・社）。2026年度実績：募集100名、志願者462名。2027年度要項は未公開",
+   "source": "https://www.sugamo.ed.jp/content/wp-content/uploads/2026/02/2026%E5%B7%A3%E9%B4%A8%E4%B8%AD%E5%AD%A6%E6%A0%A1_%E4%B8%AD%E5%AD%A6%E2%85%A0%E6%9C%9F.pdf"
+  },
+  {
+   "date": "2027-02-04",
+   "slot": "AM",
+   "name": "第Ⅲ期",
+   "note": "4科目（国・算・理・社）。2026年度実績：募集40名、志願者318名。2027年度要項は未公開",
+   "source": "https://www.sugamo.ed.jp/content/archives/11784?category=entrance"
+  }
+ ],
+ "sessions": [
+  {
+   "date": "2026-05-09",
+   "name": "2026年度 第1回 中学校説明会",
+   "note": "10:00〜。予約受付開始4月20日(月)10:00〜。要事前予約（ミライコンパス）。ギムナシオン（体育館）で開催",
+   "source": "https://www.sugamo.ed.jp/content/archives/12975?category=entrance"
+  },
+  {
+   "date": "2026-06-20",
+   "name": "2026年度 第2回 中学校説明会",
+   "note": "10:00〜11:30。要事前予約",
+   "source": "https://schma.jp/schools/63?moshi=yotsuya&deviGender=man"
+  },
+  {
+   "date": "2026-10-03",
+   "name": "2026年度 第3回 中学校説明会",
+   "note": "10:00〜。要事前予約",
+   "source": "https://www.sugamo.ed.jp/content/archives/12975?category=entrance"
+  },
+  {
+   "date": "2026-10-31",
+   "name": "2026年度 第4回 中学校説明会",
+   "note": "10:00〜。要事前予約",
+   "source": "https://www.sugamo.ed.jp/content/archives/12975?category=entrance"
+  },
+  {
+   "date": "2026-12-05",
+   "name": "2026年度 第5回 中学校説明会",
+   "note": "10:00〜。要事前予約。日能研イベント情報でも確認",
+   "source": "https://www.nichinoken.co.jp/np5/schoolinfo/sw/evt.php?shl_code=228"
+  }
+ ],
+ "preferences": [
+  {
+   "desc": "複数回出願で優遇措置あり（四谷大塚受験者口コミで複数年確認）。複数回同時出願すると合否判定上の優遇が得られる",
+   "source": "https://www.yotsuyaotsuka.com/juken/data/?code=353"
+  },
+  {
+   "desc": "手続き延期制度：出願時に申請することで入学手続き期限を2月6日15時まで延期可能",
+   "source": "https://www.yotsuyaotsuka.com/juken/data/?code=353"
+  }
+ ],
+ "juku": [
+  {
+   "name": "SAPIX小学部",
+   "count": null,
+   "year": "2026",
+   "source": "https://www.sapientica.com/success/"
+  },
+  {
+   "name": "早稲田アカデミー",
+   "count": null,
+   "year": "2026",
+   "source": "https://www.waseda-ac.co.jp/elementary/result/"
+  },
+  {
+   "name": "日能研",
+   "count": null,
+   "year": "2026",
+   "source": "https://www.nichinoken.co.jp/np5/schoolinfo/sw/exam.php?shl_code=228"
+  },
+  {
+   "name": "四谷大塚",
+   "count": null,
+   "year": "2026",
+   "source": "https://www.yotsuyaotsuka.com/juken/data/?code=353"
+  }
+ ],
+ "dev": {
+  "scale": "四谷大塚 合不合判定テスト Aライン80偏差値（第Ⅰ期 2月1日）",
+  "value": 55,
+  "source": "https://www.yotsuyaotsuka.com/juken/data/?code=353"
+ },
+ "notes": "【入試日程】2027年度募集要項は2026年7月12日時点で学校公式・スタディとも「準備中」。日程・募集人数は2026年度実績からの推定。算数選抜はAライン80偏差値65（四谷大塚）。【塾別合格者数】SAPIX・早稲田アカデミー・日能研・四谷大塚いずれも2026年入試の巣鴨中単独の合格者数は各塾公式サイト上で個別数値を確認できず（SAPIXは全校舎合計のみ公開、他塾も巣鴨単独数は非掲載）。ダイヤモンド教育ラボは「巣鴨で最多はSAPIX」と記載するが具体数値は有料ページ。【偏差値】算数選抜は四谷大塚Aライン80偏差値65、第Ⅱ期59、第Ⅲ期は非掲載。【優遇】複数回優遇の詳細条件は公式募集要項PDFに記載（2027年度版未公開のため2026年度実績に基づく）。"
+}

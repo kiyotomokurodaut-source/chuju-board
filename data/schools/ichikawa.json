@@ -1,0 +1,102 @@
+{
+ "id": "ichikawa",
+ "name": "市川",
+ "fetchedAt": "2026-07-12T17:59:20.430Z",
+ "exams": [
+  {
+   "date": "2027-01-19",
+   "slot": "AM",
+   "name": "第1回入学試験",
+   "note": "4科（国・算・社・理）各100点計400点。会場は幕張メッセ予定（例年通り）。2027年度要項は未公開のため2026年度実績より推定。",
+   "source": "https://www.ichigaku.ac.jp/junior-exam/guideline/"
+  },
+  {
+   "date": "2027-02-03",
+   "slot": "AM",
+   "name": "第2回入学試験",
+   "note": "4科（国・算・社・理）各100点計400点。本校会場予定。募集40名。2027年度要項は未公開のため2026年度実績より推定。",
+   "source": "https://www.ichigaku.ac.jp/junior-exam/guideline/"
+  },
+  {
+   "date": "2026-12-06",
+   "slot": "AM",
+   "name": "12月帰国生入試",
+   "note": "英語を含む科目構成（帰国生対象）。2027年度要項未公開のため2026年度実績より推定。",
+   "source": "https://www.tomas.co.jp/schola/list/10337/"
+  }
+ ],
+ "sessions": [
+  {
+   "date": "2026-05-21",
+   "name": "中学校説明会（5月）",
+   "note": "5月21日(木)・23日(土)・25日(月)の3回実施。内容：学校生活・入試全般説明。保護者1名または保護者1名+本人。要事前申込（Web）。",
+   "source": "https://www.ichigaku.ac.jp/news/"
+  },
+  {
+   "date": "2026-05-23",
+   "name": "中学校説明会（5月土曜回）",
+   "note": "5月21日(木)・23日(土)・25日(月)の3回実施（同一内容）。いずれか1回参加。",
+   "source": "https://www.ichigaku.ac.jp/exam-information/junior-information/"
+  },
+  {
+   "date": "2026-10-01",
+   "name": "中学校説明会（秋・6年生対象）",
+   "note": "内容：教育方針・各教科の説明・入試全般説明。校内施設見学・個別相談なし。保護者1名または保護者1名+本人。日程詳細は公式サイトで随時更新予定。",
+   "source": "https://www.ichigaku.ac.jp/exam-information/junior-information/"
+  },
+  {
+   "date": "2026-02-28",
+   "name": "小学5年生以下対象説明会（2026年度）",
+   "note": "2026年2月28日(土)実施済。内容：2027年度入試の振り返り・学校概要説明。校内施設見学・個別相談なし。事前申込制。",
+   "source": "https://www.tomas.co.jp/schola/list/10337/"
+  },
+  {
+   "date": "2026-07-08",
+   "name": "2026年度学校説明会等日程 更新",
+   "note": "2026年7月8日付で公式HPにて説明会日程が更新された旨告知あり。具体日程は公式サイト要確認。",
+   "source": "https://www.ichigaku.ac.jp/"
+  }
+ ],
+ "preferences": [
+  {
+   "desc": "第1回入学試験で成績優秀と判断された受験生は「特待生」として合格発表され、入学の際に入学金相当額の奨学金が給付される。",
+   "source": "https://ichigaku.ac.jp/wp-content/uploads/2024/09/2025%E4%B8%AD%E5%AD%A6%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85.pdf"
+  },
+  {
+   "desc": "第1回入学試験で極めて成績優秀と判断された受験生は「特別奨学生」として合格発表され、入学金相当額を超える奨学金が給付される（特待生より上位の制度）。",
+   "source": "https://ichigaku.ac.jp/wp-content/uploads/2024/09/2025%E4%B8%AD%E5%AD%A6%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85.pdf"
+  }
+ ],
+ "juku": [
+  {
+   "name": "SAPIX小学部",
+   "count": null,
+   "year": "2026",
+   "source": "https://www.sapientica.com/success/"
+  },
+  {
+   "name": "早稲田アカデミー",
+   "count": null,
+   "year": "2026",
+   "source": "https://www.waseda-ac.co.jp/elementary/result/"
+  },
+  {
+   "name": "日能研",
+   "count": null,
+   "year": "2026",
+   "source": "https://www.nichinoken.co.jp/np5/schoolinfo/sw/exam.php?shl_code=407"
+  },
+  {
+   "name": "四谷大塚",
+   "count": null,
+   "year": "2026",
+   "source": "https://www.yotsuyaotsuka.com/goukaku_sokuhou/"
+  }
+ ],
+ "dev": {
+  "scale": "四谷大塚 合不合判定テスト Aライン80偏差値（第1回）",
+  "value": 65,
+  "source": "https://www.kobekyo.com/study-info/3070/"
+ },
+ "notes": "【exams】2027年度入試要項は2026年7月12日時点で未公開。日程・科目は2026年度実績（第1回1/20幕張メッセ・第2回2/4本校、4科400点）を基に推定。確定次第ichigaku.ac.jp/junior-exam/guideline/で要確認。【sessions】5月21・23・25日の説明会は公式ニュース（2026.05.11）で確認済み。秋の6年生対象説明会・帰国生説明会等は「日程詳細が決まり次第ご案内」と公式に記載されており具体日未定。【juku】SAPIX・早稲田アカデミー・日能研・四谷大塚の各公式合格実績ページに市川中の具体的合格者数が検索結果から取得できなかったため count=null とした。塾シル千葉版（jukushiru.com/article/post-28636/）が2026.02.09速報値を集計しているが学校別数値の引用確認ができなかったため除外。【dev】四谷大塚Aライン80偏差値65は複数サイト（kobekyo.com・studyup.jp）で一致。男子62・女子65とする情報（studyup.jp）もあり男女差に注意。【preferences】特待生・特別奨学生制度は第1回のみ対象（第2回・帰国生入試への優遇は確認できず）。"
+}
