@@ -1,0 +1,5494 @@
+[
+ {
+  "id": "sakae",
+  "name": "栄東",
+  "kana": "さかえひがし",
+  "short": "栄東",
+  "type": "共学",
+  "pref": "埼玉",
+  "dev": [
+   42,
+   58
+  ],
+  "tags": [
+   "特待"
+  ],
+  "yuguu": "東大特待クラスなど特待生制度あり(内容・年数は要項で要確認)",
+  "kikoku": false,
+  "exams": [
+   {
+    "d": "2027-01-10",
+    "s": "AM",
+    "n": "A日程",
+    "note": "1/10・1/11から選択",
+    "unc": 0
+   },
+   {
+    "d": "2027-01-11",
+    "s": "AM",
+    "n": "A日程",
+    "note": "",
+    "unc": 0
+   },
+   {
+    "d": "2027-01-12",
+    "s": "AM",
+    "n": "特待生(東大特待)",
+    "note": "特待判定",
+    "unc": 0
+   },
+   {
+    "d": "2027-01-16",
+    "s": "AM",
+    "n": "B日程",
+    "note": "",
+    "unc": 0
+   }
+  ],
+  "station": "東大宮",
+  "fuzoku": false
+ },
+ {
+  "id": "kaichi",
+  "name": "開智",
+  "kana": "かいち",
+  "short": "開智",
+  "type": "共学",
+  "pref": "埼玉",
+  "dev": [
+   40,
+   48
+  ],
+  "tags": [
+   "特待"
+  ],
+  "yuguu": "特待判定のある回あり(回構成は年度で変動・要確認)",
+  "kikoku": false,
+  "exams": [
+   {
+    "d": "2027-01-10",
+    "s": "AM",
+    "n": "第1回",
+    "note": "",
+    "unc": 1
+   },
+   {
+    "d": "2027-01-11",
+    "s": "AM",
+    "n": "特待A",
+    "note": "",
+    "unc": 1
+   },
+   {
+    "d": "2027-01-12",
+    "s": "AM",
+    "n": "特待B",
+    "note": "",
+    "unc": 1
+   },
+   {
+    "d": "2027-01-15",
+    "s": "AM",
+    "n": "第2回",
+    "note": "",
+    "unc": 1
+   }
+  ],
+  "station": "東岩槻(バス)",
+  "fuzoku": false
+ },
+ {
+  "id": "akenohoshi",
+  "name": "浦和明の星女子",
+  "kana": "うらわあけのほし",
+  "short": "明の星",
+  "type": "女子",
+  "pref": "埼玉",
+  "dev": [
+   46,
+   48
+  ],
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "exams": [
+   {
+    "d": "2027-01-14",
+    "s": "AM",
+    "n": "第1回",
+    "note": "",
+    "unc": 0
+   },
+   {
+    "d": "2027-02-04",
+    "s": "AM",
+    "n": "第2回",
+    "note": "",
+    "unc": 0
+   }
+  ],
+  "station": "東浦和",
+  "fuzoku": false
+ },
+ {
+  "id": "ichikawa",
+  "name": "市川",
+  "kana": "いちかわ",
+  "short": "市川",
+  "type": "共学",
+  "pref": "千葉",
+  "dev": [
+   51,
+   57
+  ],
+  "tags": [],
+  "yuguu": "",
+  "kikoku": true,
+  "exams": [
+   {
+    "d": "2027-01-20",
+    "s": "AM",
+    "n": "第1回",
+    "note": "幕張メッセ実施",
+    "unc": 0
+   },
+   {
+    "d": "2027-02-04",
+    "s": "AM",
+    "n": "第2回",
+    "note": "",
+    "unc": 0
+   }
+  ],
+  "station": "本八幡(バス)・鬼越",
+  "fuzoku": false
+ },
+ {
+  "id": "toho",
+  "name": "東邦大学付属東邦",
+  "kana": "とうほう",
+  "short": "東邦",
+  "type": "共学",
+  "pref": "千葉",
+  "dev": [
+   49,
+   55
+  ],
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "exams": [
+   {
+    "d": "2026-12-01",
+    "s": "AM",
+    "n": "推薦",
+    "note": "第一志望型",
+    "unc": 0
+   },
+   {
+    "d": "2027-01-21",
+    "s": "AM",
+    "n": "前期",
+    "note": "",
+    "unc": 0
+   },
+   {
+    "d": "2027-02-03",
+    "s": "AM",
+    "n": "後期",
+    "note": "",
+    "unc": 0
+   }
+  ],
+  "station": "京成大久保",
+  "fuzoku": true
+ },
+ {
+  "id": "shibumaku",
+  "name": "渋谷教育学園幕張",
+  "kana": "しぶまく",
+  "short": "渋幕",
+  "type": "共学",
+  "pref": "千葉",
+  "dev": [
+   63,
+   65
+  ],
+  "tags": [],
+  "yuguu": "",
+  "kikoku": true,
+  "exams": [
+   {
+    "d": "2027-01-22",
+    "s": "AM",
+    "n": "一次",
+    "note": "",
+    "unc": 0
+   },
+   {
+    "d": "2027-02-02",
+    "s": "AM",
+    "n": "二次",
+    "note": "",
+    "unc": 0
+   }
+  ],
+  "station": "海浜幕張",
+  "fuzoku": false
+ },
+ {
+  "id": "shuei",
+  "name": "昭和学院秀英",
+  "kana": "しゅうえい",
+  "short": "秀英",
+  "type": "共学",
+  "pref": "千葉",
+  "dev": [
+   48,
+   52
+  ],
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "exams": [
+   {
+    "d": "2027-01-20",
+    "s": "PM",
+    "n": "午後特別",
+    "note": "2科(国算)",
+    "unc": 1
+   },
+   {
+    "d": "2027-01-22",
+    "s": "AM",
+    "n": "第1回",
+    "note": "",
+    "unc": 1
+   },
+   {
+    "d": "2027-02-02",
+    "s": "AM",
+    "n": "第2回",
+    "note": "",
+    "unc": 1
+   }
+  ],
+  "station": "海浜幕張",
+  "fuzoku": false
+ },
+ {
+  "id": "kaisei",
+  "name": "開成",
+  "kana": "かいせい",
+  "short": "開成",
+  "type": "男子",
+  "pref": "東京",
+  "dev": [
+   66,
+   68
+  ],
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "exams": [
+   {
+    "d": "2027-02-01",
+    "s": "AM",
+    "n": "一般",
+    "note": "",
+    "unc": 0
+   }
+  ],
+  "station": "西日暮里",
+  "fuzoku": false
+ },
+ {
+  "id": "azabu",
+  "name": "麻布",
+  "kana": "あざぶ",
+  "short": "麻布",
+  "type": "男子",
+  "pref": "東京",
+  "dev": [
+   61,
+   63
+  ],
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "exams": [
+   {
+    "d": "2027-02-01",
+    "s": "AM",
+    "n": "一般",
+    "note": "",
+    "unc": 0
+   }
+  ],
+  "station": "広尾",
+  "fuzoku": false
+ },
+ {
+  "id": "musashi",
+  "name": "武蔵",
+  "kana": "むさし",
+  "short": "武蔵",
+  "type": "男子",
+  "pref": "東京",
+  "dev": [
+   58,
+   60
+  ],
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "exams": [
+   {
+    "d": "2027-02-01",
+    "s": "AM",
+    "n": "一般",
+    "note": "",
+    "unc": 0
+   }
+  ],
+  "station": "江古田・新桜台",
+  "fuzoku": false
+ },
+ {
+  "id": "komato",
+  "name": "駒場東邦",
+  "kana": "こまばとうほう",
+  "short": "駒東",
+  "type": "男子",
+  "pref": "東京",
+  "dev": [
+   57,
+   59
+  ],
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "exams": [
+   {
+    "d": "2027-02-01",
+    "s": "AM",
+    "n": "一般",
+    "note": "",
+    "unc": 0
+   }
+  ],
+  "station": "駒場東大前",
+  "fuzoku": false
+ },
+ {
+  "id": "tsukukoma",
+  "name": "筑波大学附属駒場",
+  "kana": "つくこま",
+  "short": "筑駒",
+  "type": "男子",
+  "pref": "東京",
+  "dev": [
+   69,
+   71
+  ],
+  "tags": [
+   "国立"
+  ],
+  "yuguu": "",
+  "kikoku": false,
+  "exams": [
+   {
+    "d": "2027-02-03",
+    "s": "AM",
+    "n": "学力検査",
+    "note": "報告書提出あり。実施方法は要確認",
+    "unc": 1
+   }
+  ],
+  "station": "駒場東大前",
+  "fuzoku": false
+ },
+ {
+  "id": "waseda",
+  "name": "早稲田",
+  "kana": "わせだ",
+  "short": "早稲田",
+  "type": "男子",
+  "pref": "東京",
+  "dev": [
+   57,
+   61
+  ],
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "exams": [
+   {
+    "d": "2027-02-01",
+    "s": "AM",
+    "n": "第1回",
+    "note": "",
+    "unc": 0
+   },
+   {
+    "d": "2027-02-03",
+    "s": "AM",
+    "n": "第2回",
+    "note": "",
+    "unc": 0
+   }
+  ],
+  "station": "早稲田",
+  "fuzoku": false
+ },
+ {
+  "id": "kaijo",
+  "name": "海城",
+  "kana": "かいじょう",
+  "short": "海城",
+  "type": "男子",
+  "pref": "東京",
+  "dev": [
+   58,
+   62
+  ],
+  "tags": [],
+  "yuguu": "",
+  "kikoku": true,
+  "exams": [
+   {
+    "d": "2027-02-01",
+    "s": "AM",
+    "n": "一般①",
+    "note": "",
+    "unc": 0
+   },
+   {
+    "d": "2027-02-03",
+    "s": "AM",
+    "n": "一般②",
+    "note": "",
+    "unc": 0
+   }
+  ],
+  "station": "新大久保・大久保",
+  "fuzoku": false
+ },
+ {
+  "id": "keiofutsubu",
+  "name": "慶應義塾普通部",
+  "kana": "けいおうふつうぶ",
+  "short": "慶應普通部",
+  "type": "男子",
+  "pref": "神奈川",
+  "dev": [
+   57,
+   59
+  ],
+  "tags": [
+   "実技・面接"
+  ],
+  "yuguu": "",
+  "kikoku": false,
+  "exams": [
+   {
+    "d": "2027-02-01",
+    "s": "AM",
+    "n": "一般",
+    "note": "体育実技・面接あり",
+    "unc": 0
+   }
+  ],
+  "station": "日吉",
+  "fuzoku": true
+ },
+ {
+  "id": "shiba",
+  "name": "芝",
+  "kana": "しば",
+  "short": "芝",
+  "type": "男子",
+  "pref": "東京",
+  "dev": [
+   51,
+   57
+  ],
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "exams": [
+   {
+    "d": "2027-02-01",
+    "s": "AM",
+    "n": "第1回",
+    "note": "",
+    "unc": 0
+   },
+   {
+    "d": "2027-02-04",
+    "s": "AM",
+    "n": "第2回",
+    "note": "",
+    "unc": 0
+   }
+  ],
+  "station": "神谷町・御成門",
+  "fuzoku": false
+ },
+ {
+  "id": "hongo",
+  "name": "本郷",
+  "kana": "ほんごう",
+  "short": "本郷",
+  "type": "男子",
+  "pref": "東京",
+  "dev": [
+   52,
+   57
+  ],
+  "tags": [
+   "複数回優遇"
+  ],
+  "yuguu": "複数回受験者への配慮を公表している年あり(要項の記載を要確認)",
+  "kikoku": false,
+  "exams": [
+   {
+    "d": "2027-02-01",
+    "s": "AM",
+    "n": "第1回",
+    "note": "",
+    "unc": 0
+   },
+   {
+    "d": "2027-02-02",
+    "s": "AM",
+    "n": "第2回",
+    "note": "",
+    "unc": 0
+   },
+   {
+    "d": "2027-02-05",
+    "s": "AM",
+    "n": "第3回",
+    "note": "",
+    "unc": 0
+   }
+  ],
+  "station": "巣鴨・駒込",
+  "fuzoku": false
+ },
+ {
+  "id": "sugamo",
+  "name": "巣鴨",
+  "kana": "すがも",
+  "short": "巣鴨",
+  "type": "男子",
+  "pref": "東京",
+  "dev": [
+   45,
+   53
+  ],
+  "tags": [
+   "算数1科"
+  ],
+  "yuguu": "算数選抜(2/1午後・算数1科)あり",
+  "kikoku": false,
+  "exams": [
+   {
+    "d": "2027-02-01",
+    "s": "AM",
+    "n": "Ⅰ期",
+    "note": "",
+    "unc": 0
+   },
+   {
+    "d": "2027-02-01",
+    "s": "PM",
+    "n": "算数選抜",
+    "note": "算数1科",
+    "unc": 0
+   },
+   {
+    "d": "2027-02-02",
+    "s": "AM",
+    "n": "Ⅱ期",
+    "note": "",
+    "unc": 0
+   },
+   {
+    "d": "2027-02-04",
+    "s": "AM",
+    "n": "Ⅲ期",
+    "note": "",
+    "unc": 0
+   }
+  ],
+  "station": "大塚・巣鴨",
+  "fuzoku": false
+ },
+ {
+  "id": "johoku",
+  "name": "城北",
+  "kana": "じょうほく",
+  "short": "城北",
+  "type": "男子",
+  "pref": "東京",
+  "dev": [
+   45,
+   52
+  ],
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "exams": [
+   {
+    "d": "2027-02-01",
+    "s": "AM",
+    "n": "第1回",
+    "note": "",
+    "unc": 0
+   },
+   {
+    "d": "2027-02-02",
+    "s": "AM",
+    "n": "第2回",
+    "note": "",
+    "unc": 0
+   },
+   {
+    "d": "2027-02-04",
+    "s": "AM",
+    "n": "第3回",
+    "note": "",
+    "unc": 0
+   }
+  ],
+  "station": "上板橋",
+  "fuzoku": false
+ },
+ {
+  "id": "setagaya",
+  "name": "世田谷学園",
+  "kana": "せたがやがくえん",
+  "short": "世田谷",
+  "type": "男子",
+  "pref": "東京",
+  "dev": [
+   45,
+   51
+  ],
+  "tags": [
+   "算数1科",
+   "複数回優遇"
+  ],
+  "yuguu": "算数特選(午後・算数1科)あり。複数回受験者の考慮を公表している年あり(要確認)",
+  "kikoku": false,
+  "exams": [
+   {
+    "d": "2027-02-01",
+    "s": "AM",
+    "n": "1次",
+    "note": "",
+    "unc": 0
+   },
+   {
+    "d": "2027-02-01",
+    "s": "PM",
+    "n": "算数特選",
+    "note": "算数1科",
+    "unc": 0
+   },
+   {
+    "d": "2027-02-02",
+    "s": "AM",
+    "n": "2次",
+    "note": "",
+    "unc": 1
+   },
+   {
+    "d": "2027-02-04",
+    "s": "AM",
+    "n": "3次",
+    "note": "",
+    "unc": 0
+   }
+  ],
+  "station": "三軒茶屋",
+  "fuzoku": false
+ },
+ {
+  "id": "kogyokusha",
+  "name": "攻玉社",
+  "kana": "こうぎょくしゃ",
+  "short": "攻玉社",
+  "type": "男子",
+  "pref": "東京",
+  "dev": [
+   47,
+   51
+  ],
+  "tags": [
+   "算数1科"
+  ],
+  "yuguu": "特別選抜(算数)あり(実施形態は要確認)",
+  "kikoku": true,
+  "exams": [
+   {
+    "d": "2027-02-01",
+    "s": "AM",
+    "n": "第1回",
+    "note": "",
+    "unc": 0
+   },
+   {
+    "d": "2027-02-02",
+    "s": "AM",
+    "n": "第2回",
+    "note": "",
+    "unc": 0
+   },
+   {
+    "d": "2027-02-05",
+    "s": "AM",
+    "n": "特別選抜",
+    "note": "算数",
+    "unc": 1
+   }
+  ],
+  "station": "不動前",
+  "fuzoku": false
+ },
+ {
+  "id": "takanawa",
+  "name": "高輪",
+  "kana": "たかなわ",
+  "short": "高輪",
+  "type": "男子",
+  "pref": "東京",
+  "dev": [
+   44,
+   50
+  ],
+  "tags": [
+   "算数1科"
+  ],
+  "yuguu": "算数午後入試あり",
+  "kikoku": true,
+  "exams": [
+   {
+    "d": "2027-02-01",
+    "s": "AM",
+    "n": "A日程",
+    "note": "",
+    "unc": 0
+   },
+   {
+    "d": "2027-02-02",
+    "s": "AM",
+    "n": "B日程",
+    "note": "",
+    "unc": 0
+   },
+   {
+    "d": "2027-02-02",
+    "s": "PM",
+    "n": "算数午後",
+    "note": "算数1科",
+    "unc": 0
+   },
+   {
+    "d": "2027-02-04",
+    "s": "AM",
+    "n": "C日程",
+    "note": "",
+    "unc": 0
+   }
+  ],
+  "station": "泉岳寺・白金高輪",
+  "fuzoku": false
+ },
+ {
+  "id": "toho_danshi",
+  "name": "桐朋",
+  "kana": "とうほう",
+  "short": "桐朋",
+  "type": "男子",
+  "pref": "東京",
+  "dev": [
+   48,
+   53
+  ],
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "exams": [
+   {
+    "d": "2027-02-01",
+    "s": "AM",
+    "n": "第1回",
+    "note": "",
+    "unc": 0
+   },
+   {
+    "d": "2027-02-02",
+    "s": "AM",
+    "n": "第2回",
+    "note": "",
+    "unc": 0
+   }
+  ],
+  "station": "国立・谷保",
+  "fuzoku": false
+ },
+ {
+  "id": "salesio",
+  "name": "サレジオ学院",
+  "kana": "されじお",
+  "short": "サレジオ",
+  "type": "男子",
+  "pref": "神奈川",
+  "dev": [
+   47,
+   51
+  ],
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "exams": [
+   {
+    "d": "2027-02-01",
+    "s": "AM",
+    "n": "A試験",
+    "note": "",
+    "unc": 0
+   },
+   {
+    "d": "2027-02-04",
+    "s": "AM",
+    "n": "B試験",
+    "note": "",
+    "unc": 0
+   }
+  ],
+  "station": "北山田",
+  "fuzoku": false
+ },
+ {
+  "id": "zushikaisei",
+  "name": "逗子開成",
+  "kana": "ずしかいせい",
+  "short": "逗子開成",
+  "type": "男子",
+  "pref": "神奈川",
+  "dev": [
+   46,
+   50
+  ],
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "exams": [
+   {
+    "d": "2027-02-01",
+    "s": "AM",
+    "n": "1次",
+    "note": "",
+    "unc": 0
+   },
+   {
+    "d": "2027-02-03",
+    "s": "AM",
+    "n": "2次",
+    "note": "",
+    "unc": 0
+   },
+   {
+    "d": "2027-02-05",
+    "s": "AM",
+    "n": "3次",
+    "note": "",
+    "unc": 0
+   }
+  ],
+  "station": "逗子・逗子葉山",
+  "fuzoku": false
+ },
+ {
+  "id": "seiko",
+  "name": "聖光学院",
+  "kana": "せいこうがくいん",
+  "short": "聖光",
+  "type": "男子",
+  "pref": "神奈川",
+  "dev": [
+   63,
+   65
+  ],
+  "tags": [],
+  "yuguu": "",
+  "kikoku": true,
+  "exams": [
+   {
+    "d": "2027-02-02",
+    "s": "AM",
+    "n": "第1回",
+    "note": "",
+    "unc": 0
+   },
+   {
+    "d": "2027-02-04",
+    "s": "AM",
+    "n": "第2回",
+    "note": "",
+    "unc": 0
+   }
+  ],
+  "station": "山手",
+  "fuzoku": false
+ },
+ {
+  "id": "eiko",
+  "name": "栄光学園",
+  "kana": "えいこうがくえん",
+  "short": "栄光",
+  "type": "男子",
+  "pref": "神奈川",
+  "dev": [
+   59,
+   61
+  ],
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "exams": [
+   {
+    "d": "2027-02-02",
+    "s": "AM",
+    "n": "一般",
+    "note": "",
+    "unc": 0
+   }
+  ],
+  "station": "大船",
+  "fuzoku": false
+ },
+ {
+  "id": "asano",
+  "name": "浅野",
+  "kana": "あさの",
+  "short": "浅野",
+  "type": "男子",
+  "pref": "神奈川",
+  "dev": [
+   56,
+   58
+  ],
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "exams": [
+   {
+    "d": "2027-02-03",
+    "s": "AM",
+    "n": "一般",
+    "note": "",
+    "unc": 0
+   }
+  ],
+  "station": "新子安",
+  "fuzoku": false
+ },
+ {
+  "id": "oin",
+  "name": "桜蔭",
+  "kana": "おういん",
+  "short": "桜蔭",
+  "type": "女子",
+  "pref": "東京",
+  "dev": [
+   61,
+   63
+  ],
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "exams": [
+   {
+    "d": "2027-02-01",
+    "s": "AM",
+    "n": "一般",
+    "note": "面接あり",
+    "unc": 0
+   }
+  ],
+  "station": "水道橋",
+  "fuzoku": false
+ },
+ {
+  "id": "jg",
+  "name": "女子学院",
+  "kana": "じょしがくいん",
+  "short": "女子学院",
+  "type": "女子",
+  "pref": "東京",
+  "dev": [
+   60,
+   62
+  ],
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "exams": [
+   {
+    "d": "2027-02-01",
+    "s": "AM",
+    "n": "一般",
+    "note": "面接あり",
+    "unc": 0
+   }
+  ],
+  "station": "市ケ谷・麹町",
+  "fuzoku": false
+ },
+ {
+  "id": "futaba",
+  "name": "雙葉",
+  "kana": "ふたば",
+  "short": "雙葉",
+  "type": "女子",
+  "pref": "東京",
+  "dev": [
+   57,
+   59
+  ],
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "exams": [
+   {
+    "d": "2027-02-01",
+    "s": "AM",
+    "n": "一般",
+    "note": "面接あり",
+    "unc": 0
+   }
+  ],
+  "station": "四ツ谷",
+  "fuzoku": false
+ },
+ {
+  "id": "toshimagaoka",
+  "name": "豊島岡女子学園",
+  "kana": "としまがおか",
+  "short": "豊島岡",
+  "type": "女子",
+  "pref": "東京",
+  "dev": [
+   57,
+   60
+  ],
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "exams": [
+   {
+    "d": "2027-02-02",
+    "s": "AM",
+    "n": "第1回",
+    "note": "",
+    "unc": 0
+   },
+   {
+    "d": "2027-02-03",
+    "s": "AM",
+    "n": "第2回",
+    "note": "",
+    "unc": 0
+   },
+   {
+    "d": "2027-02-04",
+    "s": "AM",
+    "n": "第3回",
+    "note": "",
+    "unc": 0
+   }
+  ],
+  "station": "池袋",
+  "fuzoku": false
+ },
+ {
+  "id": "senzoku",
+  "name": "洗足学園",
+  "kana": "せんぞくがくえん",
+  "short": "洗足",
+  "type": "女子",
+  "pref": "神奈川",
+  "dev": [
+   55,
+   59
+  ],
+  "tags": [],
+  "yuguu": "",
+  "kikoku": true,
+  "exams": [
+   {
+    "d": "2027-02-01",
+    "s": "AM",
+    "n": "第1回",
+    "note": "",
+    "unc": 0
+   },
+   {
+    "d": "2027-02-02",
+    "s": "AM",
+    "n": "第2回",
+    "note": "",
+    "unc": 0
+   },
+   {
+    "d": "2027-02-05",
+    "s": "AM",
+    "n": "第3回",
+    "note": "",
+    "unc": 0
+   }
+  ],
+  "station": "武蔵溝ノ口・溝の口",
+  "fuzoku": false
+ },
+ {
+  "id": "kichijo",
+  "name": "吉祥女子",
+  "kana": "きちじょうじょし",
+  "short": "吉祥女子",
+  "type": "女子",
+  "pref": "東京",
+  "dev": [
+   53,
+   57
+  ],
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "exams": [
+   {
+    "d": "2027-02-01",
+    "s": "AM",
+    "n": "第1回",
+    "note": "",
+    "unc": 0
+   },
+   {
+    "d": "2027-02-02",
+    "s": "AM",
+    "n": "第2回",
+    "note": "",
+    "unc": 0
+   }
+  ],
+  "station": "西荻窪",
+  "fuzoku": false
+ },
+ {
+  "id": "ohyu",
+  "name": "鴎友学園女子",
+  "kana": "おうゆうがくえん",
+  "short": "鴎友",
+  "type": "女子",
+  "pref": "東京",
+  "dev": [
+   52,
+   55
+  ],
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "exams": [
+   {
+    "d": "2027-02-01",
+    "s": "AM",
+    "n": "第1回",
+    "note": "",
+    "unc": 0
+   },
+   {
+    "d": "2027-02-03",
+    "s": "AM",
+    "n": "第2回",
+    "note": "",
+    "unc": 0
+   }
+  ],
+  "station": "経堂・宮の坂",
+  "fuzoku": false
+ },
+ {
+  "id": "shoei",
+  "name": "頌栄女子学院",
+  "kana": "しょうえい",
+  "short": "頌栄",
+  "type": "女子",
+  "pref": "東京",
+  "dev": [
+   47,
+   50
+  ],
+  "tags": [],
+  "yuguu": "",
+  "kikoku": true,
+  "exams": [
+   {
+    "d": "2027-02-01",
+    "s": "AM",
+    "n": "第1回",
+    "note": "面接あり",
+    "unc": 0
+   },
+   {
+    "d": "2027-02-05",
+    "s": "AM",
+    "n": "第2回",
+    "note": "面接あり",
+    "unc": 0
+   }
+  ],
+  "station": "高輪台",
+  "fuzoku": false
+ },
+ {
+  "id": "shirayuri",
+  "name": "白百合学園",
+  "kana": "しらゆり",
+  "short": "白百合",
+  "type": "女子",
+  "pref": "東京",
+  "dev": [
+   50,
+   52
+  ],
+  "tags": [],
+  "yuguu": "",
+  "kikoku": true,
+  "exams": [
+   {
+    "d": "2027-02-02",
+    "s": "AM",
+    "n": "一般",
+    "note": "面接あり",
+    "unc": 0
+   }
+  ],
+  "station": "九段下・飯田橋",
+  "fuzoku": false
+ },
+ {
+  "id": "ferris",
+  "name": "フェリス女学院",
+  "kana": "ふぇりす",
+  "short": "フェリス",
+  "type": "女子",
+  "pref": "神奈川",
+  "dev": [
+   54,
+   56
+  ],
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "exams": [
+   {
+    "d": "2027-02-01",
+    "s": "AM",
+    "n": "一般",
+    "note": "",
+    "unc": 0
+   }
+  ],
+  "station": "石川町",
+  "fuzoku": false
+ },
+ {
+  "id": "koran",
+  "name": "香蘭女学校",
+  "kana": "こうらん",
+  "short": "香蘭",
+  "type": "女子",
+  "pref": "東京",
+  "dev": [
+   45,
+   50
+  ],
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "exams": [
+   {
+    "d": "2027-02-01",
+    "s": "AM",
+    "n": "第1回",
+    "note": "",
+    "unc": 0
+   },
+   {
+    "d": "2027-02-02",
+    "s": "PM",
+    "n": "第2回",
+    "note": "午後実施",
+    "unc": 1
+   }
+  ],
+  "station": "旗の台",
+  "fuzoku": false
+ },
+ {
+  "id": "shibushibu",
+  "name": "渋谷教育学園渋谷",
+  "kana": "しぶしぶ",
+  "short": "渋渋",
+  "type": "共学",
+  "pref": "東京",
+  "dev": [
+   60,
+   65
+  ],
+  "tags": [],
+  "yuguu": "",
+  "kikoku": true,
+  "exams": [
+   {
+    "d": "2027-02-01",
+    "s": "AM",
+    "n": "第1回",
+    "note": "",
+    "unc": 0
+   },
+   {
+    "d": "2027-02-02",
+    "s": "AM",
+    "n": "第2回",
+    "note": "",
+    "unc": 0
+   },
+   {
+    "d": "2027-02-05",
+    "s": "AM",
+    "n": "第3回",
+    "note": "",
+    "unc": 0
+   }
+  ],
+  "station": "渋谷",
+  "fuzoku": false
+ },
+ {
+  "id": "keiochutobu",
+  "name": "慶應義塾中等部",
+  "kana": "けいおうちゅうとうぶ",
+  "short": "慶應中等部",
+  "type": "共学",
+  "pref": "東京",
+  "dev": [
+   58,
+   64
+  ],
+  "tags": [
+   "実技・面接"
+  ],
+  "yuguu": "",
+  "kikoku": false,
+  "exams": [
+   {
+    "d": "2027-02-03",
+    "s": "AM",
+    "n": "一次(筆記)",
+    "note": "",
+    "unc": 0
+   },
+   {
+    "d": "2027-02-05",
+    "s": "AM",
+    "n": "二次(体育・面接)",
+    "note": "一次合格者のみ",
+    "unc": 1
+   }
+  ],
+  "station": "三田・田町",
+  "fuzoku": true
+ },
+ {
+  "id": "sfc",
+  "name": "慶應義塾湘南藤沢",
+  "kana": "しょうなんふじさわ",
+  "short": "慶應SFC",
+  "type": "共学",
+  "pref": "神奈川",
+  "dev": [
+   59,
+   61
+  ],
+  "tags": [
+   "実技・面接"
+  ],
+  "yuguu": "",
+  "kikoku": true,
+  "exams": [
+   {
+    "d": "2027-02-02",
+    "s": "AM",
+    "n": "一次(筆記)",
+    "note": "",
+    "unc": 0
+   },
+   {
+    "d": "2027-02-04",
+    "s": "AM",
+    "n": "二次(体育・面接)",
+    "note": "一次合格者のみ",
+    "unc": 0
+   }
+  ],
+  "station": "湘南台(バス)",
+  "fuzoku": true
+ },
+ {
+  "id": "soujitsu",
+  "name": "早稲田実業学校中等部",
+  "kana": "わせだじつぎょう",
+  "short": "早実",
+  "type": "共学",
+  "pref": "東京",
+  "dev": [
+   56,
+   62
+  ],
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "exams": [
+   {
+    "d": "2027-02-01",
+    "s": "AM",
+    "n": "一般",
+    "note": "",
+    "unc": 0
+   }
+  ],
+  "station": "国分寺",
+  "fuzoku": true
+ },
+ {
+  "id": "hiroo",
+  "name": "広尾学園",
+  "kana": "ひろおがくえん",
+  "short": "広尾",
+  "type": "共学",
+  "pref": "東京",
+  "dev": [
+   49,
+   58
+  ],
+  "tags": [
+   "英語入試",
+   "特待"
+  ],
+  "yuguu": "コース間のスライド合格・特待の制度が公表される年あり(要確認)",
+  "kikoku": true,
+  "exams": [
+   {
+    "d": "2027-02-01",
+    "s": "AM",
+    "n": "第1回",
+    "note": "",
+    "unc": 0
+   },
+   {
+    "d": "2027-02-01",
+    "s": "PM",
+    "n": "第2回",
+    "note": "",
+    "unc": 0
+   },
+   {
+    "d": "2027-02-02",
+    "s": "PM",
+    "n": "医進・サイエンス",
+    "note": "",
+    "unc": 1
+   },
+   {
+    "d": "2027-02-05",
+    "s": "AM",
+    "n": "第3回",
+    "note": "",
+    "unc": 1
+   }
+  ],
+  "station": "広尾",
+  "fuzoku": false
+ },
+ {
+  "id": "mita",
+  "name": "三田国際学園",
+  "kana": "みたこくさい",
+  "short": "三田国際",
+  "type": "共学",
+  "pref": "東京",
+  "dev": [
+   45,
+   52
+  ],
+  "tags": [
+   "英語入試"
+  ],
+  "yuguu": "英語利用のクラス・回あり(構成は毎年変わるため要確認)",
+  "kikoku": true,
+  "exams": [
+   {
+    "d": "2027-02-01",
+    "s": "AM",
+    "n": "第1回",
+    "note": "",
+    "unc": 1
+   },
+   {
+    "d": "2027-02-01",
+    "s": "PM",
+    "n": "第2回",
+    "note": "",
+    "unc": 1
+   },
+   {
+    "d": "2027-02-02",
+    "s": "PM",
+    "n": "第3回",
+    "note": "",
+    "unc": 1
+   },
+   {
+    "d": "2027-02-03",
+    "s": "PM",
+    "n": "MST",
+    "note": "算数・理科",
+    "unc": 1
+   }
+  ],
+  "station": "用賀",
+  "fuzoku": false
+ },
+ {
+  "id": "todoroki",
+  "name": "東京都市大学等々力",
+  "kana": "とどろき",
+  "short": "等々力",
+  "type": "共学",
+  "pref": "東京",
+  "dev": [
+   43,
+   49
+  ],
+  "tags": [
+   "特待"
+  ],
+  "yuguu": "S特選型で特待判定のある回あり(要確認)",
+  "kikoku": false,
+  "exams": [
+   {
+    "d": "2027-02-01",
+    "s": "AM",
+    "n": "第1回S特",
+    "note": "",
+    "unc": 1
+   },
+   {
+    "d": "2027-02-01",
+    "s": "PM",
+    "n": "第2回S特",
+    "note": "",
+    "unc": 1
+   },
+   {
+    "d": "2027-02-02",
+    "s": "PM",
+    "n": "第3回",
+    "note": "",
+    "unc": 1
+   },
+   {
+    "d": "2027-02-04",
+    "s": "AM",
+    "n": "第4回",
+    "note": "",
+    "unc": 1
+   }
+  ],
+  "station": "尾山台",
+  "fuzoku": true
+ },
+ {
+  "id": "nodai1",
+  "name": "東京農業大学第一",
+  "kana": "のうだいいち",
+  "short": "農大一",
+  "type": "共学",
+  "pref": "東京",
+  "dev": [
+   45,
+   50
+  ],
+  "tags": [
+   "算数1科相当"
+  ],
+  "yuguu": "算数重視型(算国/算理の2科)の午後入試が中心",
+  "kikoku": false,
+  "exams": [
+   {
+    "d": "2027-02-01",
+    "s": "PM",
+    "n": "第1回",
+    "note": "算国or算理",
+    "unc": 0
+   },
+   {
+    "d": "2027-02-02",
+    "s": "PM",
+    "n": "第2回",
+    "note": "算国or算理",
+    "unc": 0
+   },
+   {
+    "d": "2027-02-04",
+    "s": "AM",
+    "n": "第3回",
+    "note": "4科",
+    "unc": 1
+   }
+  ],
+  "station": "経堂・千歳船橋",
+  "fuzoku": true
+ },
+ {
+  "id": "meimei",
+  "name": "明治大学付属明治",
+  "kana": "めいだいめいじ",
+  "short": "明大明治",
+  "type": "共学",
+  "pref": "東京",
+  "dev": [
+   49,
+   52
+  ],
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "exams": [
+   {
+    "d": "2027-02-02",
+    "s": "AM",
+    "n": "第1回",
+    "note": "",
+    "unc": 0
+   },
+   {
+    "d": "2027-02-03",
+    "s": "AM",
+    "n": "第2回",
+    "note": "",
+    "unc": 0
+   }
+  ],
+  "station": "調布(バス)・西調布",
+  "fuzoku": true
+ },
+ {
+  "id": "aogaku",
+  "name": "青山学院中等部",
+  "kana": "あおやまがくいん",
+  "short": "青学",
+  "type": "共学",
+  "pref": "東京",
+  "dev": [
+   50,
+   53
+  ],
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "exams": [
+   {
+    "d": "2027-02-02",
+    "s": "AM",
+    "n": "一般",
+    "note": "",
+    "unc": 1
+   }
+  ],
+  "station": "表参道",
+  "fuzoku": true
+ },
+ {
+  "id": "tsukufu",
+  "name": "筑波大学附属",
+  "kana": "つくふ",
+  "short": "筑附",
+  "type": "共学",
+  "pref": "東京",
+  "dev": [
+   55,
+   58
+  ],
+  "tags": [
+   "国立"
+  ],
+  "yuguu": "",
+  "kikoku": false,
+  "exams": [
+   {
+    "d": "2027-02-03",
+    "s": "AM",
+    "n": "学力検査",
+    "note": "報告書提出あり",
+    "unc": 1
+   }
+  ],
+  "station": "茗荷谷・護国寺",
+  "fuzoku": false
+ },
+ {
+  "id": "xhzum",
+  "name": "暁星",
+  "kana": "",
+  "short": "暁星",
+  "type": "男子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "飯田橋・九段下",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xatp0yk",
+  "name": "早稲田大学高等学院中学部",
+  "kana": "",
+  "short": "早稲田大学高等学院中学部",
+  "type": "男子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "上石神井",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xfwxlsp",
+  "name": "立教池袋",
+  "kana": "",
+  "short": "立教池袋",
+  "type": "男子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "池袋",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xe0iba",
+  "name": "学習院",
+  "kana": "",
+  "short": "学習院",
+  "type": "男子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "目白",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xh5tq",
+  "name": "成城",
+  "kana": "",
+  "short": "成城",
+  "type": "男子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "牛込柳町",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xxyxk7n",
+  "name": "明治大学付属中野",
+  "kana": "",
+  "short": "明治大学付属中野",
+  "type": "男子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "東中野",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1f2f299",
+  "name": "日本大学豊山",
+  "kana": "",
+  "short": "日本大学豊山",
+  "type": "男子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "護国寺",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xk358",
+  "name": "獨協",
+  "kana": "",
+  "short": "獨協",
+  "type": "男子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "護国寺",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xj930y",
+  "name": "聖学院",
+  "kana": "",
+  "short": "聖学院",
+  "type": "男子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "駒込",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xe3sz",
+  "name": "京華",
+  "kana": "",
+  "short": "京華",
+  "type": "男子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "白山",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xidtzhg",
+  "name": "足立学園",
+  "kana": "",
+  "short": "足立学園",
+  "type": "男子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "北千住",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xafpsw0",
+  "name": "佼成学園",
+  "kana": "",
+  "short": "佼成学園",
+  "type": "男子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "方南町",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1rdivxh",
+  "name": "東京都市大学付属",
+  "kana": "",
+  "short": "東京都市大学付属",
+  "type": "男子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "成城学園前",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xiygayb",
+  "name": "学習院女子",
+  "kana": "",
+  "short": "学習院女子",
+  "type": "女子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "西早稲田",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1v3asht",
+  "name": "立教女学院",
+  "kana": "",
+  "short": "立教女学院",
+  "type": "女子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "三鷹台",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1gg0lix",
+  "name": "光塩女子学院",
+  "kana": "",
+  "short": "光塩女子学院",
+  "type": "女子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "東高円寺",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xdg3n20",
+  "name": "晃華学園",
+  "kana": "",
+  "short": "晃華学園",
+  "type": "女子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "つつじヶ丘(バス)",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xfnn8",
+  "name": "大妻",
+  "kana": "",
+  "short": "大妻",
+  "type": "女子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "半蔵門",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xbmcaet",
+  "name": "大妻中野",
+  "kana": "",
+  "short": "大妻中野",
+  "type": "女子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "中野",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xbmdwcj",
+  "name": "大妻多摩",
+  "kana": "",
+  "short": "大妻多摩",
+  "type": "女子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "唐木田",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xas7sqf",
+  "name": "共立女子",
+  "kana": "",
+  "short": "共立女子",
+  "type": "女子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "神保町",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1rrfgif",
+  "name": "共立女子第二",
+  "kana": "",
+  "short": "共立女子第二",
+  "type": "女子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "高尾(バス)",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xmz2snz",
+  "name": "実践女子学園",
+  "kana": "",
+  "short": "実践女子学園",
+  "type": "女子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "渋谷",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xz9wbhw",
+  "name": "昭和女子大学附属昭和",
+  "kana": "",
+  "short": "昭和女子大学附属昭和",
+  "type": "女子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "三軒茶屋",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1nljgmy",
+  "name": "東京女学館",
+  "kana": "",
+  "short": "東京女学館",
+  "type": "女子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "広尾",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x13jdl8b",
+  "name": "三輪田学園",
+  "kana": "",
+  "short": "三輪田学園",
+  "type": "女子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "飯田橋",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xc732ci",
+  "name": "山脇学園",
+  "kana": "",
+  "short": "山脇学園",
+  "type": "女子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "赤坂見附",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xigt4ty",
+  "name": "跡見学園",
+  "kana": "",
+  "short": "跡見学園",
+  "type": "女子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "茗荷谷",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1035ciz",
+  "name": "恵泉女学園",
+  "kana": "",
+  "short": "恵泉女学園",
+  "type": "女子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "経堂",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1rw154m",
+  "name": "普連土学園",
+  "kana": "",
+  "short": "普連土学園",
+  "type": "女子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "田町",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x17s7si",
+  "name": "田園調布学園",
+  "kana": "",
+  "short": "田園調布学園",
+  "type": "女子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "田園調布",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xttel3u",
+  "name": "東洋英和女学院",
+  "kana": "",
+  "short": "東洋英和女学院",
+  "type": "女子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "麻布十番",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xdvx70",
+  "name": "富士見",
+  "kana": "",
+  "short": "富士見",
+  "type": "女子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "中村橋",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xcorld",
+  "name": "十文字",
+  "kana": "",
+  "short": "十文字",
+  "type": "女子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "巣鴨",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1w0xg51",
+  "name": "品川女子学院",
+  "kana": "",
+  "short": "品川女子学院",
+  "type": "女子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "北品川",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1ev5vvh",
+  "name": "文京学院大学女子",
+  "kana": "",
+  "short": "文京学院大学女子",
+  "type": "女子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "本駒込",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xgj6c",
+  "name": "川村",
+  "kana": "",
+  "short": "川村",
+  "type": "女子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "目白",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x6n3pyt",
+  "name": "女子聖学院",
+  "kana": "",
+  "short": "女子聖学院",
+  "type": "女子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "駒込",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1a74rc7",
+  "name": "女子美術大学付属",
+  "kana": "",
+  "short": "女子美術大学付属",
+  "type": "女子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "東高円寺",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xabpjlt",
+  "name": "江戸川女子",
+  "kana": "",
+  "short": "江戸川女子",
+  "type": "女子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "小岩",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xtx5ktw",
+  "name": "和洋九段女子",
+  "kana": "",
+  "short": "和洋九段女子",
+  "type": "女子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "九段下",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xxciw22",
+  "name": "麹町学園女子",
+  "kana": "",
+  "short": "麹町学園女子",
+  "type": "女子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "麹町",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xe7c5h9",
+  "name": "佼成学園女子",
+  "kana": "",
+  "short": "佼成学園女子",
+  "type": "女子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "千歳烏山",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xdv44",
+  "name": "中村",
+  "kana": "",
+  "short": "中村",
+  "type": "女子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "清澄白河",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x58yjyf",
+  "name": "東京純心女子",
+  "kana": "",
+  "short": "東京純心女子",
+  "type": "女子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": null,
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1s8t3qi",
+  "name": "日本大学豊山女子",
+  "kana": "",
+  "short": "日本大学豊山女子",
+  "type": "女子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": null,
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1riir7x",
+  "name": "神田女学園",
+  "kana": "",
+  "short": "神田女学園",
+  "type": "女子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "水道橋",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x10cf40",
+  "name": "トキワ松学園",
+  "kana": "",
+  "short": "トキワ松学園",
+  "type": "女子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "都立大学",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xagza68",
+  "name": "京華女子",
+  "kana": "",
+  "short": "京華女子",
+  "type": "女子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "白山",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1th07fj",
+  "name": "瀧野川女子学園",
+  "kana": "",
+  "short": "瀧野川女子学園",
+  "type": "女子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": null,
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xbej1ho",
+  "name": "国本女子",
+  "kana": "",
+  "short": "国本女子",
+  "type": "女子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "喜多見",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x18tcbll",
+  "name": "駒沢学園女子",
+  "kana": "",
+  "short": "駒沢学園女子",
+  "type": "女子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": null,
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x80o4nx",
+  "name": "白梅学園清修",
+  "kana": "",
+  "short": "白梅学園清修",
+  "type": "女子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": null,
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xhbikfe",
+  "name": "藤村女子",
+  "kana": "",
+  "short": "藤村女子",
+  "type": "女子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "吉祥寺",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x21ax96",
+  "name": "東京家政大学附属女子",
+  "kana": "",
+  "short": "東京家政大学附属女子",
+  "type": "女子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "十条",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x129uow",
+  "name": "東京家政学院",
+  "kana": "",
+  "short": "東京家政学院",
+  "type": "女子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": null,
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xdl67ug",
+  "name": "桐朋女子",
+  "kana": "",
+  "short": "桐朋女子",
+  "type": "女子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "仙川",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x11xeowu",
+  "name": "玉川聖学院",
+  "kana": "",
+  "short": "玉川聖学院",
+  "type": "女子",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "九品仏",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1cqm423",
+  "name": "捜真女学校",
+  "kana": "",
+  "short": "捜真女学校",
+  "type": "女子",
+  "pref": "神奈川",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "反町",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xeh60z6",
+  "name": "広尾学園小石川",
+  "kana": "",
+  "short": "広尾学園小石川",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "千石",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xjkcd7",
+  "name": "芝国際",
+  "kana": "",
+  "short": "芝国際",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "芝公園",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xrul22p",
+  "name": "開智日本橋学園",
+  "kana": "",
+  "short": "開智日本橋学園",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "浅草橋",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1h29qmk",
+  "name": "かえつ有明",
+  "kana": "",
+  "short": "かえつ有明",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "東雲",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xc18hv7",
+  "name": "安田学園",
+  "kana": "",
+  "short": "安田学園",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "両国",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xxoysre",
+  "name": "中央大学附属",
+  "kana": "",
+  "short": "中央大学附属",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "武蔵小金井",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xe5fgrt",
+  "name": "法政大学",
+  "kana": "",
+  "short": "法政大学",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "井荻",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xhgl6",
+  "name": "成蹊",
+  "kana": "",
+  "short": "成蹊",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "吉祥寺",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xcqkjai",
+  "name": "成城学園",
+  "kana": "",
+  "short": "成城学園",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "成城学園前",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xdbrso9",
+  "name": "明治学院",
+  "kana": "",
+  "short": "明治学院",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": null,
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1t3la99",
+  "name": "国学院大学久我山",
+  "kana": "",
+  "short": "国学院大学久我山",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [
+   "男女別学"
+  ],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "久我山",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1mn72bv",
+  "name": "明治大学付属世田谷",
+  "kana": "",
+  "short": "明治大学付属世田谷",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "明大前",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1mno33y",
+  "name": "明治大学付属八王子",
+  "kana": "",
+  "short": "明治大学付属八王子",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": null,
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xc7agzy",
+  "name": "帝京大学",
+  "kana": "",
+  "short": "帝京大学",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "多摩センター(バス)",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xgfu7",
+  "name": "帝京",
+  "kana": "",
+  "short": "帝京",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "十条",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xfwjs5",
+  "name": "桜美林",
+  "kana": "",
+  "short": "桜美林",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "淵野辺(バス)",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xif3xk",
+  "name": "穎明館",
+  "kana": "",
+  "short": "穎明館",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "高尾(バス)",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xoxw05m",
+  "name": "芝浦工業大学附属",
+  "kana": "",
+  "short": "芝浦工業大学附属",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "豊洲",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1c5xhow",
+  "name": "日本工業大学駒場",
+  "kana": "",
+  "short": "日本工業大学駒場",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "駒場東大前",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x8k4i4e",
+  "name": "東京電機大学",
+  "kana": "",
+  "short": "東京電機大学",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "東小金井",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1gbi782",
+  "name": "多摩大学目黒",
+  "kana": "",
+  "short": "多摩大学目黒",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": null,
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1tn090w",
+  "name": "多摩大学附属聖ヶ丘",
+  "kana": "",
+  "short": "多摩大学附属聖ヶ丘",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "聖蹟桜ヶ丘(バス)",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1q4oeei",
+  "name": "目黒日本大学",
+  "kana": "",
+  "short": "目黒日本大学",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "目黒",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1f2c2l6",
+  "name": "日本大学第一",
+  "kana": "",
+  "short": "日本大学第一",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "両国",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1f2c2p2",
+  "name": "日本大学第二",
+  "kana": "",
+  "short": "日本大学第二",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "荻窪",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1f2c2lf",
+  "name": "日本大学第三",
+  "kana": "",
+  "short": "日本大学第三",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": null,
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1f9h8fn",
+  "name": "東海大学付属高輪台",
+  "kana": "",
+  "short": "東海大学付属高輪台",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "高輪台",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xlpe6a",
+  "name": "郁文館",
+  "kana": "",
+  "short": "郁文館",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "東大前",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xj7cy",
+  "name": "淑徳",
+  "kana": "",
+  "short": "淑徳",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": null,
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xe94ahz",
+  "name": "淑徳巣鴨",
+  "kana": "",
+  "short": "淑徳巣鴨",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "西巣鴨",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x91yhn",
+  "name": "城西大学附属城西",
+  "kana": "",
+  "short": "城西大学附属城西",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "要町",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xgl6q89",
+  "name": "聖徳学園",
+  "kana": "",
+  "short": "聖徳学園",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "武蔵境",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xhx3l",
+  "name": "明星",
+  "kana": "",
+  "short": "明星",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": null,
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xb59vge",
+  "name": "武蔵野大学",
+  "kana": "",
+  "short": "武蔵野大学",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": null,
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1ua50d",
+  "name": "東京成徳大学",
+  "kana": "",
+  "short": "東京成徳大学",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": null,
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xi6gs",
+  "name": "桜丘",
+  "kana": "",
+  "short": "桜丘",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "王子",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xqyay",
+  "name": "駒込",
+  "kana": "",
+  "short": "駒込",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "本駒込",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xag5ai8",
+  "name": "上野学園",
+  "kana": "",
+  "short": "上野学園",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "上野",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x100547y",
+  "name": "宝仙学園理数インター",
+  "kana": "",
+  "short": "宝仙学園理数インター",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "中野坂上",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1kqtggm",
+  "name": "新渡戸文化",
+  "kana": "",
+  "short": "新渡戸文化",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": null,
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1mc6u50",
+  "name": "八王子学園八王子",
+  "kana": "",
+  "short": "八王子学園八王子",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "西八王子",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xpzbtne",
+  "name": "工学院大学附属",
+  "kana": "",
+  "short": "工学院大学附属",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "八王子(バス)",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xhyfb",
+  "name": "明法",
+  "kana": "",
+  "short": "明法",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": null,
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xb6tg3r",
+  "name": "啓明学園",
+  "kana": "",
+  "short": "啓明学園",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "拝島(バス)",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xeyslpc",
+  "name": "玉川学園",
+  "kana": "",
+  "short": "玉川学園",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "玉川学園前",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1c8az6d",
+  "name": "立正大学付属立正",
+  "kana": "",
+  "short": "立正大学付属立正",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "西馬込",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xfhy94u",
+  "name": "目白研心",
+  "kana": "",
+  "short": "目白研心",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": null,
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1yg89sn",
+  "name": "文教大学付属",
+  "kana": "",
+  "short": "文教大学付属",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "旗の台",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1cf1h50",
+  "name": "東洋大学京北",
+  "kana": "",
+  "short": "東洋大学京北",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "白山",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xqcir",
+  "name": "順天",
+  "kana": "",
+  "short": "順天",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "王子",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xd6ix6",
+  "name": "国士舘",
+  "kana": "",
+  "short": "国士舘",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "梅ヶ丘",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xcvp10n",
+  "name": "成立学園",
+  "kana": "",
+  "short": "成立学園",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": null,
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1ce8myk",
+  "name": "サレジアン国際学園",
+  "kana": "",
+  "short": "サレジアン国際学園",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "赤羽",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x11yuoyp",
+  "name": "サレジアン国際学園世田谷",
+  "kana": "",
+  "short": "サレジアン国際学園世田谷",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": null,
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xb37gt5",
+  "name": "品川翔英",
+  "kana": "",
+  "short": "品川翔英",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "大井町",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1fzv2ev",
+  "name": "文化学園大学杉並",
+  "kana": "",
+  "short": "文化学園大学杉並",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "阿佐ケ谷",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xaw8pzn",
+  "name": "八雲学園",
+  "kana": "",
+  "short": "八雲学園",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "都立大学",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xqeq2",
+  "name": "青稜",
+  "kana": "",
+  "short": "青稜",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "下神明",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x193vzw4",
+  "name": "ドルトン東京学園",
+  "kana": "",
+  "short": "ドルトン東京学園",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": null,
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xgvvizs",
+  "name": "お茶の水女子大学附属",
+  "kana": "",
+  "short": "お茶の水女子大学附属",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [
+   "国立"
+  ],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "茗荷谷",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xbi9ghj",
+  "name": "東京学芸大学附属世田谷",
+  "kana": "",
+  "short": "東京学芸大学附属世田谷",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [
+   "国立"
+  ],
+  "yuguu": "",
+  "kikoku": false,
+  "station": null,
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1a7blx2",
+  "name": "東京学芸大学附属竹早",
+  "kana": "",
+  "short": "東京学芸大学附属竹早",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [
+   "国立"
+  ],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "茗荷谷",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xbkfo0d",
+  "name": "東京学芸大学附属小金井",
+  "kana": "",
+  "short": "東京学芸大学附属小金井",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [
+   "国立"
+  ],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "武蔵小金井",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xdmo6c9",
+  "name": "東京学芸大学附属国際中等教育",
+  "kana": "",
+  "short": "東京学芸大学附属国際中等教育",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [
+   "国立"
+  ],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "大泉学園",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x12mybkw",
+  "name": "都立小石川中等教育",
+  "kana": "",
+  "short": "都立小石川中等教育",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [
+   "公立一貫"
+  ],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "千石",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": [
+   {
+    "d": "2027-02-03",
+    "s": "AM",
+    "n": "適性検査",
+    "note": "公立中高一貫(共同作成問題等)",
+    "unc": 0
+   }
+  ]
+ },
+ {
+  "id": "xce2vpf",
+  "name": "都立武蔵高等学校附属",
+  "kana": "",
+  "short": "都立武蔵高等学校附属",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [
+   "公立一貫"
+  ],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "武蔵境",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": [
+   {
+    "d": "2027-02-03",
+    "s": "AM",
+    "n": "適性検査",
+    "note": "公立中高一貫(共同作成問題等)",
+    "unc": 0
+   }
+  ]
+ },
+ {
+  "id": "x1fkmw1c",
+  "name": "都立両国高等学校附属",
+  "kana": "",
+  "short": "都立両国高等学校附属",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [
+   "公立一貫"
+  ],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "錦糸町",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": [
+   {
+    "d": "2027-02-03",
+    "s": "AM",
+    "n": "適性検査",
+    "note": "公立中高一貫(共同作成問題等)",
+    "unc": 0
+   }
+  ]
+ },
+ {
+  "id": "x1eaxkpx",
+  "name": "都立白鴎高等学校附属",
+  "kana": "",
+  "short": "都立白鴎高等学校附属",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [
+   "公立一貫"
+  ],
+  "yuguu": "",
+  "kikoku": false,
+  "station": null,
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": [
+   {
+    "d": "2027-02-03",
+    "s": "AM",
+    "n": "適性検査",
+    "note": "公立中高一貫(共同作成問題等)",
+    "unc": 0
+   }
+  ]
+ },
+ {
+  "id": "xfntffh",
+  "name": "都立桜修館中等教育",
+  "kana": "",
+  "short": "都立桜修館中等教育",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [
+   "公立一貫"
+  ],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "都立大学",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": [
+   {
+    "d": "2027-02-03",
+    "s": "AM",
+    "n": "適性検査",
+    "note": "公立中高一貫(共同作成問題等)",
+    "unc": 0
+   }
+  ]
+ },
+ {
+  "id": "x18mjw2b",
+  "name": "都立富士高等学校附属",
+  "kana": "",
+  "short": "都立富士高等学校附属",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [
+   "公立一貫"
+  ],
+  "yuguu": "",
+  "kikoku": false,
+  "station": null,
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": [
+   {
+    "d": "2027-02-03",
+    "s": "AM",
+    "n": "適性検査",
+    "note": "公立中高一貫(共同作成問題等)",
+    "unc": 0
+   }
+  ]
+ },
+ {
+  "id": "x1q9ir3q",
+  "name": "都立大泉高等学校附属",
+  "kana": "",
+  "short": "都立大泉高等学校附属",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [
+   "公立一貫"
+  ],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "大泉学園",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": [
+   {
+    "d": "2027-02-03",
+    "s": "AM",
+    "n": "適性検査",
+    "note": "公立中高一貫(共同作成問題等)",
+    "unc": 0
+   }
+  ]
+ },
+ {
+  "id": "x3gudyl",
+  "name": "都立南多摩中等教育",
+  "kana": "",
+  "short": "都立南多摩中等教育",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [
+   "公立一貫"
+  ],
+  "yuguu": "",
+  "kikoku": false,
+  "station": null,
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": [
+   {
+    "d": "2027-02-03",
+    "s": "AM",
+    "n": "適性検査",
+    "note": "公立中高一貫(共同作成問題等)",
+    "unc": 0
+   }
+  ]
+ },
+ {
+  "id": "x1ylovg3",
+  "name": "都立三鷹中等教育",
+  "kana": "",
+  "short": "都立三鷹中等教育",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [
+   "公立一貫"
+  ],
+  "yuguu": "",
+  "kikoku": false,
+  "station": null,
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": [
+   {
+    "d": "2027-02-03",
+    "s": "AM",
+    "n": "適性検査",
+    "note": "公立中高一貫(共同作成問題等)",
+    "unc": 0
+   }
+  ]
+ },
+ {
+  "id": "x1jpoudv",
+  "name": "都立立川国際中等教育",
+  "kana": "",
+  "short": "都立立川国際中等教育",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [
+   "公立一貫"
+  ],
+  "yuguu": "",
+  "kikoku": false,
+  "station": null,
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": [
+   {
+    "d": "2027-02-03",
+    "s": "AM",
+    "n": "適性検査",
+    "note": "公立中高一貫(共同作成問題等)",
+    "unc": 0
+   }
+  ]
+ },
+ {
+  "id": "xddl0fi",
+  "name": "千代田区立九段中等教育",
+  "kana": "",
+  "short": "千代田区立九段中等教育",
+  "type": "共学",
+  "pref": "東京",
+  "dev": null,
+  "tags": [
+   "公立一貫"
+  ],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "九段下",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": [
+   {
+    "d": "2027-02-03",
+    "s": "AM",
+    "n": "適性検査",
+    "note": "公立中高一貫(共同作成問題等)",
+    "unc": 0
+   }
+  ]
+ },
+ {
+  "id": "xsx36op",
+  "name": "神奈川県立相模原中等教育",
+  "kana": "",
+  "short": "神奈川県立相模原中等教育",
+  "type": "共学",
+  "pref": "神奈川",
+  "dev": null,
+  "tags": [
+   "公立一貫"
+  ],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "相模大野",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": [
+   {
+    "d": "2027-02-03",
+    "s": "AM",
+    "n": "適性検査",
+    "note": "公立中高一貫(共同作成問題等)",
+    "unc": 0
+   }
+  ]
+ },
+ {
+  "id": "xhu18xa",
+  "name": "神奈川県立平塚中等教育",
+  "kana": "",
+  "short": "神奈川県立平塚中等教育",
+  "type": "共学",
+  "pref": "神奈川",
+  "dev": null,
+  "tags": [
+   "公立一貫"
+  ],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "平塚(バス)",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": [
+   {
+    "d": "2027-02-03",
+    "s": "AM",
+    "n": "適性検査",
+    "note": "公立中高一貫(共同作成問題等)",
+    "unc": 0
+   }
+  ]
+ },
+ {
+  "id": "x1wamsqq",
+  "name": "横浜市立南高等学校附属",
+  "kana": "",
+  "short": "横浜市立南高等学校附属",
+  "type": "共学",
+  "pref": "神奈川",
+  "dev": null,
+  "tags": [
+   "公立一貫"
+  ],
+  "yuguu": "",
+  "kikoku": false,
+  "station": null,
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": [
+   {
+    "d": "2027-02-03",
+    "s": "AM",
+    "n": "適性検査",
+    "note": "公立中高一貫(共同作成問題等)",
+    "unc": 0
+   }
+  ]
+ },
+ {
+  "id": "x15tjrst",
+  "name": "横浜サイエンスフロンティア高等学校附属",
+  "kana": "",
+  "short": "横浜サイエンスフロンティア高等学校附属",
+  "type": "共学",
+  "pref": "神奈川",
+  "dev": null,
+  "tags": [
+   "公立一貫"
+  ],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "鶴見(バス)",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": [
+   {
+    "d": "2027-02-03",
+    "s": "AM",
+    "n": "適性検査",
+    "note": "公立中高一貫(共同作成問題等)",
+    "unc": 0
+   }
+  ]
+ },
+ {
+  "id": "x1apb9wx",
+  "name": "川崎市立川崎高等学校附属",
+  "kana": "",
+  "short": "川崎市立川崎高等学校附属",
+  "type": "共学",
+  "pref": "神奈川",
+  "dev": null,
+  "tags": [
+   "公立一貫"
+  ],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "川崎",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": [
+   {
+    "d": "2027-02-03",
+    "s": "AM",
+    "n": "適性検査",
+    "note": "公立中高一貫(共同作成問題等)",
+    "unc": 0
+   }
+  ]
+ },
+ {
+  "id": "x158wrwr",
+  "name": "千葉県立千葉",
+  "kana": "",
+  "short": "千葉県立千葉",
+  "type": "共学",
+  "pref": "千葉",
+  "dev": null,
+  "tags": [
+   "公立一貫"
+  ],
+  "yuguu": "",
+  "kikoku": false,
+  "station": null,
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x76ay7",
+  "name": "千葉県立東葛飾",
+  "kana": "",
+  "short": "千葉県立東葛飾",
+  "type": "共学",
+  "pref": "千葉",
+  "dev": null,
+  "tags": [
+   "公立一貫"
+  ],
+  "yuguu": "",
+  "kikoku": false,
+  "station": null,
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xki6iz",
+  "name": "千葉市立稲毛国際中等教育",
+  "kana": "",
+  "short": "千葉市立稲毛国際中等教育",
+  "type": "共学",
+  "pref": "千葉",
+  "dev": null,
+  "tags": [
+   "公立一貫"
+  ],
+  "yuguu": "",
+  "kikoku": false,
+  "station": null,
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xmi3iil",
+  "name": "さいたま市立浦和",
+  "kana": "",
+  "short": "さいたま市立浦和",
+  "type": "共学",
+  "pref": "埼玉",
+  "dev": null,
+  "tags": [
+   "公立一貫"
+  ],
+  "yuguu": "",
+  "kikoku": false,
+  "station": null,
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1bk2zu9",
+  "name": "さいたま市立大宮国際中等教育",
+  "kana": "",
+  "short": "さいたま市立大宮国際中等教育",
+  "type": "共学",
+  "pref": "埼玉",
+  "dev": null,
+  "tags": [
+   "公立一貫"
+  ],
+  "yuguu": "",
+  "kikoku": false,
+  "station": null,
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x14nzrqt",
+  "name": "川口市立高等学校附属",
+  "kana": "",
+  "short": "川口市立高等学校附属",
+  "type": "共学",
+  "pref": "埼玉",
+  "dev": null,
+  "tags": [
+   "公立一貫"
+  ],
+  "yuguu": "",
+  "kikoku": false,
+  "station": null,
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xiy4e95",
+  "name": "鎌倉学園",
+  "kana": "",
+  "short": "鎌倉学園",
+  "type": "男子",
+  "pref": "神奈川",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "北鎌倉",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1kyf8cg",
+  "name": "藤嶺学園藤沢",
+  "kana": "",
+  "short": "藤嶺学園藤沢",
+  "type": "男子",
+  "pref": "神奈川",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "藤沢",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xdusupu",
+  "name": "横浜雙葉",
+  "kana": "",
+  "short": "横浜雙葉",
+  "type": "女子",
+  "pref": "神奈川",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "元町・中華街",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xno2eag",
+  "name": "横浜共立学園",
+  "kana": "",
+  "short": "横浜共立学園",
+  "type": "女子",
+  "pref": "神奈川",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "石川町",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x4hbc0k",
+  "name": "湘南白百合学園",
+  "kana": "",
+  "short": "湘南白百合学園",
+  "type": "女子",
+  "pref": "神奈川",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "片瀬山",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xj4n49e",
+  "name": "鎌倉女学院",
+  "kana": "",
+  "short": "鎌倉女学院",
+  "type": "女子",
+  "pref": "神奈川",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "鎌倉",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xi33b7v",
+  "name": "清泉女学院",
+  "kana": "",
+  "short": "清泉女学院",
+  "type": "女子",
+  "pref": "神奈川",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "大船(バス)",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1mzt4mu",
+  "name": "カリタス女子",
+  "kana": "",
+  "short": "カリタス女子",
+  "type": "女子",
+  "pref": "神奈川",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "中野島",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xfxkzg3",
+  "name": "聖園女学院",
+  "kana": "",
+  "short": "聖園女学院",
+  "type": "女子",
+  "pref": "神奈川",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": null,
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1lr9nxj",
+  "name": "聖セシリア女子",
+  "kana": "",
+  "short": "聖セシリア女子",
+  "type": "女子",
+  "pref": "神奈川",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "中央林間",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x3308n1",
+  "name": "横浜女学院",
+  "kana": "",
+  "short": "横浜女学院",
+  "type": "女子",
+  "pref": "神奈川",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "石川町",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1o0geu7",
+  "name": "神奈川学園",
+  "kana": "",
+  "short": "神奈川学園",
+  "type": "女子",
+  "pref": "神奈川",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "横浜",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x6uw0ab",
+  "name": "鎌倉女子大学中等部",
+  "kana": "",
+  "short": "鎌倉女子大学中等部",
+  "type": "女子",
+  "pref": "神奈川",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "大船",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xzp7422",
+  "name": "相模女子大学中学部",
+  "kana": "",
+  "short": "相模女子大学中学部",
+  "type": "女子",
+  "pref": "神奈川",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "相模大野",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xmeys0t",
+  "name": "日本女子大学附属",
+  "kana": "",
+  "short": "日本女子大学附属",
+  "type": "女子",
+  "pref": "神奈川",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "読売ランド前",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1of7g24",
+  "name": "中央大学附属横浜",
+  "kana": "",
+  "short": "中央大学附属横浜",
+  "type": "共学",
+  "pref": "神奈川",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "センター北",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xw1xmq1",
+  "name": "法政大学第二",
+  "kana": "",
+  "short": "法政大学第二",
+  "type": "共学",
+  "pref": "神奈川",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "武蔵小杉",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x180ulqg",
+  "name": "青山学院横浜英和",
+  "kana": "",
+  "short": "青山学院横浜英和",
+  "type": "共学",
+  "pref": "神奈川",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "蒔田",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1tuxcks",
+  "name": "神奈川大学附属",
+  "kana": "",
+  "short": "神奈川大学附属",
+  "type": "共学",
+  "pref": "神奈川",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "中山",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1hmmwu6",
+  "name": "桐蔭学園中等教育",
+  "kana": "",
+  "short": "桐蔭学園中等教育",
+  "type": "共学",
+  "pref": "神奈川",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "市が尾(バス)",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xdhzspx",
+  "name": "桐光学園",
+  "kana": "",
+  "short": "桐光学園",
+  "type": "共学",
+  "pref": "神奈川",
+  "dev": null,
+  "tags": [
+   "男女別学"
+  ],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "栗平",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xdo0urz",
+  "name": "森村学園",
+  "kana": "",
+  "short": "森村学園",
+  "type": "共学",
+  "pref": "神奈川",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "つくし野",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xc2lcmu",
+  "name": "山手学院",
+  "kana": "",
+  "short": "山手学院",
+  "type": "共学",
+  "pref": "神奈川",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "港南台",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1d7ch1h",
+  "name": "公文国際学園",
+  "kana": "",
+  "short": "公文国際学園",
+  "type": "共学",
+  "pref": "神奈川",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "大船(バス)",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xe9oii3",
+  "name": "湘南学園",
+  "kana": "",
+  "short": "湘南学園",
+  "type": "共学",
+  "pref": "神奈川",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "鵠沼海岸",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xda7lmu",
+  "name": "日本大学",
+  "kana": "",
+  "short": "日本大学",
+  "type": "共学",
+  "pref": "神奈川",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "日吉",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1f2e29w",
+  "name": "日本大学藤沢",
+  "kana": "",
+  "short": "日本大学藤沢",
+  "type": "共学",
+  "pref": "神奈川",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "六会日大前",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xjb14wb",
+  "name": "関東学院",
+  "kana": "",
+  "short": "関東学院",
+  "type": "共学",
+  "pref": "神奈川",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "黄金町",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xefbv1g",
+  "name": "関東学院六浦",
+  "kana": "",
+  "short": "関東学院六浦",
+  "type": "共学",
+  "pref": "神奈川",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "金沢八景",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xo4a5jt",
+  "name": "自修館中等教育",
+  "kana": "",
+  "short": "自修館中等教育",
+  "type": "共学",
+  "pref": "神奈川",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "愛甲石田",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x8o9zmm",
+  "name": "横須賀学院",
+  "kana": "",
+  "short": "横須賀学院",
+  "type": "共学",
+  "pref": "神奈川",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "横須賀中央",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xqupv90",
+  "name": "東海大学付属相模",
+  "kana": "",
+  "short": "東海大学付属相模",
+  "type": "共学",
+  "pref": "神奈川",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "小田急相模原",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1j9b193",
+  "name": "聖ヨゼフ学園",
+  "kana": "",
+  "short": "聖ヨゼフ学園",
+  "type": "共学",
+  "pref": "神奈川",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "鶴見(バス)",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x7l0vmy",
+  "name": "横浜富士見丘学園",
+  "kana": "",
+  "short": "横浜富士見丘学園",
+  "type": "共学",
+  "pref": "神奈川",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "緑園都市",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xdup1mv",
+  "name": "横浜翠陵",
+  "kana": "",
+  "short": "横浜翠陵",
+  "type": "共学",
+  "pref": "神奈川",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": null,
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xduh7ny",
+  "name": "横浜創英",
+  "kana": "",
+  "short": "横浜創英",
+  "type": "共学",
+  "pref": "神奈川",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": null,
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xdusjg0",
+  "name": "横浜隼人",
+  "kana": "",
+  "short": "横浜隼人",
+  "type": "共学",
+  "pref": "神奈川",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": null,
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xsat1gf",
+  "name": "芝浦工業大学柏",
+  "kana": "",
+  "short": "芝浦工業大学柏",
+  "type": "共学",
+  "pref": "千葉",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "新柏",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x14doj5x",
+  "name": "専修大学松戸",
+  "kana": "",
+  "short": "専修大学松戸",
+  "type": "共学",
+  "pref": "千葉",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "北松戸",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xrl65",
+  "name": "麗澤",
+  "kana": "",
+  "short": "麗澤",
+  "type": "共学",
+  "pref": "千葉",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "南柏(バス)",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1oi532i",
+  "name": "国府台女子学院",
+  "kana": "",
+  "short": "国府台女子学院",
+  "type": "女子",
+  "pref": "千葉",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "市川真間",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1ef7qww",
+  "name": "千葉日本大学第一",
+  "kana": "",
+  "short": "千葉日本大学第一",
+  "type": "共学",
+  "pref": "千葉",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "船橋日大前",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xd74735",
+  "name": "日出学園",
+  "kana": "",
+  "short": "日出学園",
+  "type": "共学",
+  "pref": "千葉",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "菅野",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x19203a5",
+  "name": "八千代松陰",
+  "kana": "",
+  "short": "八千代松陰",
+  "type": "共学",
+  "pref": "千葉",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "勝田台(バス)",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1c6ssy",
+  "name": "成田高等学校付属",
+  "kana": "",
+  "short": "成田高等学校付属",
+  "type": "共学",
+  "pref": "千葉",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "成田",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x10743jj",
+  "name": "和洋国府台女子",
+  "kana": "",
+  "short": "和洋国府台女子",
+  "type": "女子",
+  "pref": "千葉",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "国府台",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xd8s2kb",
+  "name": "昭和学院",
+  "kana": "",
+  "short": "昭和学院",
+  "type": "共学",
+  "pref": "千葉",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "本八幡(バス)",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xquo5ri",
+  "name": "東海大学付属浦安",
+  "kana": "",
+  "short": "東海大学付属浦安",
+  "type": "共学",
+  "pref": "千葉",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "浦安",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x15lmbbw",
+  "name": "二松学舎大学附属柏",
+  "kana": "",
+  "short": "二松学舎大学附属柏",
+  "type": "共学",
+  "pref": "千葉",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "柏(バス)",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1vnjc1h",
+  "name": "流通経済大学付属柏",
+  "kana": "",
+  "short": "流通経済大学付属柏",
+  "type": "共学",
+  "pref": "千葉",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": null,
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xmsgvrs",
+  "name": "光英VERITAS",
+  "kana": "",
+  "short": "光英VERITAS",
+  "type": "共学",
+  "pref": "千葉",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": null,
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xb1xkjv",
+  "name": "千葉明徳",
+  "kana": "",
+  "short": "千葉明徳",
+  "type": "共学",
+  "pref": "千葉",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": null,
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xdctmkc",
+  "name": "暁星国際",
+  "kana": "",
+  "short": "暁星国際",
+  "type": "共学",
+  "pref": "千葉",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "木更津(バス)",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1divsh1",
+  "name": "江戸川学園取手",
+  "kana": "",
+  "short": "江戸川学園取手",
+  "type": "共学",
+  "pref": "茨城",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "取手(バス)",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x130qgf6",
+  "name": "土浦日本大学中等教育",
+  "kana": "",
+  "short": "土浦日本大学中等教育",
+  "type": "共学",
+  "pref": "茨城",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "土浦(バス)",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xgzvspr",
+  "name": "茗溪学園",
+  "kana": "",
+  "short": "茗溪学園",
+  "type": "共学",
+  "pref": "茨城",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "つくば(バス)",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xceoyvn",
+  "name": "常総学院",
+  "kana": "",
+  "short": "常総学院",
+  "type": "共学",
+  "pref": "茨城",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "土浦(バス)",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xti2voh",
+  "name": "開智望中等教育",
+  "kana": "",
+  "short": "開智望中等教育",
+  "type": "共学",
+  "pref": "茨城",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": null,
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xfww8kl",
+  "name": "立教新座",
+  "kana": "",
+  "short": "立教新座",
+  "type": "男子",
+  "pref": "埼玉",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "志木",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xbfahg6",
+  "name": "城北埼玉",
+  "kana": "",
+  "short": "城北埼玉",
+  "type": "男子",
+  "pref": "埼玉",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "上福岡",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xbnaida",
+  "name": "城西川越",
+  "kana": "",
+  "short": "城西川越",
+  "type": "男子",
+  "pref": "埼玉",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "川越(バス)",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1e7igia",
+  "name": "西武学園文理",
+  "kana": "",
+  "short": "西武学園文理",
+  "type": "共学",
+  "pref": "埼玉",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "新狭山(バス)",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xdg5uf",
+  "name": "埼玉栄",
+  "kana": "",
+  "short": "埼玉栄",
+  "type": "共学",
+  "pref": "埼玉",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "西大宮",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xjaj3t6",
+  "name": "開智未来",
+  "kana": "",
+  "short": "開智未来",
+  "type": "共学",
+  "pref": "埼玉",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": null,
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xdc6mcm",
+  "name": "開智所沢中等教育",
+  "kana": "",
+  "short": "開智所沢中等教育",
+  "type": "共学",
+  "pref": "埼玉",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": null,
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "x1loi98b",
+  "name": "春日部共栄",
+  "kana": "",
+  "short": "春日部共栄",
+  "type": "共学",
+  "pref": "埼玉",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "春日部(バス)",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xewnjzt",
+  "name": "獨協埼玉",
+  "kana": "",
+  "short": "獨協埼玉",
+  "type": "共学",
+  "pref": "埼玉",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "せんげん台",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xhvjb",
+  "name": "昌平",
+  "kana": "",
+  "short": "昌平",
+  "type": "共学",
+  "pref": "埼玉",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "杉戸高野台",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xbmyg0c",
+  "name": "大宮開成",
+  "kana": "",
+  "short": "大宮開成",
+  "type": "共学",
+  "pref": "埼玉",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "大宮(バス)",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xdhhsmz",
+  "name": "星野学園",
+  "kana": "",
+  "short": "星野学園",
+  "type": "共学",
+  "pref": "埼玉",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "川越(バス)",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xga1dv0",
+  "name": "細田学園",
+  "kana": "",
+  "short": "細田学園",
+  "type": "共学",
+  "pref": "埼玉",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "志木",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xjbi4go",
+  "name": "東京農業大学第三高等学校附属",
+  "kana": "",
+  "short": "東京農業大学第三高等学校附属",
+  "type": "共学",
+  "pref": "埼玉",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": null,
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xgpilrs",
+  "name": "狭山ヶ丘高等学校付属",
+  "kana": "",
+  "short": "狭山ヶ丘高等学校付属",
+  "type": "共学",
+  "pref": "埼玉",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "武蔵藤沢",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xgm9s4x",
+  "name": "聖望学園",
+  "kana": "",
+  "short": "聖望学園",
+  "type": "共学",
+  "pref": "埼玉",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "飯能",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xe91jb6",
+  "name": "淑徳与野",
+  "kana": "",
+  "short": "淑徳与野",
+  "type": "女子",
+  "pref": "埼玉",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "北与野",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xzs0iv4",
+  "name": "浦和実業学園",
+  "kana": "",
+  "short": "浦和実業学園",
+  "type": "共学",
+  "pref": "埼玉",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "南浦和",
+  "fuzoku": false,
+  "needsFetch": true,
+  "exams": []
+ },
+ {
+  "id": "xrxrdmd",
+  "name": "青山学院大学系属浦和ルーテル学院",
+  "kana": "",
+  "short": "青山学院大学系属浦和ルーテル学院",
+  "type": "共学",
+  "pref": "埼玉",
+  "dev": null,
+  "tags": [],
+  "yuguu": "",
+  "kikoku": false,
+  "station": "浦和美園",
+  "fuzoku": true,
+  "needsFetch": true,
+  "exams": []
+ }
+]

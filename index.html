@@ -1,0 +1,1189 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>中学受験 併願計画ボード 2027</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@600;700;800&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#F3F2EC;
+  --card:#FFFFFF;
+  --ink:#22252D;
+  --sub:#6A6E79;
+  --navy:#1E2F5C;
+  --navy2:#2E4478;
+  --asagi:#4E7E90;
+  --asagi-bg:#EDF3F4;
+  --shu:#BC332B;
+  --shu-bg:#FBEDEB;
+  --gold:#A8801F;
+  --gold-bg:#F8F1DE;
+  --amber:#9A6B1F;
+  --amber-bg:#FAF3E0;
+  --line:#DCDAD0;
+  --radius:10px;
+  --disp:"Shippori Mincho B1",serif;
+  --body:"Zen Kaku Gothic New",sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+body{
+  font-family:var(--body);
+  background:var(--paper);
+  color:var(--ink);
+  line-height:1.7;
+  font-size:15px;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:var(--asagi)}
+button{font-family:var(--body);cursor:pointer}
+:focus-visible{outline:3px solid var(--navy2);outline-offset:2px;border-radius:4px}
+
+/* ---------- header ---------- */
+.site-head{
+  background:var(--navy);
+  color:#F2F1E8;
+  padding:22px 18px 18px;
+  position:relative;
+  overflow:hidden;
+}
+.site-head::after{
+  content:"";
+  position:absolute;inset:0;
+  background:repeating-linear-gradient(90deg,transparent 0 46px,rgba(255,255,255,.035) 46px 47px);
+  pointer-events:none;
+}
+.head-inner{max-width:1080px;margin:0 auto;display:flex;gap:16px;align-items:flex-start;position:relative}
+.era-seal{
+  writing-mode:vertical-rl;
+  font-family:var(--disp);
+  font-weight:700;
+  font-size:13px;
+  letter-spacing:.35em;
+  color:#F2F1E8;
+  border:1.5px solid rgba(242,241,232,.55);
+  border-radius:6px;
+  padding:10px 5px;
+  line-height:1;
+  flex:none;
+}
+.head-txt h1{
+  font-family:var(--disp);
+  font-weight:800;
+  font-size:clamp(21px,4.5vw,30px);
+  letter-spacing:.06em;
+  line-height:1.35;
+}
+.head-txt .lede{
+  margin-top:6px;
+  font-size:12.5px;
+  color:#C6CBDB;
+  max-width:640px;
+}
+.head-txt .lede strong{color:#F0D9A0;font-weight:700}
+
+/* ---------- caution banner ---------- */
+.caution{
+  background:var(--amber-bg);
+  border-bottom:1px solid #E6D9B8;
+  color:var(--amber);
+  font-size:12.5px;
+  padding:8px 18px;
+}
+.caution .in{max-width:1080px;margin:0 auto}
+
+/* ---------- plan bar ---------- */
+.planbar{
+  position:sticky;top:0;z-index:40;
+  background:#FFFDF6;
+  border-bottom:1px solid var(--line);
+  box-shadow:0 2px 10px rgba(30,47,92,.07);
+  padding:8px 18px;
+}
+.planbar .in{max-width:1080px;margin:0 auto}
+.planbar-top{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.planbar-title{font-family:var(--disp);font-weight:700;font-size:14px;color:var(--navy)}
+.plan-count{font-size:12.5px;color:var(--sub)}
+.conflict-pill{
+  background:var(--shu-bg);color:var(--shu);
+  border:1px solid #E8C4C0;border-radius:999px;
+  font-size:12px;font-weight:700;padding:2px 10px;
+}
+.conflict-pill.ok{background:#EEF4EC;color:#3E6B48;border-color:#CBDCC9}
+.plan-chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.plan-chip{
+  display:inline-flex;align-items:center;gap:6px;
+  background:var(--navy);color:#fff;
+  border:none;border-radius:6px;
+  font-size:12px;padding:3px 8px;
+}
+.plan-chip .x{font-weight:700;opacity:.75}
+.plan-empty{font-size:12.5px;color:var(--sub)}
+
+/* ---------- tabs ---------- */
+.tabs{
+  max-width:1080px;margin:14px auto 0;padding:0 18px;
+  display:flex;gap:6px;flex-wrap:wrap;
+}
+.tab-btn{
+  border:1px solid var(--line);
+  background:#fff;
+  border-radius:999px;
+  padding:7px 15px;
+  font-size:13.5px;font-weight:500;color:var(--ink);
+}
+.tab-btn[aria-selected="true"]{
+  background:var(--navy);color:#fff;border-color:var(--navy);font-weight:700;
+}
+main{max-width:1080px;margin:0 auto;padding:16px 18px 70px}
+.panel{display:none}
+.panel.active{display:block}
+.sec-note{font-size:12.5px;color:var(--sub);margin:6px 0 14px}
+h2.sec{
+  font-family:var(--disp);font-weight:700;font-size:19px;color:var(--navy);
+  letter-spacing:.05em;margin:18px 0 4px;
+}
+
+/* ---------- calendar ---------- */
+.cal-controls{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:10px 0 4px}
+.toggle{
+  display:inline-flex;align-items:center;gap:7px;font-size:13px;
+  background:#fff;border:1px solid var(--line);border-radius:999px;padding:6px 13px;
+}
+.cal-group{margin-top:22px}
+.cal-group-h{
+  font-family:var(--disp);font-weight:700;font-size:15px;color:var(--navy);
+  border-left:4px solid var(--navy);padding-left:9px;letter-spacing:.05em;
+}
+.cal-group-h small{font-family:var(--body);font-weight:400;color:var(--sub);font-size:12px;margin-left:8px;letter-spacing:0}
+.day-row{
+  background:var(--card);
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  margin-top:10px;
+  padding:10px 12px;
+  position:relative;
+}
+.day-row.has-conflict{border-color:#E0A5A0;background:#FFFBFA}
+.day-head{display:flex;align-items:baseline;gap:8px}
+.day-date{font-family:var(--disp);font-weight:800;font-size:17px;color:var(--navy);font-variant-numeric:tabular-nums}
+.day-wd{font-size:12px;color:var(--sub)}
+.day-wd.sat{color:#3A6BA8}.day-wd.sun{color:var(--shu)}
+.stamp{
+  margin-left:auto;
+  flex:none;
+  width:46px;height:46px;border-radius:50%;
+  border:2.5px solid var(--shu);color:var(--shu);
+  font-family:var(--disp);font-weight:800;font-size:13px;line-height:1.15;
+  display:flex;align-items:center;justify-content:center;text-align:center;
+  transform:rotate(-9deg);
+  background:rgba(188,51,43,.04);
+}
+.slot-lane{display:flex;gap:8px;margin-top:7px;align-items:flex-start}
+.slot-tag{
+  flex:none;width:34px;text-align:center;
+  font-size:11px;font-weight:700;border-radius:5px;padding:2px 0;margin-top:2px;
+}
+.slot-tag.am{background:var(--asagi-bg);color:var(--asagi)}
+.slot-tag.pm{background:#EEECF6;color:#5A5390}
+.chip-wrap{display:flex;flex-wrap:wrap;gap:6px}
+.exam-chip{
+  border:1px solid var(--line);
+  background:#FBFAF6;
+  border-radius:7px;
+  font-size:12.5px;
+  padding:3px 9px;
+  color:var(--ink);
+  text-align:left;
+}
+.exam-chip small{color:var(--sub);font-size:11px;margin-left:4px}
+.exam-chip.sel{
+  background:var(--navy);border-color:var(--navy);color:#fff;font-weight:700;
+}
+.exam-chip.sel small{color:#C4CCE2}
+.exam-chip.sel.clash{
+  background:var(--shu);border-color:var(--shu);
+}
+.exam-chip.sel-alt{
+  background:#fff;border:1.5px dashed var(--navy2);color:var(--navy);font-weight:700;
+}
+.exam-chip .unc-mark{color:var(--amber);font-weight:700}
+.exam-chip.sel .unc-mark{color:#FFE2A6}
+.ampm-note{
+  margin-top:8px;font-size:12px;color:var(--amber);
+  background:var(--amber-bg);border-radius:6px;padding:4px 9px;display:inline-block;
+}
+
+/* ---------- schools ---------- */
+.filters{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+  padding:12px;margin:10px 0 16px;
+  display:flex;flex-wrap:wrap;gap:10px;align-items:center;
+}
+.filters select,.filters input[type="search"]{
+  font-family:var(--body);font-size:13.5px;padding:7px 9px;
+  border:1px solid var(--line);border-radius:7px;background:#fff;color:var(--ink);
+}
+.filters input[type="search"]{flex:1;min-width:150px}
+.tagf{display:flex;gap:6px;flex-wrap:wrap;width:100%}
+.tagf button{
+  font-size:12px;border:1px solid var(--line);background:#fff;border-radius:999px;padding:3px 11px;color:var(--sub);
+}
+.tagf button[aria-pressed="true"]{background:var(--asagi);border-color:var(--asagi);color:#fff;font-weight:700}
+.school-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:12px}
+.school-card{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+  padding:14px 14px 12px;display:flex;flex-direction:column;gap:8px;
+}
+.school-card.selected{border-color:var(--navy);box-shadow:0 0 0 1.5px var(--navy)}
+.sc-top{display:flex;align-items:flex-start;gap:8px}
+.sc-name{font-family:var(--disp);font-weight:700;font-size:16.5px;line-height:1.4;color:var(--ink)}
+.sc-kana{font-size:10.5px;color:var(--sub);letter-spacing:.1em}
+.sc-meta{display:flex;gap:6px;flex-wrap:wrap;font-size:11.5px}
+.badge{border-radius:5px;padding:1px 7px;font-weight:500}
+.b-type-m{background:#E7ECF6;color:var(--navy)}
+.b-type-f{background:#F7E9EE;color:#9A3B5E}
+.b-type-c{background:#E9F2E9;color:#3E6B48}
+.b-pref{background:#F1F0EA;color:var(--sub)}
+.b-dev{background:var(--asagi-bg);color:var(--asagi);font-variant-numeric:tabular-nums}
+.b-tag{background:#fff;border:1px solid var(--line);color:var(--sub)}
+.b-tag.gold{background:var(--gold-bg);border-color:#E4D3A6;color:var(--gold);font-weight:700}
+.sc-exams{font-size:12.5px;border-top:1px dashed var(--line);padding-top:8px}
+.sc-exams .ex-line{display:flex;gap:7px;align-items:baseline;padding:1.5px 0}
+.ex-date{font-variant-numeric:tabular-nums;font-weight:700;color:var(--navy);flex:none;width:64px}
+.ex-date .pm{color:#5A5390;font-size:10.5px;font-weight:700}
+.ex-name{color:var(--ink)}
+.ex-note{color:var(--sub);font-size:11.5px}
+.unc{color:var(--amber);font-weight:700;cursor:help}
+.ok-mark{color:#3E6B48;font-size:11px;font-weight:700;text-decoration:none;border-bottom:1px dashed #3E6B48}
+.b-tag.ok{background:#EEF4EC;border-color:#CBDCC9;color:#3E6B48;font-weight:700}
+.toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%) translateY(12px);background:var(--navy);color:#fff;padding:9px 18px;border-radius:999px;font-size:13px;opacity:0;pointer-events:none;transition:opacity .25s,transform .25s;z-index:99;box-shadow:0 4px 16px rgba(30,47,92,.35);max-width:88vw}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+.sc-yuguu{font-size:12px;background:var(--gold-bg);border-radius:7px;padding:6px 9px;color:#6E5512}
+.sc-links{display:flex;flex-wrap:wrap;gap:6px;font-size:12px}
+.sc-links a{
+  border:1px solid var(--line);border-radius:6px;padding:3px 9px;text-decoration:none;color:var(--asagi);background:#fff;
+}
+.sc-actions{display:flex;gap:8px;margin-top:auto;padding-top:4px}
+.btn{
+  border-radius:7px;font-size:13px;font-weight:700;padding:7px 12px;border:1px solid var(--line);background:#fff;color:var(--ink);
+}
+.btn-primary{background:var(--navy);border-color:var(--navy);color:#fff}
+.btn-primary.on{background:#fff;color:var(--shu);border-color:var(--shu)}
+.btn-ai{background:var(--asagi-bg);border-color:#C9DCE0;color:var(--asagi)}
+.btn[disabled]{opacity:.55;cursor:wait}
+.ai-result{
+  border:1px solid #C9DCE0;background:#F7FBFC;border-radius:8px;padding:9px 11px;font-size:12.5px;
+}
+.ai-result h4{font-size:12px;color:var(--asagi);margin:6px 0 2px;font-weight:700}
+.ai-result h4:first-child{margin-top:0}
+.ai-result ul{list-style:none}
+.ai-result li{padding:1px 0}
+.ai-result a{font-size:11px}
+.ai-note{font-size:11px;color:var(--sub);margin-top:6px}
+.ai-err{font-size:12px;color:var(--shu);background:var(--shu-bg);border-radius:7px;padding:6px 9px}
+
+/* ---------- info tabs ---------- */
+.info-card{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+  padding:16px;margin-top:12px;
+}
+.info-card h3{font-family:var(--disp);font-size:15.5px;color:var(--navy);margin-bottom:6px}
+.info-card p,.info-card li{font-size:13.5px}
+.info-card ul{padding-left:1.3em;margin:4px 0}
+.flow{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;margin-top:10px}
+.flow-step{background:#FBFAF6;border:1px solid var(--line);border-radius:8px;padding:10px 12px}
+.flow-step .fs-when{font-family:var(--disp);font-weight:700;color:var(--navy);font-size:13.5px}
+.flow-step .fs-what{font-size:12.5px;color:var(--sub);margin-top:3px}
+.juku-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:10px;margin-top:10px}
+.link-list{display:flex;flex-direction:column;gap:6px;font-size:13px;margin-top:6px}
+.link-list a{text-decoration:none;border-bottom:1px dashed var(--asagi)}
+/* ---------- X速報 ---------- */
+.x-links{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+.x-links a{border:1px solid var(--line);border-radius:999px;padding:5px 13px;font-size:12.5px;text-decoration:none;background:#fff;color:var(--asagi);font-weight:500}
+.x-links a:hover{border-color:var(--asagi)}
+.x-embed-in{font-family:var(--body);font-size:13.5px;padding:7px 9px;border:1px solid var(--line);border-radius:7px;background:#fff;color:var(--ink)}
+
+/* ---------- 併願自動作成 ---------- */
+.gen-form{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:14px;display:flex;flex-wrap:wrap;gap:12px;align-items:flex-end;margin:10px 0 6px}
+.gen-field{display:flex;flex-direction:column;gap:3px;font-size:12px;color:var(--sub)}
+.gen-field select,.gen-field input{font-family:var(--body);font-size:13.5px;padding:7px 9px;border:1px solid var(--line);border-radius:7px;background:#fff;color:var(--ink)}
+.gen-areas{display:flex;gap:10px;flex-wrap:wrap;font-size:13px;color:var(--ink);padding:6px 0}
+.pattern-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:12px;margin-top:14px}
+.p-card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:14px;display:flex;flex-direction:column;gap:7px}
+.p-card h3{font-family:var(--disp);font-size:15.5px;color:var(--navy)}
+.p-desc{font-size:12px;color:var(--sub)}
+.p-row{display:flex;gap:8px;align-items:baseline;border-top:1px dashed var(--line);padding:5px 0;font-size:13px;flex-wrap:wrap}
+.p-when{flex:none;width:96px;font-variant-numeric:tabular-nums;font-weight:700;color:var(--navy);font-size:12.5px}
+.p-school{flex:1;min-width:120px}
+.p-school small{color:var(--sub);font-size:11px}
+.p-links{font-size:11px}
+.band{flex:none;border-radius:5px;font-size:10.5px;font-weight:700;padding:1px 7px}
+.band-c{background:var(--shu-bg);color:var(--shu)}
+.band-t{background:#E7ECF6;color:var(--navy)}
+.band-a{background:#EEF4EC;color:#3E6B48}
+.band-f{background:var(--gold-bg);color:var(--gold)}
+.p-warn{font-size:11.5px;color:var(--amber);background:var(--amber-bg);border-radius:6px;padding:5px 8px}
+.p-actions{display:flex;gap:8px;margin-top:auto;padding-top:6px;flex-wrap:wrap}
+footer{
+  border-top:1px solid var(--line);margin-top:40px;padding:20px 18px 40px;
+  font-size:12px;color:var(--sub);
+}
+footer .in{max-width:1080px;margin:0 auto}
+@media(max-width:560px){
+  .era-seal{display:none}
+  .school-grid{grid-template-columns:1fr}
+  main{padding:14px 12px 60px}
+  .site-head,.planbar,.caution{padding-left:12px;padding-right:12px}
+}
+@media print{
+  .planbar,.tabs,.sc-actions,.filters,.cal-controls,.btn{display:none!important}
+  body{background:#fff}
+}
+</style>
+</head>
+<body>
+
+<header class="site-head">
+  <div class="head-inner">
+    <div class="era-seal">二〇二七年度入試</div>
+    <div class="head-txt">
+      <h1>中学受験 併願計画ボード</h1>
+      <p class="lede">首都圏(1都3県+茨城)の私立・国立・公立中高一貫 <strong>272校</strong>の入試日程・方式・優遇制度・説明会情報を一枚に集約。<strong>志望校を選ぶと日程の競合を自動で朱印表示</strong>します。各校の「AIで最新情報を取得」から出典リンク付きの最新情報を確認できます。</p>
+    </div>
+  </div>
+</header>
+
+<div class="caution"><div class="in">⚠ 入試日程の初期値は<strong>2026年度入試の実績等に基づく想定</strong>です。定期取得またはAIボタンで公式情報が確認できた学校は、<strong>想定値を自動で上書きし ✓確認(出典リンク付き)を表示</strong>します。⚠印は想定のままの項目。出願前に必ず各校の2027年度募集要項でご確認ください。</div></div>
+
+<div class="planbar">
+  <div class="in">
+    <div class="planbar-top">
+      <span class="planbar-title">マイ併願プラン</span>
+      <span class="plan-count" id="planCount">0校 選択中</span>
+      <span id="conflictPill"></span>
+      <span class="plan-count" id="lastUpdated"></span>
+    </div>
+    <div class="plan-chips" id="planChips"><span class="plan-empty">学校カードの「＋プランに追加」で志望校を選ぶと、ここに表示され日程競合をチェックできます。</span></div>
+  </div>
+</div>
+
+<nav class="tabs" role="tablist" aria-label="表示切り替え">
+  <button class="tab-btn" role="tab" aria-selected="true" data-tab="cal">入試カレンダー</button>
+  <button class="tab-btn" role="tab" aria-selected="false" data-tab="gen">併願プラン自動作成</button>
+  <button class="tab-btn" role="tab" aria-selected="false" data-tab="schools">学校をさがす</button>
+  <button class="tab-btn" role="tab" aria-selected="false" data-tab="setsumei">説明会・イベント</button>
+  <button class="tab-btn" role="tab" aria-selected="false" data-tab="juku">塾別実績・リンク集</button>
+  <button class="tab-btn" role="tab" aria-selected="false" data-tab="x">X(Twitter)速報</button>
+  <button class="tab-btn" role="tab" aria-selected="false" data-tab="log">更新履歴</button>
+</nav>
+
+<main>
+
+  <!-- ============ カレンダー ============ -->
+  <section class="panel active" id="panel-cal" role="tabpanel">
+    <h2 class="sec">入試カレンダー(2026年12月〜2027年2月)</h2>
+    <p class="sec-note">午前・午後のレーン別に表示。選択校には受験回を自動で割り当て、<strong>濃紺=想定受験回、破線=同じ学校の別回</strong>として表示します。どの組み合わせでも全校を受けきれない場合にだけ<strong>「競合」の朱印</strong>が付きます。午前・午後の連戦には移動時間の注意書き。チップを押すと学校カードに移動します。</p>
+    <div class="cal-controls">
+      <label class="toggle"><input type="checkbox" id="onlySelected"> 選択校のみ表示</label>
+    </div>
+    <div id="calRoot"></div>
+  </section>
+
+  <!-- ============ 併願自動作成 ============ -->
+  <section class="panel" id="panel-gen" role="tabpanel">
+    <h2 class="sec">併願プラン自動作成</h2>
+    <p class="sec-note">条件を入れると、1月の前受けから2月後半のおさえまで<strong>日程が重ならない3タイプの併願パターン(攻め・バランス・堅実)</strong>を自動で組みます。組み合わせを一覧で並べて比べると、見落としていた選択肢が見つかります。<strong>「マイ併願プラン」に追加済みの学校は固定校(必ず受ける)としてそのまま組み込み</strong>、残りの枠を埋めます(固定は5校程度まで)。日程・偏差値が未取得の学校は対象外です(取得されると自動で候補に入ります)。</p>
+    <div class="gen-form">
+      <div class="gen-field"><label for="gGender">お子さまの性別</label><select id="gGender"><option value="男子">男子</option><option value="女子">女子</option></select></div>
+      <div class="gen-field"><label for="gDev">持ち偏差値</label><input type="number" id="gDev" min="30" max="75" value="50" style="width:80px"></div>
+      <div class="gen-field"><label for="gScale">偏差値の基準</label><select id="gScale"><option value="S">サピックス</option><option value="Y">四谷大塚(合不合)</option></select></div>
+      <div class="gen-field"><label>希望エリア</label><div class="gen-areas">
+        <label><input type="checkbox" class="gArea" value="東京" checked> 東京</label>
+        <label><input type="checkbox" class="gArea" value="神奈川" checked> 神奈川</label>
+        <label><input type="checkbox" class="gArea" value="千葉" checked> 千葉</label>
+        <label><input type="checkbox" class="gArea" value="埼玉" checked> 埼玉</label>
+      </div></div>
+      <div class="gen-field"><label for="gType">学校タイプ</label><select id="gType"><option value="">こだわらない</option><option value="共学">共学のみ</option><option value="別学">男子校・女子校のみ</option></select></div>
+      <div class="gen-field"><label for="gFuzoku">大学付属</label><select id="gFuzoku"><option value="">こだわらない</option><option value="yes">付属・系属を優先</option><option value="no">進学校を優先</option></select></div>
+      <div class="gen-field"><label for="gStation">自宅の最寄り駅(任意)</label><input type="text" id="gStation" placeholder="例: 自由が丘" style="width:130px"></div>
+      <button class="btn btn-primary" id="gRun">3パターンを作成</button>
+    </div>
+    <p class="sec-note">四谷大塚(合不合)を選んだ場合は、めやすとして約7を引いてサピックス相当に換算して判定します。最寄り駅を入れると、各校への経路をGoogleマップで開くリンクが付きます(学校カードにも表示されます)。</p>
+    <div id="genRoot"></div>
+  </section>
+
+  <!-- ============ 学校 ============ -->
+  <section class="panel" id="panel-schools" role="tabpanel">
+    <h2 class="sec">学校をさがす</h2>
+    <p class="sec-note">主要50校は偏差値(SAPIX基準めやす)と日程の初期値入り、その他の学校は<strong>「未取得」から定期取得・AIボタンで出典付きデータが埋まります</strong>。「AIで最新情報を取得」を押すと、Web検索で公式サイト等を調べ、出典リンク付きで説明会・日程・優遇制度・塾別実績を表示します(取得結果もこの端末に保存されます)。</p>
+    <div class="filters">
+      <select id="fType" aria-label="学校種別">
+        <option value="">種別: すべて</option><option value="男子">男子校</option><option value="女子">女子校</option><option value="共学">共学</option>
+      </select>
+      <select id="fPref" aria-label="所在地">
+        <option value="">所在地: すべて</option><option value="東京">東京</option><option value="神奈川">神奈川</option><option value="千葉">千葉</option><option value="埼玉">埼玉</option><option value="茨城">茨城</option>
+      </select>
+      <select id="fDev" aria-label="偏差値帯">
+        <option value="">偏差値帯: すべて</option><option value="40">〜49(中堅)</option><option value="50">50〜59(上位)</option><option value="60">60〜(最難関)</option>
+      </select>
+      <input type="search" id="fText" placeholder="学校名で検索" aria-label="学校名で検索">
+      <label class="toggle"><input type="checkbox" id="fHasData"> 日程データのある学校のみ</label>
+      <div class="tagf" id="tagFilters"></div>
+    </div>
+    <div class="school-grid" id="schoolGrid"></div>
+  </section>
+
+  <!-- ============ 説明会 ============ -->
+  <section class="panel" id="panel-setsumei" role="tabpanel">
+    <h2 class="sec">説明会・イベント情報の集め方</h2>
+    <p class="sec-note">説明会の日程・予約枠は毎年変わり、公開直後に埋まる学校もあります。ここでは<strong>年間の流れ</strong>と、各校の説明会情報へ最短で到達するリンクをまとめています。確実な日程は各校カードの「AIで最新情報を取得」または検索リンクからご確認ください。</p>
+
+    <div class="info-card">
+      <h3>例年のスケジュール感(首都圏の一般的な流れ)</h3>
+      <div class="flow">
+        <div class="flow-step"><div class="fs-when">5〜7月</div><div class="fs-what">合同説明会・進学フェア、学校説明会の第1弾、オープンキャンパス</div></div>
+        <div class="flow-step"><div class="fs-when">9〜11月</div><div class="fs-what">学校説明会の中心期。文化祭・体育祭など生徒の姿が見られる行事も集中</div></div>
+        <div class="flow-step"><div class="fs-when">11〜1月</div><div class="fs-what">入試説明会(出題傾向の解説)。6年生はここが最重要</div></div>
+        <div class="flow-step"><div class="fs-when">12〜1月</div><div class="fs-what">Web出願受付。写真データ・通知表コピー等の準備はお早めに</div></div>
+      </div>
+      <ul style="margin-top:10px">
+        <li>予約は<strong>ミライコンパス(mirai-compass)</strong>経由の学校が多数。会員登録を済ませ、各校の予約開始日時を控えておくのが定石です。</li>
+        <li>人気校は公開数分で満席になることも。キャンセル拾いや動画配信版の有無も確認を。</li>
+      </ul>
+    </div>
+
+    <div class="info-card">
+      <h3>選択中の学校の説明会リンク</h3>
+      <p class="sec-note" style="margin:2px 0 6px">プランに追加した学校の説明会検索リンクを一覧します。</p>
+      <div class="link-list" id="setsumeiLinks"></div>
+    </div>
+  </section>
+
+  <!-- ============ 塾 ============ -->
+  <section class="panel" id="panel-juku" role="tabpanel">
+    <h2 class="sec">塾別合格実績・リンク集</h2>
+    <p class="sec-note">学校×塾別の合格者数は毎年各塾が公式に公表します。数字は年ごとに大きく動くため、このサイトでは<strong>固定の数字は載せず</strong>、①各塾の公式実績ページへのリンク、②各校カードのAI取得(出典付き)の2経路で最新値を確認できるようにしています。</p>
+
+    <div class="info-card">
+      <h3>実績の読み方(共通の注意)</h3>
+      <ul>
+        <li>各塾の公表値は原則<strong>のべ合格者数</strong>(1人が複数校に合格すれば複数カウント)。</li>
+        <li>集計基準(在籍期間・講座生の扱いなど)が塾ごとに異なるため、塾間の単純比較は目安に。</li>
+        <li>「合格者数」と「合格率」「在籍者数に対する割合」は別物。校舎単位の実績も確認価値があります。</li>
+      </ul>
+    </div>
+
+    <div class="info-card">
+      <h3>主要塾の合格実績ページ(検索リンク)</h3>
+      <div class="juku-grid" id="jukuGrid"></div>
+    </div>
+
+    <div class="info-card">
+      <h3>学校別の塾実績を調べる</h3>
+      <p>各学校カードの「AIで最新情報を取得」ボタンで、その学校の塾別合格者数(2026年入試)を出典リンク付きで取得できます。<button class="btn" style="margin-left:6px" data-goto="schools">学校一覧へ</button></p>
+    </div>
+  </section>
+
+  <!-- ============ X速報 ============ -->
+  <section class="panel" id="panel-x" role="tabpanel">
+    <h2 class="sec">X(Twitter)速報</h2>
+    <p class="sec-note">説明会の予約開始・出願状況・繰り上げ連絡は、Xの受験者コミュニティ(学年タグ「#2027年組」など)が公式サイトより速いことがあります。<strong>公式発表ではない情報も混ざるため、必ず一次情報で確認</strong>してください。リンクはXの「最新」検索を直接開きます。</p>
+    <div class="info-card">
+      <h3>定番のリアルタイム検索</h3>
+      <div class="x-links" id="xPresets"></div>
+    </div>
+    <div class="info-card">
+      <h3>選択中の学校の話題</h3>
+      <p class="sec-note" style="margin:2px 0 0">マイ併願プランの学校ごとに、Xの最新投稿検索を開きます。</p>
+      <div class="x-links" id="xSchools"></div>
+    </div>
+    <div class="info-card">
+      <h3>タイムライン埋め込み(任意)</h3>
+      <p style="font-size:12.5px;color:var(--sub)">情報収集用のXアカウントやリストのURLを入れると、この枠にタイムラインを埋め込みます。Xの仕様変更で表示されないことがあり、その場合は上の検索リンクをご利用ください。</p>
+      <div style="display:flex;gap:8px;margin-top:8px;flex-wrap:wrap">
+        <input type="text" id="xHandle" class="x-embed-in" placeholder="例: https://twitter.com/nifty_jhschool" style="flex:1;min-width:220px">
+        <button class="btn btn-primary" id="xEmbedBtn">埋め込む</button>
+      </div>
+      <div id="xEmbed" style="margin-top:10px"></div>
+    </div>
+  </section>
+
+  <!-- ============ 更新履歴 ============ -->
+  <section class="panel" id="panel-log" role="tabpanel">
+    <h2 class="sec">更新履歴(定期スクレイピングの差分)</h2>
+    <p class="sec-note">定期実行が新しい情報(説明会の追加・入試日程の変更など)を検出すると、ここに時系列で並びます。説明会の予約開始を見逃さないための監視ログとして使えます。</p>
+    <div id="logRoot"></div>
+  </section>
+
+</main>
+
+<footer><div class="in">
+  <p><strong>データについて:</strong> 入試日程は2026年度入試の実績等をもとにした想定値、偏差値はSAPIX偏差値のおおよその目安です。⚠印は特に確度が低い項目。優遇・特待・加点制度は年度により変更されるため、必ず2027年度募集要項の原文でご確認ください。本サイトのリンクはすべて検索経由または公式情報への導線であり、最終確認は一次情報でお願いします。</p>
+  <p style="margin-top:6px">AI取得機能はWeb検索を用いて回答時点の情報を収集し、出典URLとともに表示します。取得結果にも誤りが含まれる可能性があるため、出典リンク先での確認を前提にご利用ください。</p>
+</div></footer>
+<script>
+/* =====================================================================
+   学校データ(2026年度入試実績ベースの想定 / unc:1 は特に要確認)
+   dev: SAPIX偏差値のおおよその目安 [下限, 上限](回により幅あり)
+===================================================================== */
+const SCHOOLS = [{"id":"sakae","name":"栄東","kana":"さかえひがし","short":"栄東","type":"共学","pref":"埼玉","dev":[42,58],"tags":["特待"],"yuguu":"東大特待クラスなど特待生制度あり(内容・年数は要項で要確認)","kikoku":false,"exams":[{"d":"2027-01-10","s":"AM","n":"A日程","note":"1/10・1/11から選択","unc":0},{"d":"2027-01-11","s":"AM","n":"A日程","note":"","unc":0},{"d":"2027-01-12","s":"AM","n":"特待生(東大特待)","note":"特待判定","unc":0},{"d":"2027-01-16","s":"AM","n":"B日程","note":"","unc":0}],"station":"東大宮","fuzoku":false},{"id":"kaichi","name":"開智","kana":"かいち","short":"開智","type":"共学","pref":"埼玉","dev":[40,48],"tags":["特待"],"yuguu":"特待判定のある回あり(回構成は年度で変動・要確認)","kikoku":false,"exams":[{"d":"2027-01-10","s":"AM","n":"第1回","note":"","unc":1},{"d":"2027-01-11","s":"AM","n":"特待A","note":"","unc":1},{"d":"2027-01-12","s":"AM","n":"特待B","note":"","unc":1},{"d":"2027-01-15","s":"AM","n":"第2回","note":"","unc":1}],"station":"東岩槻(バス)","fuzoku":false},{"id":"akenohoshi","name":"浦和明の星女子","kana":"うらわあけのほし","short":"明の星","type":"女子","pref":"埼玉","dev":[46,48],"tags":[],"yuguu":"","kikoku":false,"exams":[{"d":"2027-01-14","s":"AM","n":"第1回","note":"","unc":0},{"d":"2027-02-04","s":"AM","n":"第2回","note":"","unc":0}],"station":"東浦和","fuzoku":false},{"id":"ichikawa","name":"市川","kana":"いちかわ","short":"市川","type":"共学","pref":"千葉","dev":[51,57],"tags":[],"yuguu":"","kikoku":true,"exams":[{"d":"2027-01-20","s":"AM","n":"第1回","note":"幕張メッセ実施","unc":0},{"d":"2027-02-04","s":"AM","n":"第2回","note":"","unc":0}],"station":"本八幡(バス)・鬼越","fuzoku":false},{"id":"toho","name":"東邦大学付属東邦","kana":"とうほう","short":"東邦","type":"共学","pref":"千葉","dev":[49,55],"tags":[],"yuguu":"","kikoku":false,"exams":[{"d":"2026-12-01","s":"AM","n":"推薦","note":"第一志望型","unc":0},{"d":"2027-01-21","s":"AM","n":"前期","note":"","unc":0},{"d":"2027-02-03","s":"AM","n":"後期","note":"","unc":0}],"station":"京成大久保","fuzoku":true},{"id":"shibumaku","name":"渋谷教育学園幕張","kana":"しぶまく","short":"渋幕","type":"共学","pref":"千葉","dev":[63,65],"tags":[],"yuguu":"","kikoku":true,"exams":[{"d":"2027-01-22","s":"AM","n":"一次","note":"","unc":0},{"d":"2027-02-02","s":"AM","n":"二次","note":"","unc":0}],"station":"海浜幕張","fuzoku":false},{"id":"shuei","name":"昭和学院秀英","kana":"しゅうえい","short":"秀英","type":"共学","pref":"千葉","dev":[48,52],"tags":[],"yuguu":"","kikoku":false,"exams":[{"d":"2027-01-20","s":"PM","n":"午後特別","note":"2科(国算)","unc":1},{"d":"2027-01-22","s":"AM","n":"第1回","note":"","unc":1},{"d":"2027-02-02","s":"AM","n":"第2回","note":"","unc":1}],"station":"海浜幕張","fuzoku":false},{"id":"kaisei","name":"開成","kana":"かいせい","short":"開成","type":"男子","pref":"東京","dev":[66,68],"tags":[],"yuguu":"","kikoku":false,"exams":[{"d":"2027-02-01","s":"AM","n":"一般","note":"","unc":0}],"station":"西日暮里","fuzoku":false},{"id":"azabu","name":"麻布","kana":"あざぶ","short":"麻布","type":"男子","pref":"東京","dev":[61,63],"tags":[],"yuguu":"","kikoku":false,"exams":[{"d":"2027-02-01","s":"AM","n":"一般","note":"","unc":0}],"station":"広尾","fuzoku":false},{"id":"musashi","name":"武蔵","kana":"むさし","short":"武蔵","type":"男子","pref":"東京","dev":[58,60],"tags":[],"yuguu":"","kikoku":false,"exams":[{"d":"2027-02-01","s":"AM","n":"一般","note":"","unc":0}],"station":"江古田・新桜台","fuzoku":false},{"id":"komato","name":"駒場東邦","kana":"こまばとうほう","short":"駒東","type":"男子","pref":"東京","dev":[57,59],"tags":[],"yuguu":"","kikoku":false,"exams":[{"d":"2027-02-01","s":"AM","n":"一般","note":"","unc":0}],"station":"駒場東大前","fuzoku":false},{"id":"tsukukoma","name":"筑波大学附属駒場","kana":"つくこま","short":"筑駒","type":"男子","pref":"東京","dev":[69,71],"tags":["国立"],"yuguu":"","kikoku":false,"exams":[{"d":"2027-02-03","s":"AM","n":"学力検査","note":"報告書提出あり。実施方法は要確認","unc":1}],"station":"駒場東大前","fuzoku":false},{"id":"waseda","name":"早稲田","kana":"わせだ","short":"早稲田","type":"男子","pref":"東京","dev":[57,61],"tags":[],"yuguu":"","kikoku":false,"exams":[{"d":"2027-02-01","s":"AM","n":"第1回","note":"","unc":0},{"d":"2027-02-03","s":"AM","n":"第2回","note":"","unc":0}],"station":"早稲田","fuzoku":false},{"id":"kaijo","name":"海城","kana":"かいじょう","short":"海城","type":"男子","pref":"東京","dev":[58,62],"tags":[],"yuguu":"","kikoku":true,"exams":[{"d":"2027-02-01","s":"AM","n":"一般①","note":"","unc":0},{"d":"2027-02-03","s":"AM","n":"一般②","note":"","unc":0}],"station":"新大久保・大久保","fuzoku":false},{"id":"keiofutsubu","name":"慶應義塾普通部","kana":"けいおうふつうぶ","short":"慶應普通部","type":"男子","pref":"神奈川","dev":[57,59],"tags":["実技・面接"],"yuguu":"","kikoku":false,"exams":[{"d":"2027-02-01","s":"AM","n":"一般","note":"体育実技・面接あり","unc":0}],"station":"日吉","fuzoku":true},{"id":"shiba","name":"芝","kana":"しば","short":"芝","type":"男子","pref":"東京","dev":[51,57],"tags":[],"yuguu":"","kikoku":false,"exams":[{"d":"2027-02-01","s":"AM","n":"第1回","note":"","unc":0},{"d":"2027-02-04","s":"AM","n":"第2回","note":"","unc":0}],"station":"神谷町・御成門","fuzoku":false},{"id":"hongo","name":"本郷","kana":"ほんごう","short":"本郷","type":"男子","pref":"東京","dev":[52,57],"tags":["複数回優遇"],"yuguu":"複数回受験者への配慮を公表している年あり(要項の記載を要確認)","kikoku":false,"exams":[{"d":"2027-02-01","s":"AM","n":"第1回","note":"","unc":0},{"d":"2027-02-02","s":"AM","n":"第2回","note":"","unc":0},{"d":"2027-02-05","s":"AM","n":"第3回","note":"","unc":0}],"station":"巣鴨・駒込","fuzoku":false},{"id":"sugamo","name":"巣鴨","kana":"すがも","short":"巣鴨","type":"男子","pref":"東京","dev":[45,53],"tags":["算数1科"],"yuguu":"算数選抜(2/1午後・算数1科)あり","kikoku":false,"exams":[{"d":"2027-02-01","s":"AM","n":"Ⅰ期","note":"","unc":0},{"d":"2027-02-01","s":"PM","n":"算数選抜","note":"算数1科","unc":0},{"d":"2027-02-02","s":"AM","n":"Ⅱ期","note":"","unc":0},{"d":"2027-02-04","s":"AM","n":"Ⅲ期","note":"","unc":0}],"station":"大塚・巣鴨","fuzoku":false},{"id":"johoku","name":"城北","kana":"じょうほく","short":"城北","type":"男子","pref":"東京","dev":[45,52],"tags":[],"yuguu":"","kikoku":false,"exams":[{"d":"2027-02-01","s":"AM","n":"第1回","note":"","unc":0},{"d":"2027-02-02","s":"AM","n":"第2回","note":"","unc":0},{"d":"2027-02-04","s":"AM","n":"第3回","note":"","unc":0}],"station":"上板橋","fuzoku":false},{"id":"setagaya","name":"世田谷学園","kana":"せたがやがくえん","short":"世田谷","type":"男子","pref":"東京","dev":[45,51],"tags":["算数1科","複数回優遇"],"yuguu":"算数特選(午後・算数1科)あり。複数回受験者の考慮を公表している年あり(要確認)","kikoku":false,"exams":[{"d":"2027-02-01","s":"AM","n":"1次","note":"","unc":0},{"d":"2027-02-01","s":"PM","n":"算数特選","note":"算数1科","unc":0},{"d":"2027-02-02","s":"AM","n":"2次","note":"","unc":1},{"d":"2027-02-04","s":"AM","n":"3次","note":"","unc":0}],"station":"三軒茶屋","fuzoku":false},{"id":"kogyokusha","name":"攻玉社","kana":"こうぎょくしゃ","short":"攻玉社","type":"男子","pref":"東京","dev":[47,51],"tags":["算数1科"],"yuguu":"特別選抜(算数)あり(実施形態は要確認)","kikoku":true,"exams":[{"d":"2027-02-01","s":"AM","n":"第1回","note":"","unc":0},{"d":"2027-02-02","s":"AM","n":"第2回","note":"","unc":0},{"d":"2027-02-05","s":"AM","n":"特別選抜","note":"算数","unc":1}],"station":"不動前","fuzoku":false},{"id":"takanawa","name":"高輪","kana":"たかなわ","short":"高輪","type":"男子","pref":"東京","dev":[44,50],"tags":["算数1科"],"yuguu":"算数午後入試あり","kikoku":true,"exams":[{"d":"2027-02-01","s":"AM","n":"A日程","note":"","unc":0},{"d":"2027-02-02","s":"AM","n":"B日程","note":"","unc":0},{"d":"2027-02-02","s":"PM","n":"算数午後","note":"算数1科","unc":0},{"d":"2027-02-04","s":"AM","n":"C日程","note":"","unc":0}],"station":"泉岳寺・白金高輪","fuzoku":false},{"id":"toho_danshi","name":"桐朋","kana":"とうほう","short":"桐朋","type":"男子","pref":"東京","dev":[48,53],"tags":[],"yuguu":"","kikoku":false,"exams":[{"d":"2027-02-01","s":"AM","n":"第1回","note":"","unc":0},{"d":"2027-02-02","s":"AM","n":"第2回","note":"","unc":0}],"station":"国立・谷保","fuzoku":false},{"id":"salesio","name":"サレジオ学院","kana":"されじお","short":"サレジオ","type":"男子","pref":"神奈川","dev":[47,51],"tags":[],"yuguu":"","kikoku":false,"exams":[{"d":"2027-02-01","s":"AM","n":"A試験","note":"","unc":0},{"d":"2027-02-04","s":"AM","n":"B試験","note":"","unc":0}],"station":"北山田","fuzoku":false},{"id":"zushikaisei","name":"逗子開成","kana":"ずしかいせい","short":"逗子開成","type":"男子","pref":"神奈川","dev":[46,50],"tags":[],"yuguu":"","kikoku":false,"exams":[{"d":"2027-02-01","s":"AM","n":"1次","note":"","unc":0},{"d":"2027-02-03","s":"AM","n":"2次","note":"","unc":0},{"d":"2027-02-05","s":"AM","n":"3次","note":"","unc":0}],"station":"逗子・逗子葉山","fuzoku":false},{"id":"seiko","name":"聖光学院","kana":"せいこうがくいん","short":"聖光","type":"男子","pref":"神奈川","dev":[63,65],"tags":[],"yuguu":"","kikoku":true,"exams":[{"d":"2027-02-02","s":"AM","n":"第1回","note":"","unc":0},{"d":"2027-02-04","s":"AM","n":"第2回","note":"","unc":0}],"station":"山手","fuzoku":false},{"id":"eiko","name":"栄光学園","kana":"えいこうがくえん","short":"栄光","type":"男子","pref":"神奈川","dev":[59,61],"tags":[],"yuguu":"","kikoku":false,"exams":[{"d":"2027-02-02","s":"AM","n":"一般","note":"","unc":0}],"station":"大船","fuzoku":false},{"id":"asano","name":"浅野","kana":"あさの","short":"浅野","type":"男子","pref":"神奈川","dev":[56,58],"tags":[],"yuguu":"","kikoku":false,"exams":[{"d":"2027-02-03","s":"AM","n":"一般","note":"","unc":0}],"station":"新子安","fuzoku":false},{"id":"oin","name":"桜蔭","kana":"おういん","short":"桜蔭","type":"女子","pref":"東京","dev":[61,63],"tags":[],"yuguu":"","kikoku":false,"exams":[{"d":"2027-02-01","s":"AM","n":"一般","note":"面接あり","unc":0}],"station":"水道橋","fuzoku":false},{"id":"jg","name":"女子学院","kana":"じょしがくいん","short":"女子学院","type":"女子","pref":"東京","dev":[60,62],"tags":[],"yuguu":"","kikoku":false,"exams":[{"d":"2027-02-01","s":"AM","n":"一般","note":"面接あり","unc":0}],"station":"市ケ谷・麹町","fuzoku":false},{"id":"futaba","name":"雙葉","kana":"ふたば","short":"雙葉","type":"女子","pref":"東京","dev":[57,59],"tags":[],"yuguu":"","kikoku":false,"exams":[{"d":"2027-02-01","s":"AM","n":"一般","note":"面接あり","unc":0}],"station":"四ツ谷","fuzoku":false},{"id":"toshimagaoka","name":"豊島岡女子学園","kana":"としまがおか","short":"豊島岡","type":"女子","pref":"東京","dev":[57,60],"tags":[],"yuguu":"","kikoku":false,"exams":[{"d":"2027-02-02","s":"AM","n":"第1回","note":"","unc":0},{"d":"2027-02-03","s":"AM","n":"第2回","note":"","unc":0},{"d":"2027-02-04","s":"AM","n":"第3回","note":"","unc":0}],"station":"池袋","fuzoku":false},{"id":"senzoku","name":"洗足学園","kana":"せんぞくがくえん","short":"洗足","type":"女子","pref":"神奈川","dev":[55,59],"tags":[],"yuguu":"","kikoku":true,"exams":[{"d":"2027-02-01","s":"AM","n":"第1回","note":"","unc":0},{"d":"2027-02-02","s":"AM","n":"第2回","note":"","unc":0},{"d":"2027-02-05","s":"AM","n":"第3回","note":"","unc":0}],"station":"武蔵溝ノ口・溝の口","fuzoku":false},{"id":"kichijo","name":"吉祥女子","kana":"きちじょうじょし","short":"吉祥女子","type":"女子","pref":"東京","dev":[53,57],"tags":[],"yuguu":"","kikoku":false,"exams":[{"d":"2027-02-01","s":"AM","n":"第1回","note":"","unc":0},{"d":"2027-02-02","s":"AM","n":"第2回","note":"","unc":0}],"station":"西荻窪","fuzoku":false},{"id":"ohyu","name":"鴎友学園女子","kana":"おうゆうがくえん","short":"鴎友","type":"女子","pref":"東京","dev":[52,55],"tags":[],"yuguu":"","kikoku":false,"exams":[{"d":"2027-02-01","s":"AM","n":"第1回","note":"","unc":0},{"d":"2027-02-03","s":"AM","n":"第2回","note":"","unc":0}],"station":"経堂・宮の坂","fuzoku":false},{"id":"shoei","name":"頌栄女子学院","kana":"しょうえい","short":"頌栄","type":"女子","pref":"東京","dev":[47,50],"tags":[],"yuguu":"","kikoku":true,"exams":[{"d":"2027-02-01","s":"AM","n":"第1回","note":"面接あり","unc":0},{"d":"2027-02-05","s":"AM","n":"第2回","note":"面接あり","unc":0}],"station":"高輪台","fuzoku":false},{"id":"shirayuri","name":"白百合学園","kana":"しらゆり","short":"白百合","type":"女子","pref":"東京","dev":[50,52],"tags":[],"yuguu":"","kikoku":true,"exams":[{"d":"2027-02-02","s":"AM","n":"一般","note":"面接あり","unc":0}],"station":"九段下・飯田橋","fuzoku":false},{"id":"ferris","name":"フェリス女学院","kana":"ふぇりす","short":"フェリス","type":"女子","pref":"神奈川","dev":[54,56],"tags":[],"yuguu":"","kikoku":false,"exams":[{"d":"2027-02-01","s":"AM","n":"一般","note":"","unc":0}],"station":"石川町","fuzoku":false},{"id":"koran","name":"香蘭女学校","kana":"こうらん","short":"香蘭","type":"女子","pref":"東京","dev":[45,50],"tags":[],"yuguu":"","kikoku":false,"exams":[{"d":"2027-02-01","s":"AM","n":"第1回","note":"","unc":0},{"d":"2027-02-02","s":"PM","n":"第2回","note":"午後実施","unc":1}],"station":"旗の台","fuzoku":false},{"id":"shibushibu","name":"渋谷教育学園渋谷","kana":"しぶしぶ","short":"渋渋","type":"共学","pref":"東京","dev":[60,65],"tags":[],"yuguu":"","kikoku":true,"exams":[{"d":"2027-02-01","s":"AM","n":"第1回","note":"","unc":0},{"d":"2027-02-02","s":"AM","n":"第2回","note":"","unc":0},{"d":"2027-02-05","s":"AM","n":"第3回","note":"","unc":0}],"station":"渋谷","fuzoku":false},{"id":"keiochutobu","name":"慶應義塾中等部","kana":"けいおうちゅうとうぶ","short":"慶應中等部","type":"共学","pref":"東京","dev":[58,64],"tags":["実技・面接"],"yuguu":"","kikoku":false,"exams":[{"d":"2027-02-03","s":"AM","n":"一次(筆記)","note":"","unc":0},{"d":"2027-02-05","s":"AM","n":"二次(体育・面接)","note":"一次合格者のみ","unc":1}],"station":"三田・田町","fuzoku":true},{"id":"sfc","name":"慶應義塾湘南藤沢","kana":"しょうなんふじさわ","short":"慶應SFC","type":"共学","pref":"神奈川","dev":[59,61],"tags":["実技・面接"],"yuguu":"","kikoku":true,"exams":[{"d":"2027-02-02","s":"AM","n":"一次(筆記)","note":"","unc":0},{"d":"2027-02-04","s":"AM","n":"二次(体育・面接)","note":"一次合格者のみ","unc":0}],"station":"湘南台(バス)","fuzoku":true},{"id":"soujitsu","name":"早稲田実業学校中等部","kana":"わせだじつぎょう","short":"早実","type":"共学","pref":"東京","dev":[56,62],"tags":[],"yuguu":"","kikoku":false,"exams":[{"d":"2027-02-01","s":"AM","n":"一般","note":"","unc":0}],"station":"国分寺","fuzoku":true},{"id":"hiroo","name":"広尾学園","kana":"ひろおがくえん","short":"広尾","type":"共学","pref":"東京","dev":[49,58],"tags":["英語入試","特待"],"yuguu":"コース間のスライド合格・特待の制度が公表される年あり(要確認)","kikoku":true,"exams":[{"d":"2027-02-01","s":"AM","n":"第1回","note":"","unc":0},{"d":"2027-02-01","s":"PM","n":"第2回","note":"","unc":0},{"d":"2027-02-02","s":"PM","n":"医進・サイエンス","note":"","unc":1},{"d":"2027-02-05","s":"AM","n":"第3回","note":"","unc":1}],"station":"広尾","fuzoku":false},{"id":"mita","name":"三田国際学園","kana":"みたこくさい","short":"三田国際","type":"共学","pref":"東京","dev":[45,52],"tags":["英語入試"],"yuguu":"英語利用のクラス・回あり(構成は毎年変わるため要確認)","kikoku":true,"exams":[{"d":"2027-02-01","s":"AM","n":"第1回","note":"","unc":1},{"d":"2027-02-01","s":"PM","n":"第2回","note":"","unc":1},{"d":"2027-02-02","s":"PM","n":"第3回","note":"","unc":1},{"d":"2027-02-03","s":"PM","n":"MST","note":"算数・理科","unc":1}],"station":"用賀","fuzoku":false},{"id":"todoroki","name":"東京都市大学等々力","kana":"とどろき","short":"等々力","type":"共学","pref":"東京","dev":[43,49],"tags":["特待"],"yuguu":"S特選型で特待判定のある回あり(要確認)","kikoku":false,"exams":[{"d":"2027-02-01","s":"AM","n":"第1回S特","note":"","unc":1},{"d":"2027-02-01","s":"PM","n":"第2回S特","note":"","unc":1},{"d":"2027-02-02","s":"PM","n":"第3回","note":"","unc":1},{"d":"2027-02-04","s":"AM","n":"第4回","note":"","unc":1}],"station":"尾山台","fuzoku":true},{"id":"nodai1","name":"東京農業大学第一","kana":"のうだいいち","short":"農大一","type":"共学","pref":"東京","dev":[45,50],"tags":["算数1科相当"],"yuguu":"算数重視型(算国/算理の2科)の午後入試が中心","kikoku":false,"exams":[{"d":"2027-02-01","s":"PM","n":"第1回","note":"算国or算理","unc":0},{"d":"2027-02-02","s":"PM","n":"第2回","note":"算国or算理","unc":0},{"d":"2027-02-04","s":"AM","n":"第3回","note":"4科","unc":1}],"station":"経堂・千歳船橋","fuzoku":true},{"id":"meimei","name":"明治大学付属明治","kana":"めいだいめいじ","short":"明大明治","type":"共学","pref":"東京","dev":[49,52],"tags":[],"yuguu":"","kikoku":false,"exams":[{"d":"2027-02-02","s":"AM","n":"第1回","note":"","unc":0},{"d":"2027-02-03","s":"AM","n":"第2回","note":"","unc":0}],"station":"調布(バス)・西調布","fuzoku":true},{"id":"aogaku","name":"青山学院中等部","kana":"あおやまがくいん","short":"青学","type":"共学","pref":"東京","dev":[50,53],"tags":[],"yuguu":"","kikoku":false,"exams":[{"d":"2027-02-02","s":"AM","n":"一般","note":"","unc":1}],"station":"表参道","fuzoku":true},{"id":"tsukufu","name":"筑波大学附属","kana":"つくふ","short":"筑附","type":"共学","pref":"東京","dev":[55,58],"tags":["国立"],"yuguu":"","kikoku":false,"exams":[{"d":"2027-02-03","s":"AM","n":"学力検査","note":"報告書提出あり","unc":1}],"station":"茗荷谷・護国寺","fuzoku":false},{"id":"xhzum","name":"暁星","kana":"","short":"暁星","type":"男子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"飯田橋・九段下","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xatp0yk","name":"早稲田大学高等学院中学部","kana":"","short":"早稲田大学高等学院中学部","type":"男子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"上石神井","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"xfwxlsp","name":"立教池袋","kana":"","short":"立教池袋","type":"男子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"池袋","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"xe0iba","name":"学習院","kana":"","short":"学習院","type":"男子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"目白","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"xh5tq","name":"成城","kana":"","short":"成城","type":"男子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"牛込柳町","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xxyxk7n","name":"明治大学付属中野","kana":"","short":"明治大学付属中野","type":"男子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"東中野","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"x1f2f299","name":"日本大学豊山","kana":"","short":"日本大学豊山","type":"男子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"護国寺","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"xk358","name":"獨協","kana":"","short":"獨協","type":"男子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"護国寺","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"xj930y","name":"聖学院","kana":"","short":"聖学院","type":"男子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"駒込","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xe3sz","name":"京華","kana":"","short":"京華","type":"男子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"白山","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xidtzhg","name":"足立学園","kana":"","short":"足立学園","type":"男子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"北千住","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xafpsw0","name":"佼成学園","kana":"","short":"佼成学園","type":"男子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"方南町","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"x1rdivxh","name":"東京都市大学付属","kana":"","short":"東京都市大学付属","type":"男子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"成城学園前","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"xiygayb","name":"学習院女子","kana":"","short":"学習院女子","type":"女子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"西早稲田","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"x1v3asht","name":"立教女学院","kana":"","short":"立教女学院","type":"女子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"三鷹台","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"x1gg0lix","name":"光塩女子学院","kana":"","short":"光塩女子学院","type":"女子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"東高円寺","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xdg3n20","name":"晃華学園","kana":"","short":"晃華学園","type":"女子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"つつじヶ丘(バス)","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xfnn8","name":"大妻","kana":"","short":"大妻","type":"女子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"半蔵門","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"xbmcaet","name":"大妻中野","kana":"","short":"大妻中野","type":"女子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"中野","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"xbmdwcj","name":"大妻多摩","kana":"","short":"大妻多摩","type":"女子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"唐木田","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"xas7sqf","name":"共立女子","kana":"","short":"共立女子","type":"女子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"神保町","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"x1rrfgif","name":"共立女子第二","kana":"","short":"共立女子第二","type":"女子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"高尾(バス)","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"xmz2snz","name":"実践女子学園","kana":"","short":"実践女子学園","type":"女子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"渋谷","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"xz9wbhw","name":"昭和女子大学附属昭和","kana":"","short":"昭和女子大学附属昭和","type":"女子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"三軒茶屋","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"x1nljgmy","name":"東京女学館","kana":"","short":"東京女学館","type":"女子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"広尾","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"x13jdl8b","name":"三輪田学園","kana":"","short":"三輪田学園","type":"女子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"飯田橋","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xc732ci","name":"山脇学園","kana":"","short":"山脇学園","type":"女子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"赤坂見附","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xigt4ty","name":"跡見学園","kana":"","short":"跡見学園","type":"女子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"茗荷谷","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"x1035ciz","name":"恵泉女学園","kana":"","short":"恵泉女学園","type":"女子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"経堂","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"x1rw154m","name":"普連土学園","kana":"","short":"普連土学園","type":"女子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"田町","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"x17s7si","name":"田園調布学園","kana":"","short":"田園調布学園","type":"女子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"田園調布","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xttel3u","name":"東洋英和女学院","kana":"","short":"東洋英和女学院","type":"女子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"麻布十番","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xdvx70","name":"富士見","kana":"","short":"富士見","type":"女子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"中村橋","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xcorld","name":"十文字","kana":"","short":"十文字","type":"女子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"巣鴨","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"x1w0xg51","name":"品川女子学院","kana":"","short":"品川女子学院","type":"女子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"北品川","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"x1ev5vvh","name":"文京学院大学女子","kana":"","short":"文京学院大学女子","type":"女子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"本駒込","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"xgj6c","name":"川村","kana":"","short":"川村","type":"女子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"目白","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"x6n3pyt","name":"女子聖学院","kana":"","short":"女子聖学院","type":"女子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"駒込","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"x1a74rc7","name":"女子美術大学付属","kana":"","short":"女子美術大学付属","type":"女子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"東高円寺","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"xabpjlt","name":"江戸川女子","kana":"","short":"江戸川女子","type":"女子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"小岩","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xtx5ktw","name":"和洋九段女子","kana":"","short":"和洋九段女子","type":"女子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"九段下","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xxciw22","name":"麹町学園女子","kana":"","short":"麹町学園女子","type":"女子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"麹町","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xe7c5h9","name":"佼成学園女子","kana":"","short":"佼成学園女子","type":"女子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"千歳烏山","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xdv44","name":"中村","kana":"","short":"中村","type":"女子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"清澄白河","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"x58yjyf","name":"東京純心女子","kana":"","short":"東京純心女子","type":"女子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":null,"fuzoku":false,"needsFetch":true,"exams":[]},{"id":"x1s8t3qi","name":"日本大学豊山女子","kana":"","short":"日本大学豊山女子","type":"女子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":null,"fuzoku":true,"needsFetch":true,"exams":[]},{"id":"x1riir7x","name":"神田女学園","kana":"","short":"神田女学園","type":"女子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"水道橋","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"x10cf40","name":"トキワ松学園","kana":"","short":"トキワ松学園","type":"女子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"都立大学","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xagza68","name":"京華女子","kana":"","short":"京華女子","type":"女子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"白山","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"x1th07fj","name":"瀧野川女子学園","kana":"","short":"瀧野川女子学園","type":"女子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":null,"fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xbej1ho","name":"国本女子","kana":"","short":"国本女子","type":"女子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"喜多見","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"x18tcbll","name":"駒沢学園女子","kana":"","short":"駒沢学園女子","type":"女子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":null,"fuzoku":false,"needsFetch":true,"exams":[]},{"id":"x80o4nx","name":"白梅学園清修","kana":"","short":"白梅学園清修","type":"女子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":null,"fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xhbikfe","name":"藤村女子","kana":"","short":"藤村女子","type":"女子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"吉祥寺","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"x21ax96","name":"東京家政大学附属女子","kana":"","short":"東京家政大学附属女子","type":"女子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"十条","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"x129uow","name":"東京家政学院","kana":"","short":"東京家政学院","type":"女子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":null,"fuzoku":true,"needsFetch":true,"exams":[]},{"id":"xdl67ug","name":"桐朋女子","kana":"","short":"桐朋女子","type":"女子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"仙川","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"x11xeowu","name":"玉川聖学院","kana":"","short":"玉川聖学院","type":"女子","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"九品仏","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"x1cqm423","name":"捜真女学校","kana":"","short":"捜真女学校","type":"女子","pref":"神奈川","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"反町","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xeh60z6","name":"広尾学園小石川","kana":"","short":"広尾学園小石川","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"千石","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xjkcd7","name":"芝国際","kana":"","short":"芝国際","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"芝公園","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xrul22p","name":"開智日本橋学園","kana":"","short":"開智日本橋学園","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"浅草橋","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"x1h29qmk","name":"かえつ有明","kana":"","short":"かえつ有明","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"東雲","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xc18hv7","name":"安田学園","kana":"","short":"安田学園","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"両国","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xxoysre","name":"中央大学附属","kana":"","short":"中央大学附属","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"武蔵小金井","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"xe5fgrt","name":"法政大学","kana":"","short":"法政大学","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"井荻","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"xhgl6","name":"成蹊","kana":"","short":"成蹊","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"吉祥寺","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"xcqkjai","name":"成城学園","kana":"","short":"成城学園","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"成城学園前","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"xdbrso9","name":"明治学院","kana":"","short":"明治学院","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":null,"fuzoku":true,"needsFetch":true,"exams":[]},{"id":"x1t3la99","name":"国学院大学久我山","kana":"","short":"国学院大学久我山","type":"共学","pref":"東京","dev":null,"tags":["男女別学"],"yuguu":"","kikoku":false,"station":"久我山","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"x1mn72bv","name":"明治大学付属世田谷","kana":"","short":"明治大学付属世田谷","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"明大前","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"x1mno33y","name":"明治大学付属八王子","kana":"","short":"明治大学付属八王子","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":null,"fuzoku":true,"needsFetch":true,"exams":[]},{"id":"xc7agzy","name":"帝京大学","kana":"","short":"帝京大学","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"多摩センター(バス)","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"xgfu7","name":"帝京","kana":"","short":"帝京","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"十条","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"xfwjs5","name":"桜美林","kana":"","short":"桜美林","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"淵野辺(バス)","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xif3xk","name":"穎明館","kana":"","short":"穎明館","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"高尾(バス)","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xoxw05m","name":"芝浦工業大学附属","kana":"","short":"芝浦工業大学附属","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"豊洲","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"x1c5xhow","name":"日本工業大学駒場","kana":"","short":"日本工業大学駒場","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"駒場東大前","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"x8k4i4e","name":"東京電機大学","kana":"","short":"東京電機大学","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"東小金井","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"x1gbi782","name":"多摩大学目黒","kana":"","short":"多摩大学目黒","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":null,"fuzoku":true,"needsFetch":true,"exams":[]},{"id":"x1tn090w","name":"多摩大学附属聖ヶ丘","kana":"","short":"多摩大学附属聖ヶ丘","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"聖蹟桜ヶ丘(バス)","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"x1q4oeei","name":"目黒日本大学","kana":"","short":"目黒日本大学","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"目黒","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"x1f2c2l6","name":"日本大学第一","kana":"","short":"日本大学第一","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"両国","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"x1f2c2p2","name":"日本大学第二","kana":"","short":"日本大学第二","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"荻窪","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"x1f2c2lf","name":"日本大学第三","kana":"","short":"日本大学第三","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":null,"fuzoku":true,"needsFetch":true,"exams":[]},{"id":"x1f9h8fn","name":"東海大学付属高輪台","kana":"","short":"東海大学付属高輪台","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"高輪台","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"xlpe6a","name":"郁文館","kana":"","short":"郁文館","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"東大前","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xj7cy","name":"淑徳","kana":"","short":"淑徳","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":null,"fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xe94ahz","name":"淑徳巣鴨","kana":"","short":"淑徳巣鴨","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"西巣鴨","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"x91yhn","name":"城西大学附属城西","kana":"","short":"城西大学附属城西","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"要町","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"xgl6q89","name":"聖徳学園","kana":"","short":"聖徳学園","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"武蔵境","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xhx3l","name":"明星","kana":"","short":"明星","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":null,"fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xb59vge","name":"武蔵野大学","kana":"","short":"武蔵野大学","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":null,"fuzoku":true,"needsFetch":true,"exams":[]},{"id":"x1ua50d","name":"東京成徳大学","kana":"","short":"東京成徳大学","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":null,"fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xi6gs","name":"桜丘","kana":"","short":"桜丘","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"王子","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xqyay","name":"駒込","kana":"","short":"駒込","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"本駒込","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xag5ai8","name":"上野学園","kana":"","short":"上野学園","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"上野","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"x100547y","name":"宝仙学園理数インター","kana":"","short":"宝仙学園理数インター","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"中野坂上","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"x1kqtggm","name":"新渡戸文化","kana":"","short":"新渡戸文化","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":null,"fuzoku":false,"needsFetch":true,"exams":[]},{"id":"x1mc6u50","name":"八王子学園八王子","kana":"","short":"八王子学園八王子","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"西八王子","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xpzbtne","name":"工学院大学附属","kana":"","short":"工学院大学附属","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"八王子(バス)","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"xhyfb","name":"明法","kana":"","short":"明法","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":null,"fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xb6tg3r","name":"啓明学園","kana":"","short":"啓明学園","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"拝島(バス)","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xeyslpc","name":"玉川学園","kana":"","short":"玉川学園","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"玉川学園前","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"x1c8az6d","name":"立正大学付属立正","kana":"","short":"立正大学付属立正","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"西馬込","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"xfhy94u","name":"目白研心","kana":"","short":"目白研心","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":null,"fuzoku":false,"needsFetch":true,"exams":[]},{"id":"x1yg89sn","name":"文教大学付属","kana":"","short":"文教大学付属","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"旗の台","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"x1cf1h50","name":"東洋大学京北","kana":"","short":"東洋大学京北","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"白山","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"xqcir","name":"順天","kana":"","short":"順天","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"王子","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xd6ix6","name":"国士舘","kana":"","short":"国士舘","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"梅ヶ丘","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"xcvp10n","name":"成立学園","kana":"","short":"成立学園","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":null,"fuzoku":false,"needsFetch":true,"exams":[]},{"id":"x1ce8myk","name":"サレジアン国際学園","kana":"","short":"サレジアン国際学園","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"赤羽","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"x11yuoyp","name":"サレジアン国際学園世田谷","kana":"","short":"サレジアン国際学園世田谷","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":null,"fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xb37gt5","name":"品川翔英","kana":"","short":"品川翔英","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"大井町","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"x1fzv2ev","name":"文化学園大学杉並","kana":"","short":"文化学園大学杉並","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"阿佐ケ谷","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xaw8pzn","name":"八雲学園","kana":"","short":"八雲学園","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"都立大学","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xqeq2","name":"青稜","kana":"","short":"青稜","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"下神明","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"x193vzw4","name":"ドルトン東京学園","kana":"","short":"ドルトン東京学園","type":"共学","pref":"東京","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":null,"fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xgvvizs","name":"お茶の水女子大学附属","kana":"","short":"お茶の水女子大学附属","type":"共学","pref":"東京","dev":null,"tags":["国立"],"yuguu":"","kikoku":false,"station":"茗荷谷","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xbi9ghj","name":"東京学芸大学附属世田谷","kana":"","short":"東京学芸大学附属世田谷","type":"共学","pref":"東京","dev":null,"tags":["国立"],"yuguu":"","kikoku":false,"station":null,"fuzoku":false,"needsFetch":true,"exams":[]},{"id":"x1a7blx2","name":"東京学芸大学附属竹早","kana":"","short":"東京学芸大学附属竹早","type":"共学","pref":"東京","dev":null,"tags":["国立"],"yuguu":"","kikoku":false,"station":"茗荷谷","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xbkfo0d","name":"東京学芸大学附属小金井","kana":"","short":"東京学芸大学附属小金井","type":"共学","pref":"東京","dev":null,"tags":["国立"],"yuguu":"","kikoku":false,"station":"武蔵小金井","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xdmo6c9","name":"東京学芸大学附属国際中等教育","kana":"","short":"東京学芸大学附属国際中等教育","type":"共学","pref":"東京","dev":null,"tags":["国立"],"yuguu":"","kikoku":false,"station":"大泉学園","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"x12mybkw","name":"都立小石川中等教育","kana":"","short":"都立小石川中等教育","type":"共学","pref":"東京","dev":null,"tags":["公立一貫"],"yuguu":"","kikoku":false,"station":"千石","fuzoku":false,"needsFetch":true,"exams":[{"d":"2027-02-03","s":"AM","n":"適性検査","note":"公立中高一貫(共同作成問題等)","unc":0}]},{"id":"xce2vpf","name":"都立武蔵高等学校附属","kana":"","short":"都立武蔵高等学校附属","type":"共学","pref":"東京","dev":null,"tags":["公立一貫"],"yuguu":"","kikoku":false,"station":"武蔵境","fuzoku":false,"needsFetch":true,"exams":[{"d":"2027-02-03","s":"AM","n":"適性検査","note":"公立中高一貫(共同作成問題等)","unc":0}]},{"id":"x1fkmw1c","name":"都立両国高等学校附属","kana":"","short":"都立両国高等学校附属","type":"共学","pref":"東京","dev":null,"tags":["公立一貫"],"yuguu":"","kikoku":false,"station":"錦糸町","fuzoku":false,"needsFetch":true,"exams":[{"d":"2027-02-03","s":"AM","n":"適性検査","note":"公立中高一貫(共同作成問題等)","unc":0}]},{"id":"x1eaxkpx","name":"都立白鴎高等学校附属","kana":"","short":"都立白鴎高等学校附属","type":"共学","pref":"東京","dev":null,"tags":["公立一貫"],"yuguu":"","kikoku":false,"station":null,"fuzoku":false,"needsFetch":true,"exams":[{"d":"2027-02-03","s":"AM","n":"適性検査","note":"公立中高一貫(共同作成問題等)","unc":0}]},{"id":"xfntffh","name":"都立桜修館中等教育","kana":"","short":"都立桜修館中等教育","type":"共学","pref":"東京","dev":null,"tags":["公立一貫"],"yuguu":"","kikoku":false,"station":"都立大学","fuzoku":false,"needsFetch":true,"exams":[{"d":"2027-02-03","s":"AM","n":"適性検査","note":"公立中高一貫(共同作成問題等)","unc":0}]},{"id":"x18mjw2b","name":"都立富士高等学校附属","kana":"","short":"都立富士高等学校附属","type":"共学","pref":"東京","dev":null,"tags":["公立一貫"],"yuguu":"","kikoku":false,"station":null,"fuzoku":false,"needsFetch":true,"exams":[{"d":"2027-02-03","s":"AM","n":"適性検査","note":"公立中高一貫(共同作成問題等)","unc":0}]},{"id":"x1q9ir3q","name":"都立大泉高等学校附属","kana":"","short":"都立大泉高等学校附属","type":"共学","pref":"東京","dev":null,"tags":["公立一貫"],"yuguu":"","kikoku":false,"station":"大泉学園","fuzoku":false,"needsFetch":true,"exams":[{"d":"2027-02-03","s":"AM","n":"適性検査","note":"公立中高一貫(共同作成問題等)","unc":0}]},{"id":"x3gudyl","name":"都立南多摩中等教育","kana":"","short":"都立南多摩中等教育","type":"共学","pref":"東京","dev":null,"tags":["公立一貫"],"yuguu":"","kikoku":false,"station":null,"fuzoku":false,"needsFetch":true,"exams":[{"d":"2027-02-03","s":"AM","n":"適性検査","note":"公立中高一貫(共同作成問題等)","unc":0}]},{"id":"x1ylovg3","name":"都立三鷹中等教育","kana":"","short":"都立三鷹中等教育","type":"共学","pref":"東京","dev":null,"tags":["公立一貫"],"yuguu":"","kikoku":false,"station":null,"fuzoku":false,"needsFetch":true,"exams":[{"d":"2027-02-03","s":"AM","n":"適性検査","note":"公立中高一貫(共同作成問題等)","unc":0}]},{"id":"x1jpoudv","name":"都立立川国際中等教育","kana":"","short":"都立立川国際中等教育","type":"共学","pref":"東京","dev":null,"tags":["公立一貫"],"yuguu":"","kikoku":false,"station":null,"fuzoku":false,"needsFetch":true,"exams":[{"d":"2027-02-03","s":"AM","n":"適性検査","note":"公立中高一貫(共同作成問題等)","unc":0}]},{"id":"xddl0fi","name":"千代田区立九段中等教育","kana":"","short":"千代田区立九段中等教育","type":"共学","pref":"東京","dev":null,"tags":["公立一貫"],"yuguu":"","kikoku":false,"station":"九段下","fuzoku":false,"needsFetch":true,"exams":[{"d":"2027-02-03","s":"AM","n":"適性検査","note":"公立中高一貫(共同作成問題等)","unc":0}]},{"id":"xsx36op","name":"神奈川県立相模原中等教育","kana":"","short":"神奈川県立相模原中等教育","type":"共学","pref":"神奈川","dev":null,"tags":["公立一貫"],"yuguu":"","kikoku":false,"station":"相模大野","fuzoku":false,"needsFetch":true,"exams":[{"d":"2027-02-03","s":"AM","n":"適性検査","note":"公立中高一貫(共同作成問題等)","unc":0}]},{"id":"xhu18xa","name":"神奈川県立平塚中等教育","kana":"","short":"神奈川県立平塚中等教育","type":"共学","pref":"神奈川","dev":null,"tags":["公立一貫"],"yuguu":"","kikoku":false,"station":"平塚(バス)","fuzoku":false,"needsFetch":true,"exams":[{"d":"2027-02-03","s":"AM","n":"適性検査","note":"公立中高一貫(共同作成問題等)","unc":0}]},{"id":"x1wamsqq","name":"横浜市立南高等学校附属","kana":"","short":"横浜市立南高等学校附属","type":"共学","pref":"神奈川","dev":null,"tags":["公立一貫"],"yuguu":"","kikoku":false,"station":null,"fuzoku":false,"needsFetch":true,"exams":[{"d":"2027-02-03","s":"AM","n":"適性検査","note":"公立中高一貫(共同作成問題等)","unc":0}]},{"id":"x15tjrst","name":"横浜サイエンスフロンティア高等学校附属","kana":"","short":"横浜サイエンスフロンティア高等学校附属","type":"共学","pref":"神奈川","dev":null,"tags":["公立一貫"],"yuguu":"","kikoku":false,"station":"鶴見(バス)","fuzoku":false,"needsFetch":true,"exams":[{"d":"2027-02-03","s":"AM","n":"適性検査","note":"公立中高一貫(共同作成問題等)","unc":0}]},{"id":"x1apb9wx","name":"川崎市立川崎高等学校附属","kana":"","short":"川崎市立川崎高等学校附属","type":"共学","pref":"神奈川","dev":null,"tags":["公立一貫"],"yuguu":"","kikoku":false,"station":"川崎","fuzoku":false,"needsFetch":true,"exams":[{"d":"2027-02-03","s":"AM","n":"適性検査","note":"公立中高一貫(共同作成問題等)","unc":0}]},{"id":"x158wrwr","name":"千葉県立千葉","kana":"","short":"千葉県立千葉","type":"共学","pref":"千葉","dev":null,"tags":["公立一貫"],"yuguu":"","kikoku":false,"station":null,"fuzoku":false,"needsFetch":true,"exams":[]},{"id":"x76ay7","name":"千葉県立東葛飾","kana":"","short":"千葉県立東葛飾","type":"共学","pref":"千葉","dev":null,"tags":["公立一貫"],"yuguu":"","kikoku":false,"station":null,"fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xki6iz","name":"千葉市立稲毛国際中等教育","kana":"","short":"千葉市立稲毛国際中等教育","type":"共学","pref":"千葉","dev":null,"tags":["公立一貫"],"yuguu":"","kikoku":false,"station":null,"fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xmi3iil","name":"さいたま市立浦和","kana":"","short":"さいたま市立浦和","type":"共学","pref":"埼玉","dev":null,"tags":["公立一貫"],"yuguu":"","kikoku":false,"station":null,"fuzoku":false,"needsFetch":true,"exams":[]},{"id":"x1bk2zu9","name":"さいたま市立大宮国際中等教育","kana":"","short":"さいたま市立大宮国際中等教育","type":"共学","pref":"埼玉","dev":null,"tags":["公立一貫"],"yuguu":"","kikoku":false,"station":null,"fuzoku":false,"needsFetch":true,"exams":[]},{"id":"x14nzrqt","name":"川口市立高等学校附属","kana":"","short":"川口市立高等学校附属","type":"共学","pref":"埼玉","dev":null,"tags":["公立一貫"],"yuguu":"","kikoku":false,"station":null,"fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xiy4e95","name":"鎌倉学園","kana":"","short":"鎌倉学園","type":"男子","pref":"神奈川","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"北鎌倉","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"x1kyf8cg","name":"藤嶺学園藤沢","kana":"","short":"藤嶺学園藤沢","type":"男子","pref":"神奈川","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"藤沢","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xdusupu","name":"横浜雙葉","kana":"","short":"横浜雙葉","type":"女子","pref":"神奈川","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"元町・中華街","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xno2eag","name":"横浜共立学園","kana":"","short":"横浜共立学園","type":"女子","pref":"神奈川","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"石川町","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"x4hbc0k","name":"湘南白百合学園","kana":"","short":"湘南白百合学園","type":"女子","pref":"神奈川","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"片瀬山","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xj4n49e","name":"鎌倉女学院","kana":"","short":"鎌倉女学院","type":"女子","pref":"神奈川","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"鎌倉","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xi33b7v","name":"清泉女学院","kana":"","short":"清泉女学院","type":"女子","pref":"神奈川","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"大船(バス)","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"x1mzt4mu","name":"カリタス女子","kana":"","short":"カリタス女子","type":"女子","pref":"神奈川","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"中野島","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xfxkzg3","name":"聖園女学院","kana":"","short":"聖園女学院","type":"女子","pref":"神奈川","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":null,"fuzoku":false,"needsFetch":true,"exams":[]},{"id":"x1lr9nxj","name":"聖セシリア女子","kana":"","short":"聖セシリア女子","type":"女子","pref":"神奈川","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"中央林間","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"x3308n1","name":"横浜女学院","kana":"","short":"横浜女学院","type":"女子","pref":"神奈川","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"石川町","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"x1o0geu7","name":"神奈川学園","kana":"","short":"神奈川学園","type":"女子","pref":"神奈川","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"横浜","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"x6uw0ab","name":"鎌倉女子大学中等部","kana":"","short":"鎌倉女子大学中等部","type":"女子","pref":"神奈川","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"大船","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"xzp7422","name":"相模女子大学中学部","kana":"","short":"相模女子大学中学部","type":"女子","pref":"神奈川","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"相模大野","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"xmeys0t","name":"日本女子大学附属","kana":"","short":"日本女子大学附属","type":"女子","pref":"神奈川","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"読売ランド前","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"x1of7g24","name":"中央大学附属横浜","kana":"","short":"中央大学附属横浜","type":"共学","pref":"神奈川","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"センター北","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"xw1xmq1","name":"法政大学第二","kana":"","short":"法政大学第二","type":"共学","pref":"神奈川","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"武蔵小杉","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"x180ulqg","name":"青山学院横浜英和","kana":"","short":"青山学院横浜英和","type":"共学","pref":"神奈川","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"蒔田","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"x1tuxcks","name":"神奈川大学附属","kana":"","short":"神奈川大学附属","type":"共学","pref":"神奈川","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"中山","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"x1hmmwu6","name":"桐蔭学園中等教育","kana":"","short":"桐蔭学園中等教育","type":"共学","pref":"神奈川","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"市が尾(バス)","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xdhzspx","name":"桐光学園","kana":"","short":"桐光学園","type":"共学","pref":"神奈川","dev":null,"tags":["男女別学"],"yuguu":"","kikoku":false,"station":"栗平","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xdo0urz","name":"森村学園","kana":"","short":"森村学園","type":"共学","pref":"神奈川","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"つくし野","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xc2lcmu","name":"山手学院","kana":"","short":"山手学院","type":"共学","pref":"神奈川","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"港南台","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"x1d7ch1h","name":"公文国際学園","kana":"","short":"公文国際学園","type":"共学","pref":"神奈川","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"大船(バス)","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xe9oii3","name":"湘南学園","kana":"","short":"湘南学園","type":"共学","pref":"神奈川","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"鵠沼海岸","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xda7lmu","name":"日本大学","kana":"","short":"日本大学","type":"共学","pref":"神奈川","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"日吉","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"x1f2e29w","name":"日本大学藤沢","kana":"","short":"日本大学藤沢","type":"共学","pref":"神奈川","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"六会日大前","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"xjb14wb","name":"関東学院","kana":"","short":"関東学院","type":"共学","pref":"神奈川","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"黄金町","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"xefbv1g","name":"関東学院六浦","kana":"","short":"関東学院六浦","type":"共学","pref":"神奈川","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"金沢八景","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"xo4a5jt","name":"自修館中等教育","kana":"","short":"自修館中等教育","type":"共学","pref":"神奈川","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"愛甲石田","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"x8o9zmm","name":"横須賀学院","kana":"","short":"横須賀学院","type":"共学","pref":"神奈川","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"横須賀中央","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xqupv90","name":"東海大学付属相模","kana":"","short":"東海大学付属相模","type":"共学","pref":"神奈川","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"小田急相模原","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"x1j9b193","name":"聖ヨゼフ学園","kana":"","short":"聖ヨゼフ学園","type":"共学","pref":"神奈川","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"鶴見(バス)","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"x7l0vmy","name":"横浜富士見丘学園","kana":"","short":"横浜富士見丘学園","type":"共学","pref":"神奈川","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"緑園都市","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xdup1mv","name":"横浜翠陵","kana":"","short":"横浜翠陵","type":"共学","pref":"神奈川","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":null,"fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xduh7ny","name":"横浜創英","kana":"","short":"横浜創英","type":"共学","pref":"神奈川","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":null,"fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xdusjg0","name":"横浜隼人","kana":"","short":"横浜隼人","type":"共学","pref":"神奈川","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":null,"fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xsat1gf","name":"芝浦工業大学柏","kana":"","short":"芝浦工業大学柏","type":"共学","pref":"千葉","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"新柏","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"x14doj5x","name":"専修大学松戸","kana":"","short":"専修大学松戸","type":"共学","pref":"千葉","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"北松戸","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"xrl65","name":"麗澤","kana":"","short":"麗澤","type":"共学","pref":"千葉","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"南柏(バス)","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"x1oi532i","name":"国府台女子学院","kana":"","short":"国府台女子学院","type":"女子","pref":"千葉","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"市川真間","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"x1ef7qww","name":"千葉日本大学第一","kana":"","short":"千葉日本大学第一","type":"共学","pref":"千葉","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"船橋日大前","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"xd74735","name":"日出学園","kana":"","short":"日出学園","type":"共学","pref":"千葉","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"菅野","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"x19203a5","name":"八千代松陰","kana":"","short":"八千代松陰","type":"共学","pref":"千葉","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"勝田台(バス)","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"x1c6ssy","name":"成田高等学校付属","kana":"","short":"成田高等学校付属","type":"共学","pref":"千葉","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"成田","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"x10743jj","name":"和洋国府台女子","kana":"","short":"和洋国府台女子","type":"女子","pref":"千葉","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"国府台","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xd8s2kb","name":"昭和学院","kana":"","short":"昭和学院","type":"共学","pref":"千葉","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"本八幡(バス)","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xquo5ri","name":"東海大学付属浦安","kana":"","short":"東海大学付属浦安","type":"共学","pref":"千葉","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"浦安","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"x15lmbbw","name":"二松学舎大学附属柏","kana":"","short":"二松学舎大学附属柏","type":"共学","pref":"千葉","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"柏(バス)","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"x1vnjc1h","name":"流通経済大学付属柏","kana":"","short":"流通経済大学付属柏","type":"共学","pref":"千葉","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":null,"fuzoku":true,"needsFetch":true,"exams":[]},{"id":"xmsgvrs","name":"光英VERITAS","kana":"","short":"光英VERITAS","type":"共学","pref":"千葉","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":null,"fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xb1xkjv","name":"千葉明徳","kana":"","short":"千葉明徳","type":"共学","pref":"千葉","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":null,"fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xdctmkc","name":"暁星国際","kana":"","short":"暁星国際","type":"共学","pref":"千葉","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"木更津(バス)","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"x1divsh1","name":"江戸川学園取手","kana":"","short":"江戸川学園取手","type":"共学","pref":"茨城","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"取手(バス)","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"x130qgf6","name":"土浦日本大学中等教育","kana":"","short":"土浦日本大学中等教育","type":"共学","pref":"茨城","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"土浦(バス)","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"xgzvspr","name":"茗溪学園","kana":"","short":"茗溪学園","type":"共学","pref":"茨城","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"つくば(バス)","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xceoyvn","name":"常総学院","kana":"","short":"常総学院","type":"共学","pref":"茨城","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"土浦(バス)","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xti2voh","name":"開智望中等教育","kana":"","short":"開智望中等教育","type":"共学","pref":"茨城","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":null,"fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xfww8kl","name":"立教新座","kana":"","short":"立教新座","type":"男子","pref":"埼玉","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"志木","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"xbfahg6","name":"城北埼玉","kana":"","short":"城北埼玉","type":"男子","pref":"埼玉","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"上福岡","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xbnaida","name":"城西川越","kana":"","short":"城西川越","type":"男子","pref":"埼玉","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"川越(バス)","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"x1e7igia","name":"西武学園文理","kana":"","short":"西武学園文理","type":"共学","pref":"埼玉","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"新狭山(バス)","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xdg5uf","name":"埼玉栄","kana":"","short":"埼玉栄","type":"共学","pref":"埼玉","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"西大宮","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xjaj3t6","name":"開智未来","kana":"","short":"開智未来","type":"共学","pref":"埼玉","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":null,"fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xdc6mcm","name":"開智所沢中等教育","kana":"","short":"開智所沢中等教育","type":"共学","pref":"埼玉","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":null,"fuzoku":false,"needsFetch":true,"exams":[]},{"id":"x1loi98b","name":"春日部共栄","kana":"","short":"春日部共栄","type":"共学","pref":"埼玉","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"春日部(バス)","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xewnjzt","name":"獨協埼玉","kana":"","short":"獨協埼玉","type":"共学","pref":"埼玉","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"せんげん台","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"xhvjb","name":"昌平","kana":"","short":"昌平","type":"共学","pref":"埼玉","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"杉戸高野台","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xbmyg0c","name":"大宮開成","kana":"","short":"大宮開成","type":"共学","pref":"埼玉","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"大宮(バス)","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xdhhsmz","name":"星野学園","kana":"","short":"星野学園","type":"共学","pref":"埼玉","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"川越(バス)","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xga1dv0","name":"細田学園","kana":"","short":"細田学園","type":"共学","pref":"埼玉","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"志木","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xjbi4go","name":"東京農業大学第三高等学校附属","kana":"","short":"東京農業大学第三高等学校附属","type":"共学","pref":"埼玉","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":null,"fuzoku":true,"needsFetch":true,"exams":[]},{"id":"xgpilrs","name":"狭山ヶ丘高等学校付属","kana":"","short":"狭山ヶ丘高等学校付属","type":"共学","pref":"埼玉","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"武蔵藤沢","fuzoku":true,"needsFetch":true,"exams":[]},{"id":"xgm9s4x","name":"聖望学園","kana":"","short":"聖望学園","type":"共学","pref":"埼玉","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"飯能","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xe91jb6","name":"淑徳与野","kana":"","short":"淑徳与野","type":"女子","pref":"埼玉","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"北与野","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xzs0iv4","name":"浦和実業学園","kana":"","short":"浦和実業学園","type":"共学","pref":"埼玉","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"南浦和","fuzoku":false,"needsFetch":true,"exams":[]},{"id":"xrxrdmd","name":"青山学院大学系属浦和ルーテル学院","kana":"","short":"青山学院大学系属浦和ルーテル学院","type":"共学","pref":"埼玉","dev":null,"tags":[],"yuguu":"","kikoku":false,"station":"浦和美園","fuzoku":true,"needsFetch":true,"exams":[]}];
+
+/* 塾リンク集 */
+const JUKUS = [
+ {name:"SAPIX(サピックス小学部)", q:"サピックス小学部 2026 中学入試 合格実績", desc:"御三家・最難関の合格者数で最大規模。学校別一覧が公開されます。"},
+ {name:"日能研", q:"日能研 2026 中学入試 合格実績", desc:"母数が大きく中堅〜上位校まで網羅。R4偏差値表も参考に。"},
+ {name:"四谷大塚", q:"四谷大塚 2026 中学入試 合格実績", desc:"合不合判定テストの母体。80偏差値一覧とあわせて確認。"},
+ {name:"早稲田アカデミー", q:"早稲田アカデミー 2026 中学入試 合格実績", desc:"NN志望校別コースの対象校実績に注目。"},
+ {name:"グノーブル", q:"グノーブル 中学受験 2026 合格実績", desc:"少数精鋭型。在籍数比での実績確認が有効。"}
+];
+</script>
+<script>
+/* ================= 状態とストレージ ================= */
+const mem = {};
+const store = {
+  async get(k){ try{ if(window.storage){ const r = await window.storage.get(k); return r ? r.value : null; } }catch(e){} return mem[k] ?? null; },
+  async set(k,v){ try{ if(window.storage){ await window.storage.set(k,v); return; } }catch(e){} mem[k]=v; }
+};
+const state = { plan:new Set(), ai:{}, live:{}, liveAt:null, log:[], homeStation:null, onlySelected:false,
+  filters:{type:"",pref:"",dev:"",text:"",tags:new Set()} };
+let byId = Object.fromEntries(SCHOOLS.map(s=>[s.id,s]));
+function rebuildIndex(){ byId = Object.fromEntries(SCHOOLS.map(s=>[s.id,s])); }
+const WD = ["日","月","火","水","木","金","土"];
+
+function esc(t){ return String(t??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
+function gsearch(q){ return "https://www.google.com/search?q="+encodeURIComponent(q); }
+function mapsDir(s){ return "https://www.google.com/maps/dir/?api=1&origin="+encodeURIComponent(state.homeStation+"駅")+"&destination="+encodeURIComponent(s.name+"中学校")+"&travelmode=transit"; }
+function fdate(iso){ const d=new Date(iso+"T00:00:00");
+  return {md:(d.getMonth()+1)+"/"+d.getDate(), y:d.getFullYear(), wd:WD[d.getDay()], dow:d.getDay()}; }
+function allTags(){ const t=new Set(); SCHOOLS.forEach(s=>{s.tags.forEach(x=>t.add(x)); if(s.kikoku)t.add("帰国入試あり"); if(s.exams.some(e=>e.s==="PM"))t.add("午後入試あり");}); return [...t]; }
+
+/* ================= 競合判定 ================= */
+function conflictInfo(){
+  const map={}; // date -> {AM:[], PM:[]}
+  for(const id of state.plan){ const s=byId[id]; if(!s) continue;
+    for(const e of s.exams){ (map[e.d] ??= {AM:[],PM:[]})[e.s].push({s,e}); } }
+  let clashes=[], doubles=[];
+  for(const [d,l] of Object.entries(map)){
+    if(l.AM.length>1) clashes.push({d,slot:"AM",items:l.AM});
+    if(l.PM.length>1) clashes.push({d,slot:"PM",items:l.PM});
+    if(l.AM.length===1 && l.PM.length===1) doubles.push({d,items:[...l.AM,...l.PM]});
+  }
+  return {map,clashes,doubles};
+}
+function planUsable(s){ return s.exams.filter(e=>!(e.note||"").includes("一次合格者")); }
+function assignPlan(){
+  const schools=[...state.plan].map(id=>byId[id]).filter(Boolean)
+    .map(s=>({s, ses: planUsable(s).slice().sort((a,b)=>a.d<b.d?-1:1)}))
+    .filter(o=>o.ses.length)
+    .sort((a,b)=>a.ses.length-b.ses.length);
+  const assign=new Map(); const occ=new Set();
+  function bt(i){
+    if(i>=schools.length) return true;
+    for(const e of schools[i].ses){
+      const k=e.d+e.s;
+      if(occ.has(k)) continue;
+      occ.add(k); assign.set(schools[i].s.id,e);
+      if(bt(i+1)) return true;
+      occ.delete(k); assign.delete(schools[i].s.id);
+    }
+    return false;
+  }
+  const feasible = bt(0);
+  if(!feasible){ // 置けるだけ置く(表示用)
+    assign.clear(); occ.clear();
+    for(const {s,ses} of schools){ const e=ses.find(x=>!occ.has(x.d+x.s)); if(e){ occ.add(e.d+e.s); assign.set(s.id,e); } }
+  }
+  return {assign, feasible};
+}
+function isClash(schoolId,e){
+  const ci=conflictInfo();
+  return ci.clashes.some(c=>c.d===e.d && c.slot===e.s && c.items.some(i=>i.s.id===schoolId));
+}
+
+/* ================= プランバー ================= */
+function renderPlan(){
+  const n=state.plan.size;
+  document.getElementById("planCount").textContent = n+"校 選択中";
+  const ci=conflictInfo();
+  const pill=document.getElementById("conflictPill");
+  if(n===0){ pill.innerHTML=""; }
+  else { const asg=assignPlan();
+    pill.innerHTML = asg.feasible
+      ? '<span class="conflict-pill ok">全'+n+'校を受けられる日程です</span>'
+      : '<span class="conflict-pill">競合あり: 全校は受けきれません</span>'; }
+  const box=document.getElementById("planChips");
+  if(n===0){ box.innerHTML='<span class="plan-empty">学校カードの「＋プランに追加」で志望校を選ぶと、ここに表示され日程競合をチェックできます。</span>'; return; }
+  box.innerHTML=[...state.plan].map(id=>{
+    const s=byId[id]; if(!s) return "";
+    return '<button class="plan-chip" data-remove="'+id+'" title="タップで外す">'+esc(s.short)+' <span class="x">×</span></button>';
+  }).join("");
+}
+
+/* ================= カレンダー ================= */
+function calGroups(){
+  return [
+    {key:"2026-12", title:"2026年12月", sub:"推薦・第一志望型など", test:d=>d.startsWith("2026-12")},
+    {key:"2027-01", title:"2027年1月", sub:"埼玉・千葉(前受け・本命)", test:d=>d.startsWith("2027-01")},
+    {key:"2027-02", title:"2027年2月", sub:"東京・神奈川 本番週間", test:d=>d.startsWith("2027-02")}
+  ];
+}
+function renderCal(){
+  const root=document.getElementById("calRoot");
+  const asg=assignPlan();
+  const ci=conflictInfo();
+  const entries=[];
+  for(const s of SCHOOLS){
+    if(state.onlySelected && !state.plan.has(s.id)) continue;
+    for(const e of s.exams) entries.push({d:e.d, slot:e.s, s, e});
+  }
+  const dates=[...new Set(entries.map(x=>x.d))].sort();
+  const assignedCells={};
+  for(const [id,e] of asg.assign){ (assignedCells[e.d] ??= {})[e.s]=byId[id]; }
+  let html="";
+  for(const g of calGroups()){
+    const gd=dates.filter(d=>g.test(d));
+    if(!gd.length) continue;
+    html+='<div class="cal-group"><div class="cal-group-h">'+g.title+'<small>'+g.sub+'</small></div>';
+    for(const d of gd){
+      const f=fdate(d);
+      const am=entries.filter(x=>x.d===d&&x.slot==="AM");
+      const pm=entries.filter(x=>x.d===d&&x.slot==="PM");
+      const dayClash = !asg.feasible ? ci.clashes.filter(c=>c.d===d) : [];
+      html+='<div class="day-row'+(dayClash.length?' has-conflict':'')+'">';
+      html+='<div class="day-head"><span class="day-date">'+f.md+'</span><span class="day-wd '+(f.dow===6?'sat':f.dow===0?'sun':'')+'">('+f.wd+')</span>';
+      if(dayClash.length) html+='<span class="stamp" role="img" aria-label="日程競合あり">競合</span>';
+      html+='</div>';
+      const lane=(list,cls,label)=>{
+        if(!list.length) return "";
+        let h='<div class="slot-lane"><span class="slot-tag '+cls+'">'+label+'</span><div class="chip-wrap">';
+        h+=list.map(x=>{
+          const sel=state.plan.has(x.s.id);
+          const assigned = sel && asg.assign.get(x.s.id)===x.e;
+          const clash = assigned && dayClash.some(c=>c.slot===x.slot);
+          const chipCls = assigned ? ' sel'+(clash?' clash':'') : (sel ? ' sel-alt' : '');
+          return '<button class="exam-chip'+chipCls+'" data-goto-school="'+x.s.id+'">'
+            +esc(x.s.short)+'<small>'+esc(x.e.n)+'</small>'+(x.e.unc?' <span class="unc-mark" title="要確認">⚠</span>':'')+'</button>';
+        }).join("");
+        return h+'</div></div>';
+      };
+      html+=lane(am,"am","午前")+lane(pm,"pm","午後");
+      const ac=assignedCells[d];
+      if(ac && ac.AM && ac.PM && !dayClash.length){
+        html+='<div class="ampm-note">午前・午後の連戦('+esc(ac.AM.short)+' → '+esc(ac.PM.short)+')。会場間の移動時間と昼食を要確認。</div>';
+      }
+      html+='</div>';
+    }
+    html+='</div>';
+  }
+  root.innerHTML = html || '<p class="sec-note">表示できる日程がありません。「選択校のみ表示」をオフにするか、学校を追加してください。</p>';
+}
+
+/* ================= 学校カード ================= */
+function renderTagFilters(){
+  document.getElementById("tagFilters").innerHTML = allTags().map(t=>
+    '<button data-tagf="'+esc(t)+'" aria-pressed="'+(state.filters.tags.has(t)?'true':'false')+'">'+esc(t)+'</button>'
+  ).join("");
+}
+function schoolMatches(s){
+  const f=state.filters;
+  if(f.type && s.type!==f.type) return false;
+  if(f.pref && s.pref!==f.pref) return false;
+  if(f.hasData && !s.exams.length) return false;
+  if(f.dev){ if(!s.dev) return false;
+    const lo=+f.dev, hi=lo===40?49:(lo===50?59:99);
+    if(!(s.dev[1]>=lo && s.dev[0]<=hi)) return false; }
+  if(f.text && !(s.name+s.kana+s.short).includes(f.text)) return false;
+  for(const t of f.tags){
+    const has = s.tags.includes(t) || (t==="帰国入試あり"&&s.kikoku) || (t==="午後入試あり"&&s.exams.some(e=>e.s==="PM"));
+    if(!has) return false;
+  }
+  return true;
+}
+function typeBadge(t){ return t==="男子"?'<span class="badge b-type-m">男子校</span>':t==="女子"?'<span class="badge b-type-f">女子校</span>':'<span class="badge b-type-c">共学</span>'; }
+function aiResultHtml(id){
+  const a=state.ai[id]||state.live[id]; if(!a) return "";
+  const manual=!!state.ai[id];
+  const sec=(title,items,fmt)=> (items&&items.length)?('<h4>'+title+'</h4><ul>'+items.map(fmt).join("")+'</ul>'):"";
+  const src=u=>u?(' <a href="'+esc(u)+'" target="_blank" rel="noopener">出典</a>'):"";
+  return '<div class="ai-result">'
+   + sec("入試日程(AI取得)", a.exams, x=>'<li>'+esc(x.date||"")+' '+(x.slot==="PM"?"午後 ":"")+esc(x.name||"")+' <span class="ex-note">'+esc(x.note||"")+'</span>'+src(x.source)+'</li>')
+   + sec("説明会・イベント(AI取得)", a.sessions, x=>'<li>'+esc(x.date||"")+' '+esc(x.name||"")+' <span class="ex-note">'+esc(x.note||"")+'</span>'+src(x.source)+'</li>')
+   + sec("優遇・特待など(AI取得)", a.preferences, x=>'<li>'+esc(x.desc||"")+src(x.source)+'</li>')
+   + ((a.dev&&typeof a.dev.value==="number")?('<h4>偏差値(AI取得)</h4><ul><li>'+esc(a.dev.scale||"")+' '+esc(a.dev.value)+(a.dev.source?(' <a href="'+esc(a.dev.source)+'" target="_blank" rel="noopener">出典</a>'):'')+'</li></ul>'):"")
+   + sec("塾別合格者数(AI取得)", a.juku, x=>'<li>'+esc(x.name||"")+': '+esc(x.count??"—")+'名'+(x.year?('('+esc(x.year)+'年入試)'):'')+src(x.source)+'</li>')
+   + (a.notes?('<p class="ai-note">メモ: '+esc(a.notes)+'</p>'):"")
+   + '<p class="ai-note">'+(manual?'手動取得':'定期自動取得')+': '+esc(a.asOf||a.fetchedAt||"")+' / AIによる自動取得のため、必ず出典リンク先で原文をご確認ください。</p></div>';
+}
+function renderSchools(){
+  const grid=document.getElementById("schoolGrid");
+  const list=SCHOOLS.filter(schoolMatches);
+  grid.innerHTML = list.map(s=>{
+    const sel=state.plan.has(s.id);
+    const exLines=!s.exams.length ? '<div class="ex-line"><span class="ex-note">入試日程 未取得 — 「AIで最新情報を取得」か定期取得で公式情報(出典付き)が入ります</span></div>' : s.exams.map(e=>{
+      const f=fdate(e.d);
+      return '<div class="ex-line"><span class="ex-date">'+f.md+'('+f.wd+')'+(e.s==="PM"?'<span class="pm"> 午後</span>':'')+'</span>'
+        +'<span class="ex-name">'+esc(e.n)+(e.unc?' <span class="unc" title="未確定・特に要確認">⚠</span>':'')+(e.verified?' <a class="ok-mark" target="_blank" rel="noopener" href="'+esc(e.src||"#")+'" title="出典を開く">✓確認</a>':'')+'</span>'
+        +(e.note?('<span class="ex-note">'+esc(e.note)+'</span>'):'')+'</div>';
+    }).join("");
+    const tags=[
+      ...s.tags.map(t=>'<span class="badge b-tag'+(t==="特待"?' gold':'')+'">'+esc(t)+'</span>'),
+      s.kikoku?'<span class="badge b-tag">帰国入試あり</span>':""
+    ].join("");
+    return '<article class="school-card'+(sel?' selected':'')+'" id="card-'+s.id+'">'
+     +'<div class="sc-top"><div><div class="sc-name">'+esc(s.name)+'</div><div class="sc-kana">'+esc(s.kana)+'</div></div></div>'
+     +'<div class="sc-meta">'+typeBadge(s.type)+'<span class="badge b-pref">'+esc(s.pref)+'</span>'
+       +(s.devY?('<span class="badge b-dev">'+esc(s.devY.scale||"偏差値")+' '+s.devY.v+'(自動取得)</span>'):(s.dev?('<span class="badge b-dev">S偏差値めやす '+s.dev[0]+(s.dev[1]!==s.dev[0]?('〜'+s.dev[1]):'')+'</span>'):'<span class="badge b-tag">偏差値 未取得</span>'))+(s.station?('<span class="badge b-pref">'+esc(s.station)+'</span>'):'')+(state.overridden&&state.overridden.has(s.id)?'<span class="badge b-tag ok">公式情報反映済み</span>':'')+tags+'</div>'
+     +'<div class="sc-exams">'+exLines+'</div>'
+     +(s.yuguu?('<div class="sc-yuguu">優遇・特待: '+esc(s.yuguu)+'</div>'):'')
+     +'<div class="sc-links">'
+       +'<a target="_blank" rel="noopener" href="'+gsearch(s.name+" 中学校 公式サイト")+'">公式サイトを探す</a>'
+       +'<a target="_blank" rel="noopener" href="'+gsearch(s.name+" 中学校 説明会 予約 2026")+'">説明会情報</a>'
+       +'<a target="_blank" rel="noopener" href="'+gsearch(s.name+" 中学校 2027年度 募集要項")+'">募集要項</a>'
+       +'<a target="_blank" rel="noopener" href="'+gsearch(s.name+" 中学 2026 合格実績 サピックス 日能研 早稲田アカデミー 四谷大塚")+'">塾別実績</a>'
+       +(state.homeStation?('<a target="_blank" rel="noopener" href="'+mapsDir(s)+'">経路('+esc(state.homeStation)+'駅から)</a>'):'')
+     +'</div>'
+     +'<div id="ai-'+s.id+'">'+aiResultHtml(s.id)+'</div>'
+     +'<div class="sc-actions">'
+       +'<button class="btn btn-primary'+(sel?' on':'')+'" data-toggle-plan="'+s.id+'">'+(sel?'− プランから外す':'＋ プランに追加')+'</button>'
+       +'<button class="btn btn-ai" data-ai="'+s.id+'">'+(state.ai[s.id]?'AIで再取得':'AIで最新情報を取得')+'</button>'
+     +'</div></article>';
+  }).join("") || '<p class="sec-note">条件に合う学校がありません。フィルタを緩めてください。</p>';
+}
+
+/* ================= 説明会リンク・塾 ================= */
+function renderSetsumei(){
+  const box=document.getElementById("setsumeiLinks");
+  const ids=[...state.plan];
+  if(!ids.length){ box.innerHTML='<span class="sec-note">プランに学校を追加すると、その学校の説明会検索リンクが並びます。</span>'; return; }
+  box.innerHTML=ids.map(id=>{ const s=byId[id]; if(!s) return "";
+    return '<a target="_blank" rel="noopener" href="'+gsearch(s.name+" 中学校 説明会 予約 2026 ミライコンパス")+'">'+esc(s.name)+' の説明会情報を検索 ↗</a>';
+  }).join("");
+}
+function renderJuku(){
+  document.getElementById("jukuGrid").innerHTML=JUKUS.map(j=>
+    '<div class="flow-step"><div class="fs-when">'+esc(j.name)+'</div><div class="fs-what">'+esc(j.desc)+'</div>'
+    +'<div style="margin-top:6px"><a target="_blank" rel="noopener" href="'+gsearch(j.q)+'">2026年実績を検索 ↗</a></div></div>'
+  ).join("");
+}
+
+/* ================= AI取得(Web検索・出典付き) ================= */
+async function aiFetch(id, btn){
+  const s=byId[id];
+  btn.disabled=true; const orig=btn.textContent; btn.textContent="取得中…(30秒ほど)";
+  const prompt = '「'+s.name+'中学校」('+s.pref+'県内または都内の私立・国立中学校)について、web検索で学校公式サイトと各塾公式サイトを中心に調べ、次のJSONだけを返してください。前置き・説明・コードフェンスは一切禁止。確認できない項目は空配列に。各要素には必ず実在の出典URL(source)を含め、URLが確認できない情報は含めないこと。\n'
+   +'{"exams":[{"date":"YYYY-MM-DD","slot":"AM|PM","name":"回の名称","note":"科目・方式など","source":"URL"}],'
+   +'"sessions":[{"date":"YYYY-MM-DD","name":"説明会名","note":"予約方法など","source":"URL"}],'
+   +'"preferences":[{"desc":"優遇・特待・加点・複数回優遇などの制度","source":"URL"}],'
+   +'"juku":[{"name":"塾名","count":合格者数の数値,"year":"2026","source":"URL"}],'
+   +'"dev":{"scale":"四谷大塚80偏差値など模試名","value":数値,"source":"URL"},'
+   +'"notes":"補足や不明点"}\n'
+   +'対象: 2027年度入試(2027年1〜2月実施)の日程・方式、2026年開催予定の学校説明会、塾別合格者数は2026年入試の公表値(SAPIX・日能研・四谷大塚・早稲田アカデミーなど)。各配列は重要なものから最大6件まで。簡潔に。';
+  try{
+    let parsed=null;
+    try{
+      const fr=await fetch("/.netlify/functions/refresh?name="+encodeURIComponent(s.name)+"&pref="+encodeURIComponent(s.pref));
+      if(fr.ok) parsed=await fr.json();
+    }catch(e){}
+    if(!parsed){
+    const res=await fetch("https://api.anthropic.com/v1/messages",{
+      method:"POST", headers:{"Content-Type":"application/json"},
+      body:JSON.stringify({ model:"claude-sonnet-4-6", max_tokens:1000,
+        messages:[{role:"user",content:prompt}],
+        tools:[{type:"web_search_20250305",name:"web_search"}] })
+    });
+    const data=await res.json();
+    if(data.error) throw new Error(data.error.message||"APIエラー");
+    const text=(data.content||[]).filter(b=>b.type==="text").map(b=>b.text).join("\n");
+    const m=text.replace(/```json|```/g,"").match(/\{[\s\S]*\}/);
+    if(!m) throw new Error("応答からJSONを取り出せませんでした。もう一度お試しください。");
+    parsed=JSON.parse(m[0]);
+    }
+    parsed.asOf=new Date().toLocaleString("ja-JP");
+    state.ai[id]=parsed;
+    await store.set("ai:"+id, JSON.stringify(parsed));
+    applyLiveOverrides();
+    renderAll();
+    toast(s.name+"の情報を上書きしました(出典リンク付き)");
+  }catch(err){
+    document.getElementById("ai-"+id).innerHTML='<div class="ai-err">取得できませんでした('+esc(err.message)+')。時間をおいて再度お試しいただくか、上の検索リンクから直接ご確認ください。</div>';
+    btn.textContent=orig;
+  }finally{ btn.disabled=false; }
+}
+
+/* ================= 描画とイベント ================= */
+function renderAll(){ renderPlan(); renderCal(); renderSchools(); renderSetsumei(); }
+function switchTab(key){
+  document.querySelectorAll(".tab-btn").forEach(b=>b.setAttribute("aria-selected", b.dataset.tab===key?"true":"false"));
+  document.querySelectorAll(".panel").forEach(p=>p.classList.toggle("active", p.id==="panel-"+key));
+}
+document.addEventListener("click", async ev=>{
+  const t=ev.target.closest("[data-tab],[data-toggle-plan],[data-remove],[data-goto-school],[data-ai],[data-tagf],[data-goto]");
+  if(!t) return;
+  if(t.dataset.tab){ switchTab(t.dataset.tab); return; }
+  if(t.dataset.goto){ switchTab(t.dataset.goto); return; }
+  if(t.dataset.togglePlan){
+    const id=t.dataset.togglePlan;
+    state.plan.has(id)?state.plan.delete(id):state.plan.add(id);
+    await store.set("plan", JSON.stringify([...state.plan]));
+    renderAll(); return;
+  }
+  if(t.dataset.remove){
+    state.plan.delete(t.dataset.remove);
+    await store.set("plan", JSON.stringify([...state.plan]));
+    renderAll(); return;
+  }
+  if(t.dataset.gotoSchool){
+    switchTab("schools");
+    const el=document.getElementById("card-"+t.dataset.gotoSchool);
+    if(el){ el.scrollIntoView({block:"center"}); el.style.boxShadow="0 0 0 3px var(--gold)"; setTimeout(()=>{el.style.boxShadow="";},1400); }
+    return;
+  }
+  if(t.dataset.ai){ aiFetch(t.dataset.ai, t); return; }
+  if(t.dataset.tagf){
+    const tag=t.dataset.tagf;
+    state.filters.tags.has(tag)?state.filters.tags.delete(tag):state.filters.tags.add(tag);
+    renderTagFilters(); renderSchools(); return;
+  }
+});
+document.getElementById("onlySelected").addEventListener("change", e=>{ state.onlySelected=e.target.checked; renderCal(); });
+for(const [id,key] of [["fType","type"],["fPref","pref"],["fDev","dev"]]){
+  document.getElementById(id).addEventListener("change", e=>{ state.filters[key]=e.target.value; renderSchools(); });
+}
+document.getElementById("fText").addEventListener("input", e=>{ state.filters.text=e.target.value.trim(); renderSchools(); });
+document.getElementById("fHasData").addEventListener("change", e=>{ state.filters.hasData=e.target.checked; renderSchools(); });
+
+/* ================= 定期スクレイピングデータの読み込み ================= */
+async function loadLive(){
+  try{ const r=await fetch("scraper/schools.json?t="+Date.now(),{cache:"no-store"}); if(r.ok){ const arr=await r.json(); if(Array.isArray(arr)&&arr.length){ SCHOOLS.length=0; SCHOOLS.push(...arr); rebuildIndex(); } } }catch(e){}
+  try{ const r=await fetch("data/summary.json?t="+Date.now(),{cache:"no-store"}); if(r.ok){ const j=await r.json(); state.live=j.schools||{}; state.liveAt=j.generatedAt||null; } }catch(e){}
+  try{ const r=await fetch("data/changelog.json?t="+Date.now(),{cache:"no-store"}); if(r.ok){ const j=await r.json(); if(Array.isArray(j)) state.log=j; } }catch(e){}
+  const lu=document.getElementById("lastUpdated");
+  if(state.liveAt) lu.textContent="自動データ最終更新: "+new Date(state.liveAt).toLocaleString("ja-JP");
+}
+/* ================= 取得データによる想定値の上書き ================= */
+function normalizeScrapedExam(x){
+  if(!/^\d{4}-\d{2}-\d{2}$/.test(x.date||"")) return null;
+  if(x.date<"2026-09-01" || x.date>"2027-03-31") return null;
+  return {d:x.date, s:(x.slot==="PM"?"PM":"AM"), n:x.name||"入試", note:x.note||"", unc:0, verified:true, src:x.source||""};
+}
+function applyLiveOverrides(){
+  state.overridden = new Set();
+  for(const s of SCHOOLS){
+    const rec = state.ai[s.id] || state.live[s.id];   // 手動取得を優先
+    if(!rec || !Array.isArray(rec.exams)) continue;
+    const scraped = rec.exams.map(normalizeScrapedExam).filter(Boolean);
+    if(!scraped.length) continue;
+    if(!s._staticExams) s._staticExams = s.exams;     // 初期想定を退避
+    let merged;
+    if(scraped.length >= s._staticExams.length){
+      merged = scraped;                                // 全回そろっていれば完全上書き
+    } else {                                           // 一部のみ確認 → 未確認の回は想定(⚠)のまま残す
+      merged = [...scraped];
+      for(const e of s._staticExams){
+        if(!scraped.some(x=>x.d===e.d && x.s===e.s)) merged.push({...e, unc:1});
+      }
+    }
+    merged.sort((a,b)=> a.d===b.d ? (a.s==="AM"?-1:1) : (a.d<b.d?-1:1));
+    s.exams = merged;
+    state.overridden.add(s.id);
+    if(!s.dev && rec.dev && typeof rec.dev.value==="number"){
+      const sc=rec.dev.scale||"", v=rec.dev.value;
+      const sv=/四谷|合不合|Y/.test(sc)? v-7 : /首都圏/.test(sc)? v-12 : v; // S相当へざっくり換算
+      s.dev=[Math.max(20,Math.round(sv)),Math.max(20,Math.round(sv))];
+      s.devY={v:v, scale:sc, src:rec.dev.source||""};
+    }
+  }
+}
+function toast(msg){
+  let t=document.getElementById("toast");
+  if(!t){ t=document.createElement("div"); t.id="toast"; t.className="toast"; document.body.appendChild(t); }
+  t.textContent=msg; t.classList.add("show");
+  clearTimeout(t._h); t._h=setTimeout(()=>t.classList.remove("show"), 4500);
+}
+async function pollLive(){
+  const prev=state.liveAt;
+  await loadLive();
+  applyLiveOverrides();
+  if(state.liveAt && state.liveAt!==prev){
+    renderAll(); renderLog();
+    toast("学校情報が更新されました("+new Date(state.liveAt).toLocaleString("ja-JP")+")");
+  }
+}
+setInterval(pollLive, 5*60*1000);                      // 5分ごとに新データを確認
+document.addEventListener("visibilitychange", ()=>{ if(!document.hidden) pollLive(); });
+
+function renderLog(){
+  const root=document.getElementById("logRoot");
+  if(!state.log.length){ root.innerHTML='<p class="sec-note">まだ更新データがありません。定期実行(GitHub Actions)の初回完了後に表示されます。</p>'; return; }
+  root.innerHTML=state.log.slice(0,100).map(e=>
+    '<div class="info-card" style="padding:10px 14px;margin-top:8px"><strong>'+esc(e.schoolName)+'</strong>'
+    +' <span class="ex-note">'+esc(new Date(e.ts).toLocaleString("ja-JP"))+'</span>'
+    +'<ul style="padding-left:1.2em;margin-top:2px">'+(e.changes||[]).map(c=>'<li style="font-size:13px">'+esc(c)+'</li>').join("")+'</ul></div>'
+  ).join("");
+}
+
+/* 初期化: 定期データ読込 → 保存済みプラン・AI結果の復元 */
+(async function init(){
+  await loadLive();
+  try{
+    const st=await store.get("station");
+    if(st) state.homeStation=st;
+    const p=await store.get("plan");
+    if(p) JSON.parse(p).forEach(id=>{ if(byId[id]) state.plan.add(id); });
+    for(const s of SCHOOLS){
+      const a=await store.get("ai:"+s.id);
+      if(a){ try{ state.ai[s.id]=JSON.parse(a); }catch(e){} }
+    }
+  }catch(e){}
+  applyLiveOverrides();
+  renderTagFilters(); renderJuku(); renderLog(); renderAll();
+})();
+</script>
+<script>
+/* =====================================================================
+   併願プラン自動作成: 攻め・バランス・堅実の3パターンを日程競合なしで生成
+===================================================================== */
+const BAND_CLS = {"挑戦":"band-c","適正":"band-t","安全":"band-a","固定":"band-f"};
+function bandOf(s,u){ const b=s.dev[0]; return b>=u+3?"挑戦":(b<=u-4?"安全":"適正"); }
+function usableSessions(s){ return s.exams.filter(e=>!(e.note||"").includes("一次合格者")); }
+function sessInSlot(s, spec, occ){
+  return usableSessions(s).filter(e=>{
+    if(occ.has(e.d+e.s)) return false;
+    if(spec.date) return e.d===spec.date && e.s===spec.s;
+    if(spec.win==="jan") return e.d<"2027-02-01";
+    if(spec.win==="late") return e.d>="2027-02-04";
+    return false;
+  }).sort((a,b)=> (a.s!==b.s) ? (a.s==="AM"?-1:1) : (a.d<b.d?-1:1));
+}
+function occupyDeps(s, occ, warns){
+  for(const e of s.exams){
+    if((e.note||"").includes("一次合格者")){
+      const f=fdate(e.d);
+      if(occ.has(e.d+e.s)) warns.push(s.short+"の二次("+f.md+")が他の日程と重なる可能性があります。");
+      occ.add(e.d+e.s);
+    }
+  }
+}
+const GEN_PATTERNS = [
+ {key:"seme", name:"攻めの併願(チャレンジ重視)", desc:"2/1・2/2に挑戦校を置き、おさえは1月と2/4以降に回す強気の配置。",
+  slots:[
+   {label:"1月 前受け①", win:"jan", bands:["適正","挑戦"], target:1},
+   {label:"1月 前受け②", win:"jan", bands:["安全","適正"], target:-4},
+   {label:"2/1 午前(本命)", date:"2027-02-01", s:"AM", bands:["挑戦","適正"], target:4},
+   {label:"2/1 午後", date:"2027-02-01", s:"PM", bands:["適正","安全"], target:-1},
+   {label:"2/2 午前", date:"2027-02-02", s:"AM", bands:["挑戦","適正"], target:3},
+   {label:"2/3 午前", date:"2027-02-03", s:"AM", bands:["適正","挑戦"], target:1},
+   {label:"2/4以降 おさえ", win:"late", bands:["安全","適正"], target:-5}]},
+ {key:"balance", name:"バランス型", desc:"2/1本命は実力適正校。挑戦は2/3に1回、安全校を要所に確保。",
+  slots:[
+   {label:"1月 前受け①", win:"jan", bands:["適正"], target:0},
+   {label:"1月 前受け②", win:"jan", bands:["安全","適正"], target:-5},
+   {label:"2/1 午前(本命)", date:"2027-02-01", s:"AM", bands:["適正"], target:1},
+   {label:"2/1 午後", date:"2027-02-01", s:"PM", bands:["安全","適正"], target:-4},
+   {label:"2/2 午前", date:"2027-02-02", s:"AM", bands:["適正","安全"], target:0},
+   {label:"2/3 午前", date:"2027-02-03", s:"AM", bands:["挑戦","適正"], target:3},
+   {label:"2/4以降 おさえ", win:"late", bands:["安全"], target:-5}]},
+ {key:"katai", name:"堅実な併願(安全重視)", desc:"合格を積み上げて臨む配置。2/1から安全寄りに固め、心理的な余裕を優先。",
+  slots:[
+   {label:"1月 前受け①", win:"jan", bands:["安全","適正"], target:-5},
+   {label:"1月 前受け②", win:"jan", bands:["適正"], target:-1},
+   {label:"2/1 午前(本命)", date:"2027-02-01", s:"AM", bands:["適正"], target:-1},
+   {label:"2/1 午後", date:"2027-02-01", s:"PM", bands:["安全"], target:-5},
+   {label:"2/2 午前", date:"2027-02-02", s:"AM", bands:["安全","適正"], target:-4},
+   {label:"2/3 午前", date:"2027-02-03", s:"AM", bands:["適正"], target:0},
+   {label:"2/4以降 おさえ", win:"late", bands:["安全"], target:-6}]}
+];
+let lastGen = null;
+
+function generateOne(cfg, u, pool, fixed){
+  const occ=new Set(), used=new Set(), rows=[], warns=[];
+  // 固定校を先に配置
+  for(const s of fixed){
+    const cand=usableSessions(s).filter(e=>!occ.has(e.d+e.s)).sort((a,b)=>a.d<b.d?-1:1);
+    if(!cand.length){ warns.push(s.short+"は空いている日程がなく配置できませんでした。"); continue; }
+    const e=cand[0]; occ.add(e.d+e.s); used.add(s.id); occupyDeps(s,occ,warns);
+    rows.push({ds:e.d+e.s, d:e.d, s:e.s, school:s, exam:e, band:"固定"});
+  }
+  // 各枠を埋める
+  for(const spec of cfg.slots){
+    if(spec.date && occ.has(spec.date+spec.s)) continue; // 固定校で使用済み
+    let best=null;
+    for(const s of pool){
+      if(used.has(s.id)) continue;
+      const b=bandOf(s,u);
+      const bi=spec.bands.indexOf(b);
+      if(bi<0) continue;
+      const ses=sessInSlot(s,spec,occ);
+      if(!ses.length) continue;
+      const score=bi*100 + Math.abs(s.dev[0]-(u+spec.target))*10 + (s._fz||0);
+      if(!best || score<best.score) best={score, s, e:ses[0], band:b};
+    }
+    if(!best){ // 帯の条件を緩めて最も近い学校で埋める
+      for(const s of pool){
+        if(used.has(s.id)) continue;
+        const ses=sessInSlot(s,spec,occ);
+        if(!ses.length) continue;
+        const score=Math.abs(s.dev[0]-(u+spec.target))*10 + (s._fz||0) + 500;
+        if(!best || score<best.score) best={score, s, e:ses[0], band:bandOf(s,u)};
+      }
+    }
+    if(best){
+      occ.add(best.e.d+best.e.s); used.add(best.s.id); occupyDeps(best.s,occ,warns);
+      rows.push({ds:best.e.d+best.e.s, d:best.e.d, s:best.e.s, school:best.s, exam:best.e, band:best.band, label:spec.label});
+    } else {
+      rows.push({empty:true, label:spec.label});
+    }
+  }
+  rows.sort((a,b)=>{ if(a.empty||b.empty) return 0; return a.d===b.d ? (a.s==="AM"?-1:1) : (a.d<b.d?-1:1); });
+  return {cfg, rows, warns};
+}
+
+function runGenerate(){
+  const gender=document.getElementById("gGender").value;
+  const rawDev=Number(document.getElementById("gDev").value)||50;
+  const scale=document.getElementById("gScale").value;
+  const u=scale==="Y" ? rawDev-7 : rawDev;
+  const areas=new Set([...document.querySelectorAll(".gArea:checked")].map(x=>x.value));
+  const type=document.getElementById("gType").value;
+  const fz=document.getElementById("gFuzoku").value;
+  state.homeStation=document.getElementById("gStation").value.trim()||null;
+  store.set("station", state.homeStation||"");
+  store.set("genform", JSON.stringify({gender,rawDev,scale,areas:[...areas],type,fz,station:state.homeStation}));
+
+  const fixed=[...state.plan].map(id=>byId[id]).filter(Boolean);
+  const fixedIds=new Set(fixed.map(s=>s.id));
+  const pool=SCHOOLS.filter(s=>{
+    if(fixedIds.has(s.id)) return false;
+    if(gender==="男子" && s.type==="女子") return false;
+    if(gender==="女子" && s.type==="男子") return false;
+    if(type==="共学" && s.type!=="共学") return false;
+    if(type==="別学" && s.type==="共学") return false;
+    if(!areas.has(s.pref)) return false;
+    if(!s.dev || !s.exams.length) return false; // 日程・偏差値が未取得の学校は対象外
+    if(s.dev[0]>u+8 || s.dev[0]<u-15) return false;
+    return true;
+  }).map(s=>{ s._fz = fz==="yes" ? (s.fuzoku?-30:0) : fz==="no" ? (s.fuzoku?30:0) : 0; return s; });
+
+  lastGen = GEN_PATTERNS.map(cfg=>generateOne(cfg,u,pool,fixed));
+  renderGen(u);
+  renderSchools(); // 経路リンクをカードにも反映
+}
+
+function genRowHtml(r){
+  if(r.empty) return '<div class="p-row"><span class="p-when">'+esc(r.label)+'</span><span class="p-school" style="color:var(--sub)">— 条件に合う学校なし(固定校で使用済み/収録外の可能性)</span></div>';
+  const f=fdate(r.d);
+  const links='<a target="_blank" rel="noopener" href="'+gsearch(r.school.name+" 中学校")+'">学校情報</a>'
+    +(state.homeStation?(' / <a target="_blank" rel="noopener" href="'+mapsDir(r.school)+'">経路</a>'):'');
+  return '<div class="p-row" data-ds="'+esc(r.ds)+'">'
+    +'<span class="p-when">'+f.md+'('+f.wd+') '+(r.s==="PM"?"午後":"午前")+'</span>'
+    +'<span class="band '+BAND_CLS[r.band]+'">'+r.band+'</span>'
+    +'<span class="p-school">'+esc(r.school.name)+' <small>'+esc(r.exam.n)+(r.exam.unc?" ⚠":"")+' / S'+r.school.dev[0]+'〜</small></span>'
+    +'<span class="p-links">'+links+'</span></div>';
+}
+function renderGen(u){
+  const root=document.getElementById("genRoot");
+  root.innerHTML='<div class="pattern-grid">'+lastGen.map((p,i)=>{
+    const warnHtml=p.warns.length?('<div class="p-warn">'+p.warns.map(esc).join("<br>")+'</div>'):"";
+    const lowNote=(u<=46 && p.rows.some(r=>r.empty))?'<div class="p-warn">安全校がS偏差値40の収録下限にかかっています。四谷・首都圏模試帯の学校も別途ご検討ください。</div>':"";
+    return '<div class="p-card"><h3>'+esc(p.cfg.name)+'</h3><p class="p-desc">'+esc(p.cfg.desc)+'</p>'
+      +p.rows.map(genRowHtml).join("")+warnHtml+lowNote
+      +'<div class="p-actions"><button class="btn btn-primary" data-load-pat="'+i+'">このパターンをプランに読み込む</button>'
+      +'<button class="btn" data-export-pat="'+i+'">HTMLで保存・共有</button></div></div>';
+  }).join("")+'</div>'
+  +'<p class="sec-note" style="margin-top:10px">判定めやす: 挑戦=持ち偏差値+3以上 / 適正=±2前後 / 安全=−4以下(いずれも各校の下限回ベース)。日程・偏差値とも想定値のため、最終判断は塾の先生と募集要項でご確認ください。</p>';
+}
+function exportPattern(i){
+  const p=lastGen[i];
+  const rows=p.rows.filter(r=>!r.empty).map(r=>{
+    const f=fdate(r.d);
+    return '<tr><td>'+f.md+'('+f.wd+')</td><td>'+(r.s==="PM"?"午後":"午前")+'</td><td>'+esc(r.school.name)+' '+esc(r.exam.n)+'</td><td>'+r.band+'</td></tr>';
+  }).join("");
+  const html='<!DOCTYPE html><html lang="ja"><head><meta charset="UTF-8"><title>併願パターン('+esc(p.cfg.name)+')</title></head>'
+   +'<body style="font-family:sans-serif;max-width:640px;margin:20px auto;padding:0 14px">'
+   +'<h1 style="font-size:20px">'+esc(p.cfg.name)+'</h1><p style="color:#666;font-size:13px">'+esc(p.cfg.desc)+' / 中学受験 併願計画ボード 2027で作成</p>'
+   +'<table border="1" cellpadding="6" style="border-collapse:collapse;font-size:14px"><tr><th>日付</th><th>時間帯</th><th>学校</th><th>区分</th></tr>'+rows+'</table>'
+   +'<p style="font-size:11px;color:#888;margin-top:12px">日程は2026年度実績等に基づく想定です。出願前に必ず各校の募集要項でご確認ください。</p></body></html>';
+  try{
+    const a=document.createElement("a");
+    a.href=URL.createObjectURL(new Blob([html],{type:"text/html"}));
+    a.download="併願パターン_"+p.cfg.name+".html"; a.click();
+  }catch(e){ alert("この環境ではファイル保存を利用できません。"); }
+}
+document.getElementById("gRun").addEventListener("click", runGenerate);
+document.addEventListener("click", async ev=>{
+  const t=ev.target.closest("[data-load-pat],[data-export-pat]");
+  if(!t) return;
+  if(t.dataset.exportPat!==undefined){ exportPattern(+t.dataset.exportPat); return; }
+  const p=lastGen[+t.dataset.loadPat];
+  state.plan=new Set(p.rows.filter(r=>!r.empty).map(r=>r.school.id));
+  await store.set("plan", JSON.stringify([...state.plan]));
+  renderAll(); switchTab("cal");
+  window.scrollTo({top:0});
+});
+(async ()=>{ // フォーム復元
+  try{
+    const f=await store.get("genform");
+    if(f){ const v=JSON.parse(f);
+      document.getElementById("gGender").value=v.gender||"男子";
+      document.getElementById("gDev").value=v.rawDev||50;
+      document.getElementById("gScale").value=v.scale||"S";
+      document.getElementById("gType").value=v.type||"";
+      document.getElementById("gFuzoku").value=v.fz||"";
+      document.getElementById("gStation").value=v.station||"";
+      document.querySelectorAll(".gArea").forEach(c=>c.checked=(v.areas||[]).includes(c.value));
+    }
+  }catch(e){}
+})();
+</script>
+<script>
+/* =====================================================================
+   X(Twitter)速報: リアルタイム検索リンクとタイムライン埋め込み
+===================================================================== */
+const X_PRESETS = [
+ {label:"#2027年組(受験学年タグ)", q:"#2027年組"},
+ {label:"中学受験 説明会 予約", q:"中学受験 説明会 予約"},
+ {label:"中学受験 出願状況", q:"中学受験 出願"},
+ {label:"繰り上げ合格の動き", q:"中学受験 繰り上げ"},
+ {label:"#中学受験", q:"#中学受験"}
+];
+function xSearch(q){ return "https://twitter.com/search?q="+encodeURIComponent(q)+"&f=live"; }
+function renderX(){
+  const pre=document.getElementById("xPresets");
+  if(!pre) return;
+  pre.innerHTML = X_PRESETS.map(p=>'<a target="_blank" rel="noopener" href="'+xSearch(p.q)+'">'+esc(p.label)+' ↗</a>').join("");
+  const box=document.getElementById("xSchools");
+  const ids=[...state.plan];
+  if(!ids.length){ box.innerHTML='<span class="sec-note">プランに学校を追加すると、学校ごとの検索リンクが並びます。</span>'; return; }
+  box.innerHTML = ids.map(id=>{ const s=byId[id]; if(!s) return "";
+    return '<a target="_blank" rel="noopener" href="'+xSearch('"'+s.name+'"')+'">'+esc(s.short)+' の最新 ↗</a>'
+         + '<a target="_blank" rel="noopener" href="'+xSearch(s.name+" 説明会")+'">'+esc(s.short)+'×説明会 ↗</a>';
+  }).join("");
+}
+function embedX(url){
+  const box=document.getElementById("xEmbed");
+  if(!/^https:\/\/(twitter|x)\.com\//.test(url)){ box.innerHTML='<p class="ai-err">XのアカウントまたはリストのURL(https://twitter.com/〜)を入力してください。</p>'; return; }
+  url=url.replace("https://x.com/","https://twitter.com/");
+  box.innerHTML='<a class="twitter-timeline" data-height="600" data-dnt="true" href="'+esc(url)+'">タイムラインを読み込み中…(表示されない場合はXの制限です)</a>';
+  store.set("xhandle", url);
+  if(window.twttr && window.twttr.widgets){ window.twttr.widgets.load(box); return; }
+  if(!document.getElementById("twjs")){
+    const sc=document.createElement("script");
+    sc.id="twjs"; sc.async=true; sc.src="https://platform.twitter.com/widgets.js";
+    document.body.appendChild(sc);
+  }
+}
+document.getElementById("xEmbedBtn").addEventListener("click", ()=>embedX(document.getElementById("xHandle").value.trim()));
+/* プラン変更時にX枠も更新 */
+const _renderAll_x = renderAll;
+renderAll = function(){ _renderAll_x(); renderX(); };
+(async ()=>{
+  try{ const h=await store.get("xhandle"); if(h){ document.getElementById("xHandle").value=h; } }catch(e){}
+  renderX();
+})();
+</script>
+</body>
+</html>
